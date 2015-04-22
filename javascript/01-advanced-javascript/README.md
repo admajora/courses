@@ -31,3 +31,40 @@ hello();
 console.log( some ); // "value"
 console.log( help ); // "Are you ok?!
 ```
+
+**Function declaration, function expressions and block scope**
+
+```js
+// Function expression 
+// Named function could be called in its inner scope
+var sayHello = function hello() {
+  var some = 'value';
+
+  // Function declaration
+  function bye( name ) {
+    return 'Bye ' + name;
+  }
+
+}
+
+// Function expression
+// Anonymous function, couldn't be called in its inner scope
+var hello = function( name ) {
+  return 'Hi! ' + name;
+}
+```
+
+- The `catch` block of `try{} catch ( err ){}` is also a type of scope, like the function scope
+
+```js
+var some;
+
+try {
+  some.length;
+} catch( err ) {
+  console.log( err ); // TypeError: Cannot read property 'length' of undefined
+  var some = 'Value';
+}
+
+console.log( err ); // ReferenceError: err is not defined
+```
