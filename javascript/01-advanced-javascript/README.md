@@ -68,3 +68,8 @@ try {
 
 console.log( err ); // ReferenceError: err is not defined
 ```
+
+**Cheating lexical scope: eval**
+
+- The `strict mode` help us to have a more optimized code
+- Avoid `eval` and `with`
