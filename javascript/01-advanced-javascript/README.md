@@ -7,7 +7,7 @@
 - [ECMAScript Specification](http://www.ecma-international.org/ecma-262/5.1/)
 - [Harmony: proposals](http://wiki.ecmascript.org/doku.php?id=harmony:proposals)
 
-**Scope and execution example**:
+## Scope and execution example:
 
 ```js
 var some = 'value';
@@ -32,7 +32,7 @@ console.log( some ); // "value"
 console.log( help ); // "Are you ok?!
 ```
 
-**Function declaration, function expressions and block scope**
+## Function declaration, function expressions and block scope
 
 ```js
 // Function expression 
@@ -69,7 +69,49 @@ try {
 console.log( err ); // ReferenceError: err is not defined
 ```
 
-**Cheating lexical scope: eval**
+## Cheating lexical scope: eval
 
 - The `strict mode` help us to have a more optimized code
 - Avoid `eval` and `with`
+
+## IIFE Pattern
+
+Immediately invoked function expression
+
+```js
+var obj = { guitar : 'Ibanez' };
+
+( function() {
+  
+  var obj = { guitar : 'MusicMan', price : 3100 };
+
+  console.log( obj.guitar ); // MusicMan
+
+}());
+
+console.log( obj.guitar ); // Ibanez
+```
+
+- Name IIFEs
+
+- Passing parameters to IIFE
+
+```js
+var today = 'now';
+
+( function setDay( global, today ) {
+  
+  var day = today;  
+  console.log( '1', day ); // "1 now"
+  
+  global.today = new Date();
+  day = today;
+  console.log( '2', day ); // " 2 now"
+  
+  day = global.today;
+  console.log( '3', day ); // "3 Thu Apr 23 2015 21:41:54"
+  
+}( window, today ));
+
+console.log( '4', today ); // "3 Thu Apr 23 2015 21:41:54"
+```
