@@ -39,16 +39,16 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-|  | [Introduction to CSS](http://www.pluralsight.com/courses/css-intro) | - | `Beginner` |
-|  | [CSS3](http://www.pluralsight.com/courses/css3) | - | `Beginner` |
-|  | [CSS 3 From Scratch](http://www.pluralsight.com/courses/css3-from-scratch) | - | `Beginner` |
-|  | [CSS Positioning](http://www.pluralsight.com/courses/css-positioning-1834) | - | `Beginner` |
-|  | [Creating Elegant Navigation Using CSS3 Transitions](http://www.pluralsight.com/courses/elegant-navigation-css3-transitions-1975) | - | `Beginner` |
-|  | [Responsive Typography](http://www.pluralsight.com/courses/responsive-typography) | - | `Beginner` |
-|  | [Responsive Web Design](http://www.pluralsight.com/courses/responsive-web-design) | - | `Intermediate` |
-|  | [Mobile First Responsive Web Design](http://www.pluralsight.com/courses/mobile-first-responsive-web-design) | - | `Intermediate` |
-|  | [CSS3 In-Depth](http://www.pluralsight.com/courses/css3-in-depth) | - | `Intermediate` |
-|  | [Creating Responsive Landing Pages in Photoshop and CSS](http://www.pluralsight.com/courses/responsive-landing-pages-photoshop-css-2001) | - | `Advanced` |
+| 01 | [Introduction to CSS](http://www.pluralsight.com/courses/css-intro) | - | `Beginner` |
+| 02 | [CSS3](http://www.pluralsight.com/courses/css3) | - | `Beginner` |
+| 03 | [CSS 3 From Scratch](http://www.pluralsight.com/courses/css3-from-scratch) | - | `Beginner` |
+| 04 | [CSS Positioning](http://www.pluralsight.com/courses/css-positioning-1834) | - | `Beginner` |
+| 05 | [Creating Elegant Navigation Using CSS3 Transitions](http://www.pluralsight.com/courses/elegant-navigation-css3-transitions-1975) | - | `Beginner` |
+| 06 | [Responsive Typography](http://www.pluralsight.com/courses/responsive-typography) | - | `Beginner` |
+| 07 | [CSS3 In-Depth](http://www.pluralsight.com/courses/css3-in-depth) | - | `Intermediate` |
+| 08 | [Responsive Web Design](http://www.pluralsight.com/courses/responsive-web-design) | - | `Intermediate` |
+| 09 | [Mobile First Responsive Web Design](http://www.pluralsight.com/courses/mobile-first-responsive-web-design) | - | `Intermediate` |
+| 10 | [Creating Responsive Landing Pages in Photoshop and CSS](http://www.pluralsight.com/courses/responsive-landing-pages-photoshop-css-2001) | - | `Advanced` |
 
 ## BackEnd Development
 
