@@ -80,10 +80,11 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-|  | []() | - | `` |
-|  | []() | - | `` |
-|  | []() | - | `` |
-|  | []() | - | `` |
+|  | [Real-Time Web with Node.js](http://www.pluralsight.com/courses/real-time-web-nodejs) | - | `Intermediate` |
+|  | [Node Application Patterns](http://www.pluralsight.com/courses/node-application-patterns) | - | `Intermediate` |
+|  | [Node.js Testing Strategies](http://www.pluralsight.com/courses/nodejs-testing-strategies) | - | `Intermediate` |
+|  | [RESTful Web Services with Node.js and Express](http://www.pluralsight.com/courses/node-js-express-rest-web-services) | - | `Intermediate` |
+|  | [Building Web Apps With Node.js](http://www.pluralsight.com/courses/building-web-apps-nodejs) | - | `Intermediate` |
 
 ## QA
 
