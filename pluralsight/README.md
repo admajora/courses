@@ -18,21 +18,36 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-|  | [Introduction to Web Development](http://www.pluralsight.com/courses/web-development-intro) | - | `Beginner` |
-|  | [Front End Web Development: Get Started](http://www.pluralsight.com/courses/front-end-web-development-get-started) | - | `Beginner` |
-|  | [Front-End Web Development Quick Start With HTML5, CSS, and JavaScript](http://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css) | - | `Beginner` |
-|  | [Practical HTML5](http://www.pluralsight.com/courses/practical-html5) | - | `Beginner` |
-|  | [HTML Fundamentals](http://www.pluralsight.com/courses/html-fundamentals) | - | `Beginner` |
-|  | [HTML5 Fundamentals](http://www.pluralsight.com/courses/html5-fundamentals-2e) | - | `Beginner` |
-|  | [HTML5 Web Component Fundamentals](http://www.pluralsight.com/courses/web-components-shadow-dom) | - | `Beginner` |
-|  | [Up and Running with SVG](http://www.pluralsight.com/courses/svg-up-running) | - | `Intermediate` |
-|  | [SVG Fundamentals](http://www.pluralsight.com/courses/svg-fundamentals) | - | `Intemediate` |
-|  | [WebRTC Fundamentals](http://www.pluralsight.com/courses/webrtc-fundamentals) | - | `Intermediate` |
-|  | [HTML5 Web Storage, IndexedDB and File System](http://www.pluralsight.com/courses/html5-web-storage-indexeddb-file-system) | - | `Intermediate` |
-|  | [Introduction to the Web Audio API](http://www.pluralsight.com/courses/web-audio-api-introduction) | - | `Intermediate` |
-|  | [HTML5 Canvas Fundamentals](http://www.pluralsight.com/courses/html5-canvas-fundamentals) | - | `Intermediate` |
-|  | [HTML Forms](http://www.pluralsight.com/courses/html-forms) | - | `Intermediate` |
-|  | [Play by Play: Lea Verou](http://www.pluralsight.com/courses/play-by-play-lea-verou) | - | `Advanced` |
+| 01 | [Introduction to Web Development](http://www.pluralsight.com/courses/web-development-intro) | - | `Beginner` |
+| 02 | [Front End Web Development: Get Started](http://www.pluralsight.com/courses/front-end-web-development-get-started) | - | `Beginner` |
+| 03 | [Front-End Web Development Quick Start With HTML5, CSS, and JavaScript](http://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css) | - | `Beginner` |
+| 04 | [Practical HTML5](http://www.pluralsight.com/courses/practical-html5) | - | `Beginner` |
+| 05 | [HTML Fundamentals](http://www.pluralsight.com/courses/html-fundamentals) | - | `Beginner` |
+| 06 | [HTML5 Fundamentals](http://www.pluralsight.com/courses/html5-fundamentals-2e) | - | `Beginner` |
+| 07 | [HTML5 Web Component Fundamentals](http://www.pluralsight.com/courses/web-components-shadow-dom) | - | `Beginner` |
+| 08 | [Up and Running with SVG](http://www.pluralsight.com/courses/svg-up-running) | - | `Intermediate` |
+| 09 | [SVG Fundamentals](http://www.pluralsight.com/courses/svg-fundamentals) | - | `Intemediate` |
+| 10 | [WebRTC Fundamentals](http://www.pluralsight.com/courses/webrtc-fundamentals) | - | `Intermediate` |
+| 11 | [HTML5 Web Storage, IndexedDB and File System](http://www.pluralsight.com/courses/html5-web-storage-indexeddb-file-system) | - | `Intermediate` |
+| 12 | [Introduction to the Web Audio API](http://www.pluralsight.com/courses/web-audio-api-introduction) | - | `Intermediate` |
+| 13 | [HTML5 Canvas Fundamentals](http://www.pluralsight.com/courses/html5-canvas-fundamentals) | - | `Intermediate` |
+| 14 | [HTML Forms](http://www.pluralsight.com/courses/html-forms) | - | `Intermediate` |
+| 15 | [Play by Play: Lea Verou](http://www.pluralsight.com/courses/play-by-play-lea-verou) | - | `Advanced` |
+
+### CSS
+
+| Number | Course | Annotations | Difficulty |
+| :---: | :---: | :---: | :---: |
+|  | [Creating Elegant Navigation Using CSS3 Transitions](http://www.pluralsight.com/courses/elegant-navigation-css3-transitions-1975) | - | `Beginner` |
+|  | [Introduction to CSS](http://www.pluralsight.com/courses/css-intro) | - | `Beginner` |
+|  | [CSS Positioning](http://www.pluralsight.com/courses/css-positioning-1834) | - | `Beginner` |
+|  | [CSS3](http://www.pluralsight.com/courses/css3) | - | `Beginner` |
+|  | [CSS 3 From Scratch](http://www.pluralsight.com/courses/css3-from-scratch) | - | `Beginner` |
+|  | [Responsive Typography](http://www.pluralsight.com/courses/responsive-typography) | - | `Beginner` |
+|  | [Responsive Web Design](http://www.pluralsight.com/courses/responsive-web-design) | - | `Intermediate` |
+|  | [Mobile First Responsive Web Design](http://www.pluralsight.com/courses/mobile-first-responsive-web-design) | - | `Intermediate` |
+|  | [CSS3 In-Depth](http://www.pluralsight.com/courses/css3-in-depth) | - | `Intermediate` |
+|  | [Creating Responsive Landing Pages in Photoshop and CSS](http://www.pluralsight.com/courses/responsive-landing-pages-photoshop-css-2001) | - | `Advanced` |
 
 ## BackEnd Development
 
