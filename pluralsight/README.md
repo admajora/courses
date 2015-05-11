@@ -50,6 +50,29 @@
 | 09 | [Mobile First Responsive Web Design](http://www.pluralsight.com/courses/mobile-first-responsive-web-design) | - | `Intermediate` |
 | 10 | [Creating Responsive Landing Pages in Photoshop and CSS](http://www.pluralsight.com/courses/responsive-landing-pages-photoshop-css-2001) | - | `Advanced` |
 
+### JavaScript
+
+| Number | Course | Annotations | Difficulty |
+| :---: | :--- | :---: | :---: |
+|  | [JavaScript Build Automation With Gulp.js](http://www.pluralsight.com/courses/javascript-build-automation-gulpjs) | - | `` |
+|  | [JavaScript Fundamentals for ES6](http://www.pluralsight.com/courses/javascript-fundamentals-es6) | - | `` |
+|  | [Fixing Common JavaScript Bugs](http://www.pluralsight.com/courses/fixing-common-javascript-bugs) | - | `` |
+|  | [JavaScript the Good Parts](http://www.pluralsight.com/courses/javascript-good-parts) | - | `` |
+|  | [Advanced JavaScript](http://www.pluralsight.com/courses/advanced-javascript) | - | `` |
+|  | [Learning To Program - Part 1: Getting Started](http://www.pluralsight.com/courses/learning-programming-javascript) | - | `` |
+|  | [Front-End First: Testing and Prototyping JavaScript Apps](http://www.pluralsight.com/courses/testing-and-prototyping-javascript-apps) | - | `` |
+|  | [Large Scale JavaScript on Client and Server](http://www.pluralsight.com/courses/large-scale-javascript) | - | `` |
+|  | [Testing Clientside JavaScript](http://www.pluralsight.com/courses/testing-javascript) | - | `` |
+|  | [JavaScript From Scratch](http://www.pluralsight.com/courses/javascript-from-scratch) | - | `` |
+|  | [Creating JavaScript Modules with Browserify](http://www.pluralsight.com/courses/creating-javascript-modules-browserify) | - | `` |
+|  | [Advanced Techniques in JavaScript and jQuery](http://www.pluralsight.com/courses/javascript-jquery-advanced-techniques) | - | `` |
+|  | [JS.Next: ES6](http://www.pluralsight.com/courses/js-next-es6) | - | `` |
+|  | [Hardcore Functional Programming in JavaScript](http://www.pluralsight.com/courses/hardcore-functional-programming-javascript) | - | `` |
+|  | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) | - | `` |
+|  | [RequireJS: JavaScript Dependency Injection and Module Loading](http://www.pluralsight.com/courses/requirejs-javascript-dependency-injection) | - | `` |
+|  | [jQuery-free JavaScript](http://www.pluralsight.com/courses/jquery-free-javascript) | - | `` |
+|  | [Introduction to JavaScript & jQuery](http://www.pluralsight.com/courses/introduction-javascript-jquery) | - | `` |
+
 ## BackEnd Development
 
 ### NodeJS
