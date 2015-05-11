@@ -90,10 +90,13 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-|  | []() | - | `` |
-|  | []() | - | `` |
-|  | []() | - | `` |
-|  | []() | - | `` |
+| 01 | [Software Engineering Essentials](http://www.pluralsight.com/courses/software-engineering-essentials) | - | `Intermediate` |
+| 02 | [Clean Code: Writing Code for Humans](http://www.pluralsight.com/courses/writing-clean-code-humans) | - | `Intermediate` |
+| 03 | [Improving Testability Through Design](http://www.pluralsight.com/courses/improving-testability-through-design) | - | `Intermediate` |
+| 04 | [Automated Web Testing with Selenium](http://www.pluralsight.com/courses/selenium) | - | `Intermediate` |
+| 05 | [Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) | - | `Intermediate` |
+| 06 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | - | `Intermediate` |
+| 07 | [Automated Testing: End to End](http://www.pluralsight.com/courses/automated-testing-end-to-end) | - | `Intermediate` |
 
 ## DataBase Administration
 
