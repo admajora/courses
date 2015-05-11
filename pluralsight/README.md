@@ -1,6 +1,6 @@
 # [Pluralsight](http://www.pluralsight.com/) - Web Engineering
 
-## Table of Content
+## Table of Contents
 
 - [FrontEnd Development](#frontend-development)
   - [HTML](#html)
@@ -19,11 +19,11 @@
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
 |  | [Introduction to Web Development](http://www.pluralsight.com/courses/web-development-intro) | - | `Beginner` |
+|  | [Front End Web Development: Get Started](http://www.pluralsight.com/courses/front-end-web-development-get-started) | - | `Beginner` |
+|  | [Front-End Web Development Quick Start With HTML5, CSS, and JavaScript](http://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css) | - | `Beginner` |
+|  | [Practical HTML5](http://www.pluralsight.com/courses/practical-html5) | - | `Beginner` |
 |  | [HTML Fundamentals](http://www.pluralsight.com/courses/html-fundamentals) | - | `Beginner` |
 |  | [HTML5 Fundamentals](http://www.pluralsight.com/courses/html5-fundamentals-2e) | - | `Beginner` |
-|  | [Practical HTML5](http://www.pluralsight.com/courses/practical-html5) | - | `Beginner` |
-|  | [Front-End Web Development Quick Start With HTML5, CSS, and JavaScript](http://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css) | - | `Beginner` |
-|  | [Front End Web Development: Get Started](http://www.pluralsight.com/courses/front-end-web-development-get-started) | - | `Beginner` |
 |  | [HTML5 Web Component Fundamentals](http://www.pluralsight.com/courses/web-components-shadow-dom) | - | `Beginner` |
 |  | [HTML5 Canvas Fundamentals](http://www.pluralsight.com/courses/html5-canvas-fundamentals) | - | `Intermediate` |
 |  | [HTML5 Web Storage, IndexedDB and File System](http://www.pluralsight.com/courses/html5-web-storage-indexeddb-file-system) | - | `Intermediate` |
