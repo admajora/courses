@@ -4,6 +4,7 @@
 
 - [FrontEnd Development](#frontend-development)
   - [HTML](#html)
+  - [CSS](#css)
 - [BackEnd Development](#backend-development)
   - [NodeJS](#nodejs)
 - [QA](#qa)
@@ -37,7 +38,7 @@
 ### CSS
 
 | Number | Course | Annotations | Difficulty |
-| :---: | :---: | :---: | :---: |
+| :---: | :--- | :---: | :---: |
 |  | [Creating Elegant Navigation Using CSS3 Transitions](http://www.pluralsight.com/courses/elegant-navigation-css3-transitions-1975) | - | `Beginner` |
 |  | [Introduction to CSS](http://www.pluralsight.com/courses/css-intro) | - | `Beginner` |
 |  | [CSS Positioning](http://www.pluralsight.com/courses/css-positioning-1834) | - | `Beginner` |
@@ -54,7 +55,7 @@
 ### NodeJS
 
 | Number | Course | Annotations | Difficulty |
-| :---: | :---: | :---: | :---: |
+| :---: | :--- | :---: | :---: |
 |  | []() | - | `` |
 |  | []() | - | `` |
 |  | []() | - | `` |
@@ -63,7 +64,7 @@
 ## QA
 
 | Number | Course | Annotations | Difficulty |
-| :---: | :---: | :---: | :---: |
+| :---: | :--- | :---: | :---: |
 |  | []() | - | `` |
 |  | []() | - | `` |
 |  | []() | - | `` |
@@ -72,7 +73,7 @@
 ## DataBase Administration
 
 | Number | Course | Annotations | Difficulty |
-| :---: | :---: | :---: | :---: |
+| :---: | :--- | :---: | :---: |
 |  | []() | - | `` |
 |  | []() | - | `` |
 |  | []() | - | `` |
@@ -81,7 +82,7 @@
 ## DevOps
 
 | Number | Course | Annotations | Difficulty |
-| :---: | :---: | :---: | :---: |
+| :---: | :--- | :---: | :---: |
 |  | []() | - | `` |
 |  | []() | - | `` |
 |  | []() | - | `` |
@@ -90,7 +91,7 @@
 ## SysAdmin
 
 | Number | Course | Annotations | Difficulty |
-| :---: | :---: | :---: | :---: |
+| :---: | :--- | :---: | :---: |
 |  | []() | - | `` |
 |  | []() | - | `` |
 |  | []() | - | `` |
