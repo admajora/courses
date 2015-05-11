@@ -12,6 +12,7 @@
 - [DataBase Administration](#database-administration)
 - [DevOps](#devops)
 - [SysAdmin](#sysadmin)
+- [Others](#others)
 
 
 ## FrontEnd Development
@@ -102,10 +103,18 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-|  | []() | - | `` |
-|  | []() | - | `` |
-|  | []() | - | `` |
-|  | []() | - | `` |
+| 01 | [Understanding NoSQL](http://www.pluralsight.com/courses/understanding-nosql) | - | `Beginner` |
+| 02 | [Introduction to MongoDB](http://www.pluralsight.com/courses/mongodb-introduction) | - | `Intermediate` |
+| 03 | [Introduction to Mongoose for Node.js and MongoDB](http://www.pluralsight.com/courses/mongoose-for-nodejs-mongodb) | - | `Intermediate` |
+| 04 | [Big Data & Reporting with MongoDB](http://www.pluralsight.com/courses/mongodb-big-data-reporting) | - | `Intermediate` |
+| 05 | [RethinkDB Fundamentals](http://www.pluralsight.com/courses/rethinkdb-fundamentals) | - | `Intermediate` |
+| 06 | [Relational Database Design](http://www.pluralsight.com/courses/relational-database-design) | - | `Intermediate` |
+| 07 | [PostgreSQL: Getting Started](http://www.pluralsight.com/courses/postgresql-getting-started) | - | `Beginner` |
+| 08 | [MySQL Fundamentals](http://www.pluralsight.com/courses/mysql-fundamentals-part1) | - | `Intermediate` |
+| 09 | [phpMyAdmin Fundamentals](http://www.pluralsight.com/courses/phpmyadmin-fundamentals) | - | `Intermediate` |
+| 10 | [MySQL Backup and Recovery Fundamentals](http://www.pluralsight.com/courses/mysql-backup-recovery-fundamentals) | - | `Intermediate` |
+| 11 | [MySQL Indexing for Performance](http://www.pluralsight.com/courses/mysql-indexing-performance) | - | `Intermediate` |
+| 12 | [MySQL Workbench Guided Tour](http://www.pluralsight.com/courses/mysql-workbench-guided-tour) | - | `Intermediate` |
 
 ## DevOps
 
@@ -117,6 +126,15 @@
 |  | []() | - | `` |
 
 ## SysAdmin
+
+| Number | Course | Annotations | Difficulty |
+| :---: | :--- | :---: | :---: |
+|  | []() | - | `` |
+|  | []() | - | `` |
+|  | []() | - | `` |
+|  | []() | - | `` |
+
+## Others
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
