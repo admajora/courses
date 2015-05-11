@@ -7,7 +7,7 @@
 - [BackEnd Development](#backend-development)
   - [NodeJS](#nodejs)
 - [QA](#qa)
-- [DataBase Administration](#dataBase-administration)
+- [DataBase Administration](#database-administration)
 - [DevOps](#devops)
 - [SysAdmin](#sysadmin)
 
