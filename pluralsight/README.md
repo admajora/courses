@@ -80,11 +80,11 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-|  | [Real-Time Web with Node.js](http://www.pluralsight.com/courses/real-time-web-nodejs) | - | `Intermediate` |
-|  | [Node Application Patterns](http://www.pluralsight.com/courses/node-application-patterns) | - | `Intermediate` |
-|  | [Node.js Testing Strategies](http://www.pluralsight.com/courses/nodejs-testing-strategies) | - | `Intermediate` |
-|  | [RESTful Web Services with Node.js and Express](http://www.pluralsight.com/courses/node-js-express-rest-web-services) | - | `Intermediate` |
-|  | [Building Web Apps With Node.js](http://www.pluralsight.com/courses/building-web-apps-nodejs) | - | `Intermediate` |
+| 01 | [Real-Time Web with Node.js](http://www.pluralsight.com/courses/real-time-web-nodejs) | - | `Intermediate` |
+| 02 | [Node Application Patterns](http://www.pluralsight.com/courses/node-application-patterns) | - | `Intermediate` |
+| 03 | [Node.js Testing Strategies](http://www.pluralsight.com/courses/nodejs-testing-strategies) | - | `Intermediate` |
+| 04 | [RESTful Web Services with Node.js and Express](http://www.pluralsight.com/courses/node-js-express-rest-web-services) | - | `Intermediate` |
+| 05 | [Building Web Apps With Node.js](http://www.pluralsight.com/courses/building-web-apps-nodejs) | - | `Intermediate` |
 
 ## QA
 
