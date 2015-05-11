@@ -55,24 +55,24 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-|  | [Learning To Program - Part 1: Getting Started](http://www.pluralsight.com/courses/learning-programming-javascript) | - | `Beginner` |
-|  | [JavaScript From Scratch](http://www.pluralsight.com/courses/javascript-from-scratch) | - | `Beginner` |
-|  | [JavaScript Build Automation With Gulp.js](http://www.pluralsight.com/courses/javascript-build-automation-gulpjs) | - | `Intermediate` |
-|  | [JavaScript Fundamentals for ES6](http://www.pluralsight.com/courses/javascript-fundamentals-es6) | - | `Intermediate` |
-|  | [Fixing Common JavaScript Bugs](http://www.pluralsight.com/courses/fixing-common-javascript-bugs) | - | `Intermediate` |
-|  | [JavaScript the Good Parts](http://www.pluralsight.com/courses/javascript-good-parts) | - | `Intermediate` |
-|  | [Advanced JavaScript](http://www.pluralsight.com/courses/advanced-javascript) | - | `Intermediate` |
-|  | [Front-End First: Testing and Prototyping JavaScript Apps](http://www.pluralsight.com/courses/testing-and-prototyping-javascript-apps) | - | `Intermediate` |
-|  | [Large Scale JavaScript on Client and Server](http://www.pluralsight.com/courses/large-scale-javascript) | - | `Intermediate` |
-|  | [Testing Clientside JavaScript](http://www.pluralsight.com/courses/testing-javascript) | - | `Intermediate` |
-|  | [Creating JavaScript Modules with Browserify](http://www.pluralsight.com/courses/creating-javascript-modules-browserify) | - | `Intermediate` |
-|  | [Advanced Techniques in JavaScript and jQuery](http://www.pluralsight.com/courses/javascript-jquery-advanced-techniques) | - | `Intermediate` |
-|  | [JS.Next: ES6](http://www.pluralsight.com/courses/js-next-es6) | - | `Intermediate` |
-|  | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) | - | `Intermediate` |
-|  | [RequireJS: JavaScript Dependency Injection and Module Loading](http://www.pluralsight.com/courses/requirejs-javascript-dependency-injection) | - | `Intermediate` |
-|  | [jQuery-free JavaScript](http://www.pluralsight.com/courses/jquery-free-javascript) | - | `Intermediate` |
-|  | [Introduction to JavaScript & jQuery](http://www.pluralsight.com/courses/introduction-javascript-jquery) | - | `Intermediate` |
-|  | [Hardcore Functional Programming in JavaScript](http://www.pluralsight.com/courses/hardcore-functional-programming-javascript) | - | `Advanced` |
+| 01 | [Learning To Program - Part 1: Getting Started](http://www.pluralsight.com/courses/learning-programming-javascript) | - | `Beginner` |
+| 02 | [JavaScript From Scratch](http://www.pluralsight.com/courses/javascript-from-scratch) | - | `Beginner` |
+| 03 | [JavaScript Fundamentals for ES6](http://www.pluralsight.com/courses/javascript-fundamentals-es6) | - | `Intermediate` |
+| 04 | [Testing Clientside JavaScript](http://www.pluralsight.com/courses/testing-javascript) | - | `Intermediate` |
+| 05 | [Creating JavaScript Modules with Browserify](http://www.pluralsight.com/courses/creating-javascript-modules-browserify) | - | `Intermediate` |
+| 06 | [JavaScript Build Automation With Gulp.js](http://www.pluralsight.com/courses/javascript-build-automation-gulpjs) | - | `Intermediate` |
+| 07 | [JS.Next: ES6](http://www.pluralsight.com/courses/js-next-es6) | - | `Intermediate` |
+| 08 | [jQuery-free JavaScript](http://www.pluralsight.com/courses/jquery-free-javascript) | - | `Intermediate` |
+| 09 | [Advanced JavaScript](http://www.pluralsight.com/courses/advanced-javascript) | - | `Intermediate` |
+| 10 | [JavaScript the Good Parts](http://www.pluralsight.com/courses/javascript-good-parts) | - | `Intermediate` |
+| 11 | [Front-End First: Testing and Prototyping JavaScript Apps](http://www.pluralsight.com/courses/testing-and-prototyping-javascript-apps) | - | `Intermediate` |
+| 12 | [Large Scale JavaScript on Client and Server](http://www.pluralsight.com/courses/large-scale-javascript) | - | `Intermediate` |
+| 13 | [Fixing Common JavaScript Bugs](http://www.pluralsight.com/courses/fixing-common-javascript-bugs) | - | `Intermediate` |
+| 14 | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) | - | `Intermediate` |
+| 15 | [RequireJS: JavaScript Dependency Injection and Module Loading](http://www.pluralsight.com/courses/requirejs-javascript-dependency-injection) | - | `Intermediate` |
+| 16 | [Introduction to JavaScript & jQuery](http://www.pluralsight.com/courses/introduction-javascript-jquery) | - | `Intermediate` |
+| 17 | [Advanced Techniques in JavaScript and jQuery](http://www.pluralsight.com/courses/javascript-jquery-advanced-techniques) | - | `Intermediate` |
+| 18 | [Hardcore Functional Programming in JavaScript](http://www.pluralsight.com/courses/hardcore-functional-programming-javascript) | - | `Advanced` |
 
 ## BackEnd Development
 
