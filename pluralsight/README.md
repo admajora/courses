@@ -39,11 +39,11 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-|  | [Creating Elegant Navigation Using CSS3 Transitions](http://www.pluralsight.com/courses/elegant-navigation-css3-transitions-1975) | - | `Beginner` |
 |  | [Introduction to CSS](http://www.pluralsight.com/courses/css-intro) | - | `Beginner` |
-|  | [CSS Positioning](http://www.pluralsight.com/courses/css-positioning-1834) | - | `Beginner` |
 |  | [CSS3](http://www.pluralsight.com/courses/css3) | - | `Beginner` |
 |  | [CSS 3 From Scratch](http://www.pluralsight.com/courses/css3-from-scratch) | - | `Beginner` |
+|  | [CSS Positioning](http://www.pluralsight.com/courses/css-positioning-1834) | - | `Beginner` |
+|  | [Creating Elegant Navigation Using CSS3 Transitions](http://www.pluralsight.com/courses/elegant-navigation-css3-transitions-1975) | - | `Beginner` |
 |  | [Responsive Typography](http://www.pluralsight.com/courses/responsive-typography) | - | `Beginner` |
 |  | [Responsive Web Design](http://www.pluralsight.com/courses/responsive-web-design) | - | `Intermediate` |
 |  | [Mobile First Responsive Web Design](http://www.pluralsight.com/courses/mobile-first-responsive-web-design) | - | `Intermediate` |
