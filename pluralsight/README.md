@@ -6,6 +6,8 @@
   - [HTML](#html)
   - [CSS](#css)
   - [JavaScript](#javascript)
+    - [AngularJS](#angularjs)
+    - [React](#react)
 - [BackEnd Development](#backend-development)
   - [NodeJS](#nodejs)
 - [QA](#qa)
@@ -73,7 +75,36 @@
 | 15 | [RequireJS: JavaScript Dependency Injection and Module Loading](http://www.pluralsight.com/courses/requirejs-javascript-dependency-injection) | - | `Intermediate` |
 | 16 | [Introduction to JavaScript & jQuery](http://www.pluralsight.com/courses/introduction-javascript-jquery) | - | `Intermediate` |
 | 17 | [Advanced Techniques in JavaScript and jQuery](http://www.pluralsight.com/courses/javascript-jquery-advanced-techniques) | - | `Intermediate` |
-| 18 | [Hardcore Functional Programming in JavaScript](http://www.pluralsight.com/courses/hardcore-functional-programming-javascript) | - | `Advanced` |
+| 18 | [Choosing a JavaScript Framework](http://www.pluralsight.com/courses/choosing-javascript-framework) | - | `Intermediate` |
+| 19 | [Hardcore Functional Programming in JavaScript](http://www.pluralsight.com/courses/hardcore-functional-programming-javascript) | - | `Advanced` |
+
+### AngularJS
+
+| Number | Course | Annotations | Difficulty |
+| :---: | :--- | :---: | :---: |
+| 01 | [AngularJS: Get Started](http://www.pluralsight.com/courses/angularjs-get-started) | - | `Beginner` |
+| 02 | [AngularJS Patterns: Clean Code](http://www.pluralsight.com/courses/angularjs-patterns-clean-code) | - | `Beginner` |
+| 03 | [Testing AngularJS From Scratch](http://www.pluralsight.com/courses/testing-angularjs-from-scratch) | - | `Beginner` |
+| 04 | [Introduction to Protractor](http://www.pluralsight.com/courses/protractor-introduction) | - | `Beginner` |
+| 05 | [AngularUI Fundamentals](http://www.pluralsight.com/courses/angularui-fundamentals) | - | `Beginner` |
+| 06 | [Creating Apps With Angular, Node, and Token Authentication](http://www.pluralsight.com/courses/creating-apps-angular-node-token-authentication) | - | `Intermediate` |
+| 07 | [AngularJS Directives Fundamentals](http://www.pluralsight.com/courses/angularjs-directive-fundamentals) | - | `Intermediate` |
+| 08 | [AngularJS Services In-depth](http://www.pluralsight.com/courses/angularjs-services-in-depth) | - | `Intermediate` |
+| 09 | [Animating AngularJS Applications](http://www.pluralsight.com/courses/angular-animating-apps) | - | `Intermediate` |
+| 10 | [AngularJS Security Fundamentals](http://www.pluralsight.com/courses/angularjs-security-fundamentals) | - | `Intermediate` |
+| 11 | [AngularJS Line of Business Applications](http://www.pluralsight.com/courses/angularjs-line-of-business-applications) | - | `Intermediate` |
+| 12 | [An AngularJS Playbook](http://www.pluralsight.com/courses/angularjs-playbook) | - | `Intermediate` |
+| 13 | [Building Mobile Apps With the Ionic Framework and AngularJS](http://www.pluralsight.com/courses/building-mobile-apps-ionic-framework-angularjs) | - | `Intermediate` |
+| 14 | [Building a SPA Framework Using AngularJS](http://www.pluralsight.com/courses/building-spa-framework-angularjs) | - | `Advanced` |
+
+### React
+
+| Number | Course | Annotations | Difficulty |
+| :---: | :--- | :---: | :---: |
+|  | []() | - | `` |
+|  | []() | - | `` |
+|  | []() | - | `` |
+|  | []() | - | `` |
 
 ## BackEnd Development
 
@@ -86,6 +117,7 @@
 | 03 | [Node.js Testing Strategies](http://www.pluralsight.com/courses/nodejs-testing-strategies) | - | `Intermediate` |
 | 04 | [RESTful Web Services with Node.js and Express](http://www.pluralsight.com/courses/node-js-express-rest-web-services) | - | `Intermediate` |
 | 05 | [Building Web Apps With Node.js](http://www.pluralsight.com/courses/building-web-apps-nodejs) | - | `Intermediate` |
+| 06 | [Two Tier Enterprise App and API Development with Angular & Sails](http://www.pluralsight.com/courses/two-tier-enterprise-app-api-development-angular-sails) | - | `Intermediate` |
 
 ## QA
 
@@ -98,6 +130,8 @@
 | 05 | [Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) | - | `Intermediate` |
 | 06 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | - | `Intermediate` |
 | 07 | [Automated Testing: End to End](http://www.pluralsight.com/courses/automated-testing-end-to-end) | - | `Intermediate` |
+| 08 | [Code Testability](http://www.pluralsight.com/courses/code-testability) | - | `Intermediate` |
+| 09 | [TDD as a Design Tool](http://www.pluralsight.com/courses/tdd-as-design-tool) | - | `Intermediate` |
 
 ## DataBase Administration
 
