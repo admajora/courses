@@ -181,5 +181,9 @@
 | :---: | :--- | :---: | :---: |
 | 01 | [Git Fundamentals](http://www.pluralsight.com/courses/git-fundamentals) | - | `Intermediate` |
 | 02 | [Advanced Git](http://www.pluralsight.com/courses/advanced-git) | - | `Intermediate` |
-| 03 | [Shell Scripting with Bash](http://www.pluralsight.com/courses/bash-shell-scripting) | - | `Intermediate` |
-| 04 | [Introduction to the Bash Shell on Mac OS and Linux](http://www.pluralsight.com/courses/introduction-bash-shell-linux-mac-os) | - | `Intermediate` |
+| 03 | [Algorithms and Data Structures - Part 1](http://www.pluralsight.com/courses/ads-part1) | - | `Beginner` |
+| 04 | [Algorithms and Data Structures - Part 2](http://www.pluralsight.com/courses/ads2) | - | `Intermediate` |
+| 05 | [Bower Fundamentals](http://www.pluralsight.com/courses/bower-fundamentals) | - | `Intermediate` |
+| 06 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | - | `Intermediate` |
+| 07 | [Shell Scripting with Bash](http://www.pluralsight.com/courses/bash-shell-scripting) | - | `Intermediate` |
+| 08 | [Introduction to the Bash Shell on Mac OS and Linux](http://www.pluralsight.com/courses/introduction-bash-shell-linux-mac-os) | - | `Intermediate` |
