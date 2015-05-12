@@ -101,10 +101,7 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-|  | []() | - | `` |
-|  | []() | - | `` |
-|  | []() | - | `` |
-|  | []() | - | `` |
+| 01 | [React Fundamentals](http://www.pluralsight.com/courses/react-fundamentals) | - | `Intermediate` |
 
 ## BackEnd Development
 
@@ -182,7 +179,7 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-|  | []() | - | `` |
-|  | []() | - | `` |
-|  | []() | - | `` |
-|  | []() | - | `` |
+|  | [Git Fundamentals](http://www.pluralsight.com/courses/git-fundamentals) | - | `Intermediate` |
+|  | [Advanced Git](http://www.pluralsight.com/courses/advanced-git) | - | `Intermediate` |
+|  | [Shell Scripting with Bash](http://www.pluralsight.com/courses/bash-shell-scripting) | - | `Intermediate` |
+|  | [Introduction to the Bash Shell on Mac OS and Linux](http://www.pluralsight.com/courses/introduction-bash-shell-linux-mac-os) | - | `Intermediate` |
