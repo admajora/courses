@@ -73,11 +73,12 @@
 | 12 | [Large Scale JavaScript on Client and Server](http://www.pluralsight.com/courses/large-scale-javascript) | - | `Intermediate` |
 | 13 | [Fixing Common JavaScript Bugs](http://www.pluralsight.com/courses/fixing-common-javascript-bugs) | - | `Intermediate` |
 | 14 | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) | - | `Intermediate` |
-| 15 | [RequireJS: JavaScript Dependency Injection and Module Loading](http://www.pluralsight.com/courses/requirejs-javascript-dependency-injection) | - | `Intermediate` |
-| 16 | [Introduction to JavaScript & jQuery](http://www.pluralsight.com/courses/introduction-javascript-jquery) | - | `Intermediate` |
-| 17 | [Advanced Techniques in JavaScript and jQuery](http://www.pluralsight.com/courses/javascript-jquery-advanced-techniques) | - | `Intermediate` |
-| 18 | [Choosing a JavaScript Framework](http://www.pluralsight.com/courses/choosing-javascript-framework) | - | `Intermediate` |
-| 19 | [Hardcore Functional Programming in JavaScript](http://www.pluralsight.com/courses/hardcore-functional-programming-javascript) | - | `Advanced` |
+| 15 | [Underscore.js Fundamentals](http://www.pluralsight.com/courses/underscore-fundamentals) | - | `Intermediate` |
+| 16 | [RequireJS: JavaScript Dependency Injection and Module Loading](http://www.pluralsight.com/courses/requirejs-javascript-dependency-injection) | - | `Intermediate` |
+| 17 | [Introduction to JavaScript & jQuery](http://www.pluralsight.com/courses/introduction-javascript-jquery) | - | `Intermediate` |
+| 18 | [Advanced Techniques in JavaScript and jQuery](http://www.pluralsight.com/courses/javascript-jquery-advanced-techniques) | - | `Intermediate` |
+| 19 | [Choosing a JavaScript Framework](http://www.pluralsight.com/courses/choosing-javascript-framework) | - | `Intermediate` |
+| 20 | [Hardcore Functional Programming in JavaScript](http://www.pluralsight.com/courses/hardcore-functional-programming-javascript) | - | `Advanced` |
 
 ### AngularJS
 
@@ -190,11 +191,15 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-| 01 | [Algorithms and Data Structures - Part 1](http://www.pluralsight.com/courses/ads-part1) | - | `Beginner` |
-| 02 | [Algorithms and Data Structures - Part 2](http://www.pluralsight.com/courses/ads2) | - | `Intermediate` |
-| 03 | [Git Fundamentals](http://www.pluralsight.com/courses/git-fundamentals) | - | `Intermediate` |
-| 04 | [Advanced Git](http://www.pluralsight.com/courses/advanced-git) | - | `Intermediate` |
-| 05 | [Bower Fundamentals](http://www.pluralsight.com/courses/bower-fundamentals) | - | `Intermediate` |
-| 06 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | - | `Intermediate` |
-| 07 | [Shell Scripting with Bash](http://www.pluralsight.com/courses/bash-shell-scripting) | - | `Intermediate` |
-| 08 | [Introduction to the Bash Shell on Mac OS and Linux](http://www.pluralsight.com/courses/introduction-bash-shell-linux-mac-os) | - | `Intermediate` |
+| 01 | [Five Essential Tools for Building REST APIs](http://www.pluralsight.com/courses/five-essential-tools-building-rest-api) | - | `Beginner` |
+| 02 | [Algorithms and Data Structures - Part 1](http://www.pluralsight.com/courses/ads-part1) | - | `Beginner` |
+| 03 | [Algorithms and Data Structures - Part 2](http://www.pluralsight.com/courses/ads2) | - | `Intermediate` |
+| 04 | [Git Fundamentals](http://www.pluralsight.com/courses/git-fundamentals) | - | `Intermediate` |
+| 05 | [Advanced Git](http://www.pluralsight.com/courses/advanced-git) | - | `Intermediate` |
+| 06 | [Web API Design](http://www.pluralsight.com/courses/web-api-design) | - | `Intermediate` |
+| 07 | [Bower Fundamentals](http://www.pluralsight.com/courses/bower-fundamentals) | - | `Intermediate` |
+| 08 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | - | `Intermediate` |
+| 09 | [Shell Scripting with Bash](http://www.pluralsight.com/courses/bash-shell-scripting) | - | `Intermediate` |
+| 10 | [Introduction to the Bash Shell on Mac OS and Linux](http://www.pluralsight.com/courses/introduction-bash-shell-linux-mac-os) | - | `Intermediate` |
+| 11 | [Patterns of Cloud Integration](http://www.pluralsight.com/courses/cloud-integration-patterns) | - | `Intermediate` |
+| 12 | [REST Fundamentals](http://www.pluralsight.com/courses/rest-fundamentals) | - | `Intermediate` |
