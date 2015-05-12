@@ -31,7 +31,7 @@
 | 06 | [HTML5 Fundamentals](http://www.pluralsight.com/courses/html5-fundamentals-2e) | - | `Beginner` |
 | 07 | [HTML5 Web Component Fundamentals](http://www.pluralsight.com/courses/web-components-shadow-dom) | - | `Beginner` |
 | 08 | [Up and Running with SVG](http://www.pluralsight.com/courses/svg-up-running) | - | `Intermediate` |
-| 09 | [SVG Fundamentals](http://www.pluralsight.com/courses/svg-fundamentals) | - | `Intemediate` |
+| 09 | [SVG Fundamentals](http://www.pluralsight.com/courses/svg-fundamentals) | - | `Intermediate` |
 | 10 | [WebRTC Fundamentals](http://www.pluralsight.com/courses/webrtc-fundamentals) | - | `Intermediate` |
 | 11 | [HTML5 Web Storage, IndexedDB and File System](http://www.pluralsight.com/courses/html5-web-storage-indexeddb-file-system) | - | `Intermediate` |
 | 12 | [Introduction to the Web Audio API](http://www.pluralsight.com/courses/web-audio-api-introduction) | - | `Intermediate` |
