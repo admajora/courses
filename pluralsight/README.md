@@ -168,15 +168,16 @@
 | 04 | [Linux Command Line Interface (CLI) Fundamentals](http://www.pluralsight.com/courses/linux-cli-fundamentals) | - | `Beginner` |
 | 05 | [Puppet Fundamentals for System Administrators](http://www.pluralsight.com/courses/puppet-system-administrators-fundamentals) | - | `Beginner` |
 | 06 | [Linux Networking, Service Management, and Security Fundamentals](http://www.pluralsight.com/courses/linux-networking-service-management-security-fundamentals) | - | `Beginner` |
-| 07 | [Docker Fundamentals](http://www.pluralsight.com/courses/docker-fundamentals) | - | `Intermediate` |
-| 08 | [Docker Deep Dive](http://www.pluralsight.com/courses/docker-deep-dive) | - | `Intermediate` |
-| 09 | [First Look: Native Docker Clustering](http://www.pluralsight.com/courses/first-look-native-docker-clustering) | - | `Intermediate` |
-| 10 | [Introduction to Versioning Environments With Vagrant](http://www.pluralsight.com/courses/vagrant-versioning-environments) | - | `Intermediate` |
-| 11 | [Linux Monitoring and Maintenance (LPIC-2)](http://www.pluralsight.com/courses/linux-monitoring-maintenance) | - | `Intermediate` |
-| 12 | [Linux Advanced File System Management (LPIC-2)](http://www.pluralsight.com/courses/linux-advanced-file-system-management) | - | `Intermediate` |
-| 13 | [Linux Kernel and System Startup (LPIC-2)](http://www.pluralsight.com/courses/linux-kernel-system-startup) | - | `Intermediate` |
-| 14 | [Linux Administration with sed and awk](http://www.pluralsight.com/courses/linux-administration-sed-awk) | - | `Intermediate` |
-| 15 | [Mastering Your Own Domain](http://www.pluralsight.com/courses/master-domain) | - | `Intermediate` |
+| 07 | [Practical Networking](http://www.pluralsight.com/courses/practical-networking) | - | `Beginner` |
+| 08 | [Docker Fundamentals](http://www.pluralsight.com/courses/docker-fundamentals) | - | `Intermediate` |
+| 09 | [Docker Deep Dive](http://www.pluralsight.com/courses/docker-deep-dive) | - | `Intermediate` |
+| 10 | [First Look: Native Docker Clustering](http://www.pluralsight.com/courses/first-look-native-docker-clustering) | - | `Intermediate` |
+| 11 | [Introduction to Versioning Environments With Vagrant](http://www.pluralsight.com/courses/vagrant-versioning-environments) | - | `Intermediate` |
+| 12 | [Linux Monitoring and Maintenance (LPIC-2)](http://www.pluralsight.com/courses/linux-monitoring-maintenance) | - | `Intermediate` |
+| 13 | [Linux Advanced File System Management (LPIC-2)](http://www.pluralsight.com/courses/linux-advanced-file-system-management) | - | `Intermediate` |
+| 14 | [Linux Kernel and System Startup (LPIC-2)](http://www.pluralsight.com/courses/linux-kernel-system-startup) | - | `Intermediate` |
+| 15 | [Linux Administration with sed and awk](http://www.pluralsight.com/courses/linux-administration-sed-awk) | - | `Intermediate` |
+| 16 | [Mastering Your Own Domain](http://www.pluralsight.com/courses/master-domain) | - | `Intermediate` |
 
 ## Security
 
