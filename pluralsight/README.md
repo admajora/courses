@@ -179,10 +179,10 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-| 01 | [Git Fundamentals](http://www.pluralsight.com/courses/git-fundamentals) | - | `Intermediate` |
-| 02 | [Advanced Git](http://www.pluralsight.com/courses/advanced-git) | - | `Intermediate` |
-| 03 | [Algorithms and Data Structures - Part 1](http://www.pluralsight.com/courses/ads-part1) | - | `Beginner` |
-| 04 | [Algorithms and Data Structures - Part 2](http://www.pluralsight.com/courses/ads2) | - | `Intermediate` |
+| 01 | [Algorithms and Data Structures - Part 1](http://www.pluralsight.com/courses/ads-part1) | - | `Beginner` |
+| 02 | [Algorithms and Data Structures - Part 2](http://www.pluralsight.com/courses/ads2) | - | `Intermediate` |
+| 03 | [Git Fundamentals](http://www.pluralsight.com/courses/git-fundamentals) | - | `Intermediate` |
+| 04 | [Advanced Git](http://www.pluralsight.com/courses/advanced-git) | - | `Intermediate` |
 | 05 | [Bower Fundamentals](http://www.pluralsight.com/courses/bower-fundamentals) | - | `Intermediate` |
 | 06 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | - | `Intermediate` |
 | 07 | [Shell Scripting with Bash](http://www.pluralsight.com/courses/bash-shell-scripting) | - | `Intermediate` |
