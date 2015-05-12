@@ -120,10 +120,10 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-|  | []() | - | `` |
-|  | []() | - | `` |
-|  | []() | - | `` |
-|  | []() | - | `` |
+| 01 | [DevOps: The Big Picture](http://www.pluralsight.com/courses/devops-big-picture) | - | `Beginner` |
+| 02 | [Continuous Integration and Deployment for AngularJS and Node.js](http://www.pluralsight.com/courses/continuous-integration-deployment-angularjs-nodejs) | - | `Intermediate` |
+| 03 | [Patterns of Cloud Integration](http://www.pluralsight.com/courses/cloud-integration-patterns) | - | `Intermediate` |
+| 04 | [Getting Started With Jenkins Continuous Integration](http://www.pluralsight.com/courses/jenkins-introduction) | - | `Intermediate` |
 
 ## SysAdmin
 
