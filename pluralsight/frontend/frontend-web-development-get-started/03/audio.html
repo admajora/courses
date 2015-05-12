@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio API</title>
+</head>
+<body>
+  
+  <audio controls>
+    <source src="http://freemusicgroup.com/mps/Azimuth_Oceanfront.mp3" type="audio/mpeg">
+    <source src="http://freemusicgroup.com/mps/Azimuth_Oceanfront.ogg" type="audio/ogg">
+
+    Your browser does not support the <code>audio</code> element.
+  </audio>
+
+  <script>
+
+  var audio;
+
+  window
+    .addEventListener( 'load', init, false );
+  window
+    .addEventListener( 'click', playPause, false );
+
+  function init() {
+
+    audio = document.getElementsByTagName( 'audio' )[ 0 ];
+    audio
+      .play();
+
+  }
+
+  function playPause() {
+
+    if ( audio.paused ) {
+      audio
+        .play();
+    } else {
+      audio
+        .pause();
+    }
+
+  }
+
+  </script>
+
+</body>
+</html>

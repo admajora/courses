@@ -1,6 +1,6 @@
 # [FrontEnd Web Development: Get Started](http://www.pluralsight.com/courses/front-end-web-development-get-started)
 
-## Learning and Solving Problems
+## 2. Learning and Solving Problems
 
 ### MDN
 
@@ -28,3 +28,5 @@
   - HTML5 Weekly
   - CSS Weekly
   - Node Weekly
+
+## 3. HTML and CSS for Front End Developers
