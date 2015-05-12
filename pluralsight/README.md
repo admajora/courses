@@ -14,6 +14,7 @@
 - [DataBase Administration](#database-administration)
 - [DevOps](#devops)
 - [SysAdmin](#sysadmin)
+- [Security](#security)
 - [Others](#others)
 
 
@@ -174,6 +175,16 @@
 | 12 | [Linux Advanced File System Management (LPIC-2)](http://www.pluralsight.com/courses/linux-advanced-file-system-management) | - | `Intermediate` |
 | 13 | [Linux Kernel and System Startup (LPIC-2)](http://www.pluralsight.com/courses/linux-kernel-system-startup) | - | `Intermediate` |
 | 14 | [Linux Administration with sed and awk](http://www.pluralsight.com/courses/linux-administration-sed-awk) | - | `Intermediate` |
+| 15 | [Mastering Your Own Domain](http://www.pluralsight.com/courses/master-domain) | - | `Intermediate` |
+
+## Security
+
+| Number | Course | Annotations | Difficulty |
+| :---: | :--- | :---: | :---: |
+| 01 | [Play by Play: Website Security Review with Troy Hunt and Lars Klint](http://www.pluralsight.com/courses/play-by-play-website-security-review-troy-hunt-lars-klint) | - | `Intermediate` |
+| 02 | [Secure Account Management Fundamentals](http://www.pluralsight.com/courses/secure-account-management-fundamentals) | - | `Intermediate` |
+| 03 | [Web Security and the OWASP Top 10: The Big Picture](http://www.pluralsight.com/courses/web-security-owasp-top10-big-picture) | - | `Intermediate` |
+| 04 | [Hack Your API First](http://www.pluralsight.com/courses/hack-your-api-first) | - | `Intermediate` |
 
 ## Others
 
