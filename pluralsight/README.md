@@ -206,3 +206,5 @@
 | 12 | [Introduction to the Bash Shell on Mac OS and Linux](http://www.pluralsight.com/courses/introduction-bash-shell-linux-mac-os) | - | `Intermediate` |
 | 13 | [Patterns of Cloud Integration](http://www.pluralsight.com/courses/cloud-integration-patterns) | - | `Intermediate` |
 | 14 | [REST Fundamentals](http://www.pluralsight.com/courses/rest-fundamentals) | - | `Intermediate` |
+| 15 | [Haskell Fundamentals Part 1](http://www.pluralsight.com/courses/haskell-fundamentals-part1) | - | `Intermediate` |
+| 16 | [Haskell Fundamentals Part 2](http://www.pluralsight.com/courses/haskell-fundamentals-part2) | - | `Intermediate` |
