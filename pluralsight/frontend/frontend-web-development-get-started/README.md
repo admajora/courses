@@ -28,5 +28,3 @@
   - HTML5 Weekly
   - CSS Weekly
   - Node Weekly
-
-## 3. HTML and CSS for Front End Developers

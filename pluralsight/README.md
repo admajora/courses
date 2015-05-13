@@ -192,15 +192,17 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-| 01 | [Five Essential Tools for Building REST APIs](http://www.pluralsight.com/courses/five-essential-tools-building-rest-api) | - | `Beginner` |
-| 02 | [Algorithms and Data Structures - Part 1](http://www.pluralsight.com/courses/ads-part1) | - | `Beginner` |
-| 03 | [Algorithms and Data Structures - Part 2](http://www.pluralsight.com/courses/ads2) | - | `Intermediate` |
-| 04 | [Git Fundamentals](http://www.pluralsight.com/courses/git-fundamentals) | - | `Intermediate` |
-| 05 | [Advanced Git](http://www.pluralsight.com/courses/advanced-git) | - | `Intermediate` |
-| 06 | [Web API Design](http://www.pluralsight.com/courses/web-api-design) | - | `Intermediate` |
-| 07 | [Bower Fundamentals](http://www.pluralsight.com/courses/bower-fundamentals) | - | `Intermediate` |
-| 08 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | - | `Intermediate` |
-| 09 | [Shell Scripting with Bash](http://www.pluralsight.com/courses/bash-shell-scripting) | - | `Intermediate` |
-| 10 | [Introduction to the Bash Shell on Mac OS and Linux](http://www.pluralsight.com/courses/introduction-bash-shell-linux-mac-os) | - | `Intermediate` |
-| 11 | [Patterns of Cloud Integration](http://www.pluralsight.com/courses/cloud-integration-patterns) | - | `Intermediate` |
-| 12 | [REST Fundamentals](http://www.pluralsight.com/courses/rest-fundamentals) | - | `Intermediate` |
+| 01 | [HTTP Fundamentals](http://www.pluralsight.com/courses/xhttp-fund) | - | `Beginner` |
+| 02 | [Five Essential Tools for Building REST APIs](http://www.pluralsight.com/courses/five-essential-tools-building-rest-api) | - | `Beginner` |
+| 03 | [Algorithms and Data Structures - Part 1](http://www.pluralsight.com/courses/ads-part1) | - | `Beginner` |
+| 04 | [Algorithms and Data Structures - Part 2](http://www.pluralsight.com/courses/ads2) | - | `Intermediate` |
+| 05 | [Git Fundamentals](http://www.pluralsight.com/courses/git-fundamentals) | - | `Intermediate` |
+| 06 | [Advanced Git](http://www.pluralsight.com/courses/advanced-git) | - | `Intermediate` |
+| 07 | [Website Performance](http://www.pluralsight.com/courses/website-performance) | - | `Intermediate` |
+| 08 | [Web API Design](http://www.pluralsight.com/courses/web-api-design) | - | `Intermediate` |
+| 09 | [Bower Fundamentals](http://www.pluralsight.com/courses/bower-fundamentals) | - | `Intermediate` |
+| 10 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | - | `Intermediate` |
+| 11 | [Shell Scripting with Bash](http://www.pluralsight.com/courses/bash-shell-scripting) | - | `Intermediate` |
+| 12 | [Introduction to the Bash Shell on Mac OS and Linux](http://www.pluralsight.com/courses/introduction-bash-shell-linux-mac-os) | - | `Intermediate` |
+| 13 | [Patterns of Cloud Integration](http://www.pluralsight.com/courses/cloud-integration-patterns) | - | `Intermediate` |
+| 14 | [REST Fundamentals](http://www.pluralsight.com/courses/rest-fundamentals) | - | `Intermediate` |
