@@ -25,7 +25,7 @@
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [Introduction to Web Development](http://www.pluralsight.com/courses/web-development-intro) | [⎙]() | `Beginner` |
-| 02 | [Front End Web Development: Get Started](http://www.pluralsight.com/courses/front-end-web-development-get-started) | [⎙]() | `Beginner` | ✔
+| 02 | [Front End Web Development: Get Started](http://www.pluralsight.com/courses/front-end-web-development-get-started) ✔ | [⎙]() | `Beginner` |
 | 03 | [Front-End Web Development Quick Start With HTML5, CSS, and JavaScript](http://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css) | [⎙]() | `Beginner` |
 | 04 | [Practical HTML5](http://www.pluralsight.com/courses/practical-html5) | [⎙]() | `Beginner` |
 | 05 | [HTML Fundamentals](http://www.pluralsight.com/courses/html-fundamentals) | [⎙]() | `Beginner` |
