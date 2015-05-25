@@ -10,6 +10,7 @@
     - [React](#react)
 - [BackEnd Development](#backend-development)
   - [NodeJS](#nodejs)
+- [Software Engineering](#software-engineering)
 - [QA](#qa)
 - [DataBase Administration](#database-administration)
 - [DevOps](#devops)
@@ -25,9 +26,9 @@
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [Introduction to Web Development](http://www.pluralsight.com/courses/web-development-intro) | [⎙]() | `Beginner` |
-| 02 | [Front End Web Development: Get Started](http://www.pluralsight.com/courses/front-end-web-development-get-started) ✔ | [⎙]() | `Beginner` |
+| 02 | [Front End Web Development: Get Started](http://www.pluralsight.com/courses/front-end-web-development-get-started) ✔ | [⎙](/frontend/frontend-web-development-get-started) | `Beginner` |
 | 03 | [Front-End Web Development Quick Start With HTML5, CSS, and JavaScript](http://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css) | [⎙]() | `Beginner` |
-| 04 | [Practical HTML5](http://www.pluralsight.com/courses/practical-html5) | [⎙]() | `Beginner` |
+| 04 | [Practical HTML5](http://www.pluralsight.com/courses/practical-html5) ✍ | [⎙](/frontend/practical-html5) | `Beginner` |
 | 05 | [HTML Fundamentals](http://www.pluralsight.com/courses/html-fundamentals) | [⎙]() | `Beginner` |
 | 06 | [HTML5 Fundamentals](http://www.pluralsight.com/courses/html5-fundamentals-2e) | [⎙]() | `Beginner` |
 | 07 | [HTML5 Web Component Fundamentals](http://www.pluralsight.com/courses/web-components-shadow-dom) | [⎙]() | `Beginner` |
@@ -118,16 +119,21 @@
 | 05 | [Building Web Apps With Node.js](http://www.pluralsight.com/courses/building-web-apps-nodejs) | [⎙]() | `Intermediate` |
 | 06 | [Two Tier Enterprise App and API Development with Angular & Sails](http://www.pluralsight.com/courses/two-tier-enterprise-app-api-development-angular-sails) | [⎙]() | `Intermediate` |
 
+## Software Engineering
+
+| Number | Course | Annotations | Difficulty |
+| :---: | :--- | :---: | :---: |
+| 01 | [Clean Code: Writing Code for Humans](http://www.pluralsight.com/courses/writing-clean-code-humans) | [⎙]() | `Intermediate` |
+| 02 | [Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) | [⎙]() | `Intermediate` |
+| 03 | [Software Engineering Essentials](http://www.pluralsight.com/courses/software-engineering-essentials) | [⎙]() | `Intermediate` |
+| 04 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | [⎙]() | `Intermediate` |
+
 ## QA
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-| 01 | [Software Engineering Essentials](http://www.pluralsight.com/courses/software-engineering-essentials) | [⎙]() | `Intermediate` |
-| 02 | [Clean Code: Writing Code for Humans](http://www.pluralsight.com/courses/writing-clean-code-humans) | [⎙]() | `Intermediate` |
 | 03 | [Improving Testability Through Design](http://www.pluralsight.com/courses/improving-testability-through-design) | [⎙]() | `Intermediate` |
 | 04 | [Automated Web Testing with Selenium](http://www.pluralsight.com/courses/selenium) | [⎙]() | `Intermediate` |
-| 05 | [Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) | [⎙]() | `Intermediate` |
-| 06 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | [⎙]() | `Intermediate` |
 | 07 | [Automated Testing: End to End](http://www.pluralsight.com/courses/automated-testing-end-to-end) | [⎙]() | `Intermediate` |
 | 08 | [Code Testability](http://www.pluralsight.com/courses/code-testability) | [⎙]() | `Intermediate` |
 | 09 | [TDD as a Design Tool](http://www.pluralsight.com/courses/tdd-as-design-tool) | [⎙]() | `Intermediate` |
@@ -201,10 +207,8 @@
 | 07 | [Website Performance](http://www.pluralsight.com/courses/website-performance) | [⎙]() | `Intermediate` |
 | 08 | [Web API Design](http://www.pluralsight.com/courses/web-api-design) | [⎙]() | `Intermediate` |
 | 09 | [Bower Fundamentals](http://www.pluralsight.com/courses/bower-fundamentals) | [⎙]() | `Intermediate` |
-| 10 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | [⎙]() | `Intermediate` |
 | 11 | [Shell Scripting with Bash](http://www.pluralsight.com/courses/bash-shell-scripting) | [⎙]() | `Intermediate` |
 | 12 | [Introduction to the Bash Shell on Mac OS and Linux](http://www.pluralsight.com/courses/introduction-bash-shell-linux-mac-os) | [⎙]() | `Intermediate` |
-| 13 | [Patterns of Cloud Integration](http://www.pluralsight.com/courses/cloud-integration-patterns) | [⎙]() | `Intermediate` |
 | 14 | [REST Fundamentals](http://www.pluralsight.com/courses/rest-fundamentals) | [⎙]() | `Intermediate` |
 | 15 | [Haskell Fundamentals Part 1](http://www.pluralsight.com/courses/haskell-fundamentals-part1) | [⎙]() | `Intermediate` |
 | 16 | [Haskell Fundamentals Part 2](http://www.pluralsight.com/courses/haskell-fundamentals-part2) | [⎙]() | `Intermediate` |
