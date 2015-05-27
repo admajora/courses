@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Joe's Coffee Store</title>
+  <link rel="stylesheet" href="styles/layout.css"/>
 </head>
 <body>
-  <header>
+  <header id="main-header">
     <div>
       <a href="index.html"
          class="header-logo">
@@ -15,8 +16,30 @@
       <h1 class="header-name">
         Joe's Coffee Store
       </h1>
+      <input type="search"
+             class="searchbox"
+           placeholder="Search our store"/>
     </div>
+    <nav class="background-gradient">
+      <ul>
+        <li><a href="index.html" class="navlink">Home</a></li>
+        <li><a href="blog.html" class="navlink">Blog</a></li>
+        <li><a href="allcoffees.html" class="navlink">Our Coffess</a></li>
+        <li><a href="accessories.html" class="navlink">Accessories</a></li>
+        <li><a href="gifts.html" class="navlink">Gifts</a></li>
+        <li><a href="findus.html" class="navlink">Find us</a></li>
+        <li><a href="checkout.html" class="navlink">Checkout</a></li>
+      </ul>
+    </nav>
   </header>
+
+  <div id="welcome-image">
+    <img src="images/coffeeheader.jpeg" alt="Coffee Header"/>
+  </div>
+
+  <div id="coffee-of-the-month">
+    <img src="images/cotm.jpg" alt="Coffee of the month"/>
+  </div>
 
   <section id="welcome-text">
     <header>
