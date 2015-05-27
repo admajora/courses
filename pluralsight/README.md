@@ -61,14 +61,14 @@
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [Learning To Program - Part 1: Getting Started](http://www.pluralsight.com/courses/learning-programming-javascript) | [⎙]() | `Beginner` |
-| 02 | [JavaScript From Scratch](http://www.pluralsight.com/courses/javascript-from-scratch) | [⎙]() | `Intermediate` |
-| 03 | [Structuring JavaScript Code](http://www.pluralsight.com/courses/structuring-javascript) | [⎙]() | `Intermediate` |
-| 04 | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) | [⎙]() | `` |
+| 02 | [JavaScript From Scratch](http://www.pluralsight.com/courses/javascript-from-scratch) | [⎙]() | `Beginner` |
 | 05 | [JavaScript Fundamentals for ES6](http://www.pluralsight.com/courses/javascript-fundamentals-es6) | [⎙]() | `Intermediate` |
+| 09 | [JS.Next: ES6](http://www.pluralsight.com/courses/js-next-es6) | [⎙]() | `Intermediate` |
+| 03 | [Structuring JavaScript Code](http://www.pluralsight.com/courses/structuring-javascript) | [⎙]() | `Intermediate` |
+| 04 | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) | [⎙]() | `Intermediate` |
 | 06 | [Testing Clientside JavaScript](http://www.pluralsight.com/courses/testing-javascript) | [⎙]() | `Intermediate` |
 | 07 | [Creating JavaScript Modules with Browserify](http://www.pluralsight.com/courses/creating-javascript-modules-browserify) | [⎙]() | `Intermediate` |
 | 08 | [JavaScript Build Automation With Gulp.js](http://www.pluralsight.com/courses/javascript-build-automation-gulpjs) | [⎙]() | `Intermediate` |
-| 09 | [JS.Next: ES6](http://www.pluralsight.com/courses/js-next-es6) | [⎙]() | `Intermediate` |
 | 10 | [jQuery-free JavaScript](http://www.pluralsight.com/courses/jquery-free-javascript) | [⎙]() | `Intermediate` |
 | 11 | [Advanced JavaScript](http://www.pluralsight.com/courses/advanced-javascript) | [⎙]() | `Intermediate` |
 | 12 | [JavaScript the Good Parts](http://www.pluralsight.com/courses/javascript-good-parts) | [⎙]() | `Intermediate` |
