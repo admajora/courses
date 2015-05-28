@@ -1,10 +1,12 @@
 window.onload = function() {
 
-  var output = document.getElementById( 'output' );
-  output.innerHTML = myNonClosure();
+  var output  = document.getElementById( 'output' );
+  var closure = myClosure();
+
+  output.innerHTML = closure();
 
   setTimeout( function() {
-    output.innerHTML += '<br>' + myNonClosure();
+    output.innerHTML += '<br>' + closure();
   }, 310 );
 
 };
@@ -16,4 +18,13 @@ function myNonClosure() {
   return date.getMilliseconds();
 
 };
+
+function myClosure() {
+
+  var date = new Date();
+  return function() {
+    return date.getMilliseconds();
+  }
+
+}
 
