@@ -28,7 +28,7 @@
 | 01 | [Introduction to Web Development](http://www.pluralsight.com/courses/web-development-intro) | [⎙]() | `Beginner` |
 | 02 | [Front End Web Development: Get Started](http://www.pluralsight.com/courses/front-end-web-development-get-started) ✔ | [⎙](/frontend/frontend-web-development-get-started) | `Beginner` |
 | 03 | [Front-End Web Development Quick Start With HTML5, CSS, and JavaScript](http://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css) | [⎙]() | `Beginner` |
-| 04 | [Practical HTML5](http://www.pluralsight.com/courses/practical-html5) ✍ | [⎙](/frontend/practical-html5) | `Beginner` |
+| 04 | [Practical HTML5](http://www.pluralsight.com/courses/practical-html5) ✔ | [⎙](/frontend/practical-html5) | `Beginner` |
 | 05 | [HTML Fundamentals](http://www.pluralsight.com/courses/html-fundamentals) | [⎙]() | `Beginner` |
 | 06 | [HTML5 Fundamentals](http://www.pluralsight.com/courses/html5-fundamentals-2e) | [⎙]() | `Beginner` |
 | 07 | [HTML5 Web Component Fundamentals](http://www.pluralsight.com/courses/web-components-shadow-dom) | [⎙]() | `Beginner` |
@@ -62,7 +62,7 @@
 | :---: | :--- | :---: | :---: |
 | 01 | [Learning To Program - Part 1: Getting Started](http://www.pluralsight.com/courses/learning-programming-javascript) | [⎙]() | `Beginner` |
 | 02 | [JavaScript From Scratch](http://www.pluralsight.com/courses/javascript-from-scratch) | [⎙]() | `Beginner` |
-| 03 | [Structuring JavaScript Code](http://www.pluralsight.com/courses/structuring-javascript) | [⎙]() | `Intermediate` |
+| 03 | [Structuring JavaScript Code](http://www.pluralsight.com/courses/structuring-javascript) ✍ | [⎙]() | `Intermediate` |
 | 04 | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) | [⎙]() | `Intermediate` |
 | 05 | [JavaScript Fundamentals for ES6](http://www.pluralsight.com/courses/javascript-fundamentals-es6) | [⎙]() | `Intermediate` |
 | 09 | [JS.Next: ES6](http://www.pluralsight.com/courses/js-next-es6) | [⎙]() | `Intermediate` |
