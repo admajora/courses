@@ -1,12 +1,12 @@
 window.onload = function() {
 
   var output  = document.getElementById( 'output' );
-  var closure = myClosure();
+  var closure = myClosure2();
 
-  output.innerHTML = closure();
+  output.innerHTML = closure.time();
 
   setTimeout( function() {
-    output.innerHTML += '<br>' + closure();
+    output.innerHTML += '<br>' + closure.time();
   }, 310 );
 
 };
@@ -28,3 +28,15 @@ function myClosure() {
 
 }
 
+function myClosure2() {
+
+  var date = new Date();
+  var nestedFunc = function() {
+    return date.getMilliseconds();
+  };
+
+  return {
+    time : nestedFunc
+  };
+
+}
