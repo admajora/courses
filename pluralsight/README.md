@@ -81,7 +81,8 @@
 | 19 | [Introduction to JavaScript & jQuery](http://www.pluralsight.com/courses/introduction-javascript-jquery) | [⎙]() | `Intermediate` |
 | 20 | [Advanced Techniques in JavaScript and jQuery](http://www.pluralsight.com/courses/javascript-jquery-advanced-techniques) | [⎙]() | `Intermediate` |
 | 21 | [Choosing a JavaScript Framework](http://www.pluralsight.com/courses/choosing-javascript-framework) | [⎙]() | `Intermediate` |
-| 22 | [Hardcore Functional Programming in JavaScript](http://www.pluralsight.com/courses/hardcore-functional-programming-javascript) | [⎙]() | `Advanced` |
+| 22 | [D3.js Data Visualization Fundamentals](http://www.pluralsight.com/courses/d3js-data-visualization-fundamentals) | [⎙]() | `Intermediate` |
+| 23 | [Hardcore Functional Programming in JavaScript](http://www.pluralsight.com/courses/hardcore-functional-programming-javascript) | [⎙]() | `Advanced` |
 
 ### AngularJS
 
@@ -129,6 +130,7 @@
 | 02 | [Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) | [⎙]() | `Intermediate` |
 | 03 | [Software Engineering Essentials](http://www.pluralsight.com/courses/software-engineering-essentials) | [⎙]() | `Intermediate` |
 | 04 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | [⎙]() | `Intermediate` |
+| 05 | [Domain-Driven Design Fundamentals](http://www.pluralsight.com/courses/domain-driven-design-fundamentals) | [⎙]() | `Intermediate` |
 
 ## QA
 
@@ -214,3 +216,4 @@
 | 14 | [REST Fundamentals](http://www.pluralsight.com/courses/rest-fundamentals) | [⎙]() | `Intermediate` |
 | 15 | [Haskell Fundamentals Part 1](http://www.pluralsight.com/courses/haskell-fundamentals-part1) | [⎙]() | `Intermediate` |
 | 16 | [Haskell Fundamentals Part 2](http://www.pluralsight.com/courses/haskell-fundamentals-part2) | [⎙]() | `Intermediate` |
+| 17 | [Preparing For a Job Interview](http://www.pluralsight.com/courses/developer-job-interviews) | [⎙]() | `Beginner` |
