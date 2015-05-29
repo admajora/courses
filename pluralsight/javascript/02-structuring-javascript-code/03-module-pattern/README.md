@@ -11,3 +11,18 @@
 - Functions may be duplicated across objects in memory when not using singleton
 - Not easy to extend
 - Some complain about debugging
+
+## Module Structure Overview
+
+```js
+var Calculator = function() {
+  
+  // private variables
+  // private functions
+  
+  return {
+    // public members
+  };
+  
+};
+```
