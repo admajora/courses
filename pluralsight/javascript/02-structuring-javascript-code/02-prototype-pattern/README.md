@@ -12,3 +12,7 @@
 
 - `this` can be tricky
 - Constructor separate from prototype definition
+
+## Project
+
+- Create a calculator

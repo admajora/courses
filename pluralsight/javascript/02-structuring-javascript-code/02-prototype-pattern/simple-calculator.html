@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Calculator</title>
+
+  <script>
+
+    window.onload = function() {
+      var c = new Calculator( 'calc' );
+
+      c.add( 8, 5 );
+    };
+
+    var Calculator = function( element ) {
+
+      this.controller = document.getElementById( element );
+
+    };
+
+    Calculator.prototype = {
+
+      add : function( x, y ) {
+
+        var val = x + y;
+
+        this.controller.innerHTML = val;
+
+      }
+
+    };
+
+  </script>
+
+</head>
+<body>
+  <div id="calc"></div>
+</body>
+</html>
