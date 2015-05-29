@@ -62,8 +62,8 @@
 | :---: | :--- | :---: | :---: |
 | 01 | [Learning To Program - Part 1: Getting Started](http://www.pluralsight.com/courses/learning-programming-javascript) | [⎙]() | `Beginner` |
 | 02 | [JavaScript From Scratch](http://www.pluralsight.com/courses/javascript-from-scratch) | [⎙]() | `Beginner` |
-| 03 | [Structuring JavaScript Code](http://www.pluralsight.com/courses/structuring-javascript) ✍ | [⎙]() | `Intermediate` |
-| 04 | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) | [⎙]() | `Intermediate` |
+| 03 | [Structuring JavaScript Code](http://www.pluralsight.com/courses/structuring-javascript) ✔ | [⎙]() | `Intermediate` |
+| 04 | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) ✍ | [⎙]() | `Intermediate` |
 | 05 | [JavaScript Fundamentals for ES6](http://www.pluralsight.com/courses/javascript-fundamentals-es6) | [⎙]() | `Intermediate` |
 | 09 | [JS.Next: ES6](http://www.pluralsight.com/courses/js-next-es6) | [⎙]() | `Intermediate` |
 | 06 | [Testing Clientside JavaScript](http://www.pluralsight.com/courses/testing-javascript) | [⎙]() | `Intermediate` |
