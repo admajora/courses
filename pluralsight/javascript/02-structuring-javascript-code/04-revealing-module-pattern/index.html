@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Revealing Module Pattern</title>
+</head>
+<body>
+
+  <div id="output"></div>
+
+  <script>
+
+    var calculator = function( element ) {
+
+      var controller = document.getElementById( element );
+
+      function _add( x, y ) {
+        var value = x + y;
+        controller.innerHTML = value;
+      }
+
+      return {
+        add : _add
+      };
+
+    }( 'output' );
+
+    calculator.add( 8, 5 );
+
+  </script>
+
+</body>
+</html>
