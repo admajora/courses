@@ -7,10 +7,12 @@
   <script>
 
     window.onload = function() {
-      var c = new Calculator( 'calc' );
+      var c = new myNameSpace.Calculator( 'calc' );
 
       c.add( 8, 5 );
     };
+
+    var myNameSpace = myNameSpace || {};
 
     var Calculator = function( element ) {
 
@@ -18,7 +20,9 @@
 
     };
 
-    Calculator.prototype = {
+    myNameSpace.Calculator = Calculator;
+
+    myNameSpace.Calculator.prototype = {
 
       add : function( x, y ) {
 
