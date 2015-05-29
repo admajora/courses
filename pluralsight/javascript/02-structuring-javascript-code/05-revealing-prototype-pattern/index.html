@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Revealing Prototype Pattern</title>
+</head>
+<body>
+  <div id="output"></div>
+
+  <script>
+
+    window.onload = function() {
+
+      var calc = new app.Calculator( 'output' );
+      calc.add( 8, 5 );
+      calc.subtract( 31, 5 );
+
+    };
+
+    // calculator.js
+    var app = app || {};
+
+    app.Calculator = function( element ) {
+
+      this.output = document.getElementById( element );
+
+    };
+
+    app.Calculator.prototype = function() {
+
+      var _add = function( x, y ) {
+        this.output.innerHTML = x + y;
+      };
+
+      var _subtract = function( x, y ) {
+        console.log( x - y );
+      };
+
+      return {
+        add : _add,
+        subtract : _subtract
+      }
+
+    }();
+
+  </script>
+
+</body>
+</html>
