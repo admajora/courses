@@ -53,6 +53,9 @@ console.log( addFunctional( 1, 2, 3 )); // 6
 - Useful for creating fluent API for working agains a mutable object
 - Designed around returning the source object
 - Popularized by jQuery
+- **Return the object you want to chain**
+  - The `this`object
+  - Capture the `this` object if the caller isn't trusted
 
 Ex:
 
@@ -63,3 +66,10 @@ jQuery( '.foo )
   .html( 'Hello World' );
 ```
 
+### 1.3 Observable Properties
+
+- How can you react to a value changing on an object?
+- JavaScript properties are really just public fields
+  - So how do we address the lack of method body?
+  - By using methods-as-properties
+    - This is what Knockout.js uses
