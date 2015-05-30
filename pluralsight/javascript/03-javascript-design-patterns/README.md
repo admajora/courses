@@ -47,3 +47,19 @@ function addFunctional() {
 
 console.log( addFunctional( 1, 2, 3 )); // 6
 ```
+
+### 1.2 Chaining
+
+- Useful for creating fluent API for working agains a mutable object
+- Designed around returning the source object
+- Popularized by jQuery
+
+Ex:
+
+```js
+jQuery( '.foo )
+  .addClass( 'bar' )
+  .fadeIn( 'slow' )
+  .html( 'Hello World' );
+```
+
