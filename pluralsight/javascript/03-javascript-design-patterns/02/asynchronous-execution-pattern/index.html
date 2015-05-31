@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Asynchronous Execution Pattern</title>
+</head>
+<body>
+  <h1>Asynchronous Execution Pattern</h1>
+
+  <ul id="list"></ul>
+
+  <script>
+
+    var buffer = function( items, iterFn, callback ) {
+
+      var i   = 0;
+      var len = items.length;
+
+      setTimeout( function() {
+
+        var result;
+
+        for ( var start = +new Date; i < len && result !== false && (( +new Date ) - start < 50 ); i += 1 ) {
+
+          result = iterFn.call( items[ i ], items[ i ], i );
+
+        }
+
+        if ( i < len && result !== false ) {
+
+          setTimeout( arguments.callee, 20 );
+
+        } else {
+
+          callback( items );
+
+        }
+
+      }, 20 );
+
+    };
+
+    var data = [];
+
+    for ( var i = 1; i <= 130000; i += 1 ) {
+      data.push( i );
+    }
+
+    // Add elements in the UI
+    var html = '';
+    var node = document.getElementById( 'list' );
+
+//    data
+//        .forEach( function( el ) {
+//
+//          html += '<li>' + el + '</li>';
+//
+//        });
+
+    buffer( data, function( item ) {
+      html += '<li>' + item + '</li>';
+    }, function() {
+      node.innerHTML = html;
+    });
+
+  </script>
+
+</body>
+</html>

@@ -111,3 +111,39 @@ function Book() {
 - Return private variable
 - Store event handlers in an array
 - Utilise return values to abort the updating process
+
+## 2. Timer Patterns
+
+### 2.1 JavaScript Timers
+
+- Two kinds of timers in JavaScript
+  - `setTimeout`
+  - `setInterval`
+- Both take two arguments, a function to invoke and a delay period
+- setTimeout will execute the function once
+- setInterval will execute continuously with the specified delay between each execution
+- delays of **< 4ms** will be bumped to 4ms
+- timers won't start until the outer most function is finished
+
+### 2.2 Timer Overview
+
+### 2.3 Asynchronous Execution Pattern
+
+- Browsers are typically single threaded
+  - Either updating the UI or executing JavaScript
+- Long-running JavaScript blocks the UI
+  - Browser is *unresponsive*
+- Splitting long-running code over setTimeout blocks releases the thread
+  - while processing a loop limit the scope to a small time window
+  - ensure that there is enough of a gap between timeouts restarting
+  
+### 2.4 Demo: Asynchronous Execution Pattern
+
+### 2.4 Recap
+
+- Using a setTimeout of < 4ms will become 4ms
+- Long running functions will block the UI
+	- spli them over setTimeout calls
+- Using too short timeout won't release to the UI either
+- Pattern most useful on low powered devices
+
