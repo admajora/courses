@@ -73,3 +73,41 @@ jQuery( '.foo )
   - So how do we address the lack of method body?
   - By using methods-as-properties
     - This is what Knockout.js uses
+    
+## 1.4 Observable Property Futures
+
+- In ES5 properties can have method bodies
+- Only available in current generation browsers
+
+```js
+function Book() {
+
+	var name = '';
+	
+	Object.defineProperty( this, 'name', {
+	
+		get : function() {
+		
+		  return name;
+		  
+		},
+		
+		set : function( val ) {
+		
+			console.log( val );
+			name = val;
+			
+		}
+	
+	});
+
+}
+```
+
+**Recap**
+
+- Properties implemented as methods
+- Check the incoming value and decide if you want to update
+- Return private variable
+- Store event handlers in an array
+- Utilise return values to abort the updating process

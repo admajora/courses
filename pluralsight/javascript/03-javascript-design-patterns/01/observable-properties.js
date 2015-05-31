@@ -71,9 +71,9 @@ book.onPriceChanging( function( b, price ) {
 
 book.onPriceChanged( function( b ) {
 
-  console.log( 'The book price has changed to: $', b.price());
+  console.log( 'The book price has changed to: $' + b.price());
 
 });
 
-book.price( 19.99);
+book.price( 19.99 );
 book.price( 200 );
