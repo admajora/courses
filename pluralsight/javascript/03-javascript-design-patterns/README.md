@@ -233,3 +233,45 @@ setTimeout( function getFoo() {
 
 ### 3.2 Demo - Creating a Node.js module
 
+### 3.3 RequireJS
+
+- A module framework in the browser
+- Doesn't implement CommonJS's module pattern
+  - There's a problem for browsers, JavaScript is blocking so how can you do `require('some-module')`
+- More browser-friendly API
+  - Supports Node.js as well
+- Defines a structure as to how you should layout your files
+  - Uses conventions to perform lookups for depencies
+  - Caution: this can be problematic with combination & minification of depencies
+
+### 3.4 Demo - Creating a AMD with RequireJS
+
+### 3.5 Future of JavaScript Modules
+
+- Modules proposed for Harmony
+- New keywords and new syntax
+  - Won't be backwards compatible
+
+```js
+module math {
+  export function sum( x, y ) { return x + y; }
+  export var pi = 3.131593;
+}
+
+// usage
+import { sum, pi } from math;
+
+alert( "2π = " + sum( pi, pi ));
+```
+
+**Recap**
+
+- Modules bring structure to JavaScript development
+- Node.js uses CommonJS pattern
+  - require('foo') to load a module
+  - module.exports to expose functionality
+- Require.js for browser-based modules
+  - slightly different from CommonJS
+  - `require` takes an array of depencies and a callback
+  - `define` takes an array of depencies and exposes an API
+- ECMAScript 6 is bringing language support
