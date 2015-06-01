@@ -209,3 +209,27 @@ setTimeout( function getFoo() {
 
 - setInterval ordering is unpredictable across browsers
   - Recursively invoking setTimeout can ensure order of execution
+
+## 3. Asynchronous Module Definitions (AMDs)
+
+### 3.1 Introduction
+
+- JavaScript lacks any way to have external references
+  - No using statement like C#
+- How do you specify code blocks that rely on other blocks?
+- How do you prevent scope leakage?
+- JavaScript is blocking, only one file can be processed at any given time
+  - Browsers will only download one at a time
+- What about Node.js?
+  - It doesn't need to download files like a browser
+
+**CommonJS**
+
+- An attempt to standardize common JavaScript patterns
+- Most patterns have several proposals
+- Attempts to be generic for all JavaScript run times (browsers, server-side, etc)
+- Has a definition for Modules, currently at version 1.1.1
+  - Very similar to modules in Node.js
+
+### 3.2 Demo - Creating a Node.js module
+
