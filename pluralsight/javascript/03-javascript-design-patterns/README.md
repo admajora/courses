@@ -275,3 +275,26 @@ alert( "2π = " + sum( pi, pi ));
   - `require` takes an array of depencies and a callback
   - `define` takes an array of depencies and exposes an API
 - ECMAScript 6 is bringing language support
+
+## 4. Pub/Sub
+
+### 4.1 Introduction
+
+- Lots of browser-level JavaScript relies on events
+  - clicks, change, blur, etc
+- What about JavaScript logic?
+  - pub/sub bridges this gap
+- A piece of code will raise an event
+- N number of pieces will react to it
+- Allows for disconnected communication between functions
+
+### 4.2 Demo - Traditional communication
+
+### 4.3 Introducing Pub/Sub
+
+- To introduce Pub/Sub we need to:
+  - refactor each logical part out
+  - identify overlapping functionality
+  - use messages to connect the components
+
+### 4.4 Creating a Pub/Sub Library
