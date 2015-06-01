@@ -136,11 +136,11 @@
 
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
-| 03 | [Improving Testability Through Design](http://www.pluralsight.com/courses/improving-testability-through-design) | [⎙]() | `Intermediate` |
-| 04 | [Automated Web Testing with Selenium](http://www.pluralsight.com/courses/selenium) | [⎙]() | `Intermediate` |
-| 07 | [Automated Testing: End to End](http://www.pluralsight.com/courses/automated-testing-end-to-end) | [⎙]() | `Intermediate` |
-| 08 | [Code Testability](http://www.pluralsight.com/courses/code-testability) | [⎙]() | `Intermediate` |
-| 09 | [TDD as a Design Tool](http://www.pluralsight.com/courses/tdd-as-design-tool) | [⎙]() | `Intermediate` |
+| 01 | [TDD as a Design Tool](http://www.pluralsight.com/courses/tdd-as-design-tool) | [⎙]() | `Intermediate` |
+| 02 | [Improving Testability Through Design](http://www.pluralsight.com/courses/improving-testability-through-design) | [⎙]() | `Intermediate` |
+| 03 | [Automated Web Testing with Selenium](http://www.pluralsight.com/courses/selenium) | [⎙]() | `Intermediate` |
+| 04 | [Automated Testing: End to End](http://www.pluralsight.com/courses/automated-testing-end-to-end) | [⎙]() | `Intermediate` |
+| 05 | [Code Testability](http://www.pluralsight.com/courses/code-testability) | [⎙]() | `Intermediate` |
 
 ## DataBase Administration
 

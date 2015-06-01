@@ -147,3 +147,65 @@ function Book() {
 - Using too short timeout won't release to the UI either
 - Pattern most useful on low powered devices
 
+### 2.5 Recursive setTimeout Pattern
+
+- Periodically running a piece of functionality, related to a duration
+  - Most commonly used to query a data source
+- Sounds like setInterval
+- setInterval has a problem though...
+  - JavaScript is asynchronous
+  - Once an interval function finishes it is added back to the timer queue
+  - But what if that function was waiting for an AJAX response?
+    - Function execution can get out of order
+
+**Using setTimeout**
+
+```js
+setTimeout( function getFoo() {
+  
+  $.get( '/foo', function( result ) {
+
+    // do something with results
+    setTimeout( getFoo, 1000 );
+
+  });
+
+}, 1000 );
+```
+
+### 2.6 DEMO: Recursive setTimeout Pattern
+
+```js
+<script>
+  $(document).ready( function() {
+
+    var ul    = $( 'ul.log' );
+    var index = 0;
+
+    setTimeout( function getDate() {
+
+      var started = new Date();
+      var i       = index;
+
+      index += 1;
+
+      $.get( '/home/date', function( date ) {
+
+        var end = new Date();
+
+        ul.append( '<li>Request ' + i + ' started at' + started.getHours() /* ... */ );
+
+        setTimeout( getDate, 5000 );
+
+      });
+
+    }, 5000 );
+
+  });
+</script>
+```
+
+**Recap**
+
+- setInterval ordering is unpredictable across browsers
+  - Recursively invoking setTimeout can ensure order of execution
