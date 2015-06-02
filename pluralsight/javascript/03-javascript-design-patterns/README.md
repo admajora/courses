@@ -298,3 +298,21 @@ alert( "2π = " + sum( pi, pi ));
   - use messages to connect the components
 
 ### 4.4 Creating a Pub/Sub Library
+
+## 5. Promises and Deferred
+
+### 5.1 Introduction
+
+- If everything is asynchronous how do we link operations?
+- I want to know when one or more operations complete
+  - AJAX
+  - Animations
+  - Etc
+
+** How does it work?**
+
+- A deferred object controls operation
+- Progress raised as deferred runs
+- Done raised when deferred action completes successfully
+- Failure raised when deferred action is unsuccessful
+- Future access to the deferred result should not change
