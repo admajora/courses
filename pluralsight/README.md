@@ -63,8 +63,8 @@
 | 01 | [Learning To Program - Part 1: Getting Started](http://www.pluralsight.com/courses/learning-programming-javascript) | [⎙]() | `Beginner` |
 | 02 | [JavaScript From Scratch](http://www.pluralsight.com/courses/javascript-from-scratch) | [⎙]() | `Beginner` |
 | 03 | [Structuring JavaScript Code](http://www.pluralsight.com/courses/structuring-javascript) ✔ | [⎙](/javascript/02-structuring-javascript-code) | `Intermediate` |
-| 04 | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) ✍ | [⎙]() | `Intermediate` |
-| 05 | [JavaScript Fundamentals for ES6](http://www.pluralsight.com/courses/javascript-fundamentals-es6) | [⎙]() | `Intermediate` |
+| 04 | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) ✔ | [⎙]() | `Intermediate` |
+| 05 | [JavaScript Fundamentals for ES6](http://www.pluralsight.com/courses/javascript-fundamentals-es6) ✍ | [⎙]() | `Intermediate` |
 | 09 | [JS.Next: ES6](http://www.pluralsight.com/courses/js-next-es6) | [⎙]() | `Intermediate` |
 | 06 | [Testing Clientside JavaScript](http://www.pluralsight.com/courses/testing-javascript) | [⎙]() | `Intermediate` |
 | 07 | [Creating JavaScript Modules with Browserify](http://www.pluralsight.com/courses/creating-javascript-modules-browserify) | [⎙]() | `Intermediate` |
@@ -75,14 +75,13 @@
 | 13 | [Front-End First: Testing and Prototyping JavaScript Apps](http://www.pluralsight.com/courses/testing-and-prototyping-javascript-apps) | [⎙]() | `Intermediate` |
 | 14 | [Large Scale JavaScript on Client and Server](http://www.pluralsight.com/courses/large-scale-javascript) | [⎙]() | `Intermediate` |
 | 15 | [Fixing Common JavaScript Bugs](http://www.pluralsight.com/courses/fixing-common-javascript-bugs) | [⎙]() | `Intermediate` |
-| 16 | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) | [⎙]() | `Intermediate` |
-| 17 | [Underscore.js Fundamentals](http://www.pluralsight.com/courses/underscore-fundamentals) | [⎙]() | `Intermediate` |
-| 18 | [RequireJS: JavaScript Dependency Injection and Module Loading](http://www.pluralsight.com/courses/requirejs-javascript-dependency-injection) | [⎙]() | `Intermediate` |
-| 19 | [Introduction to JavaScript & jQuery](http://www.pluralsight.com/courses/introduction-javascript-jquery) | [⎙]() | `Intermediate` |
-| 20 | [Advanced Techniques in JavaScript and jQuery](http://www.pluralsight.com/courses/javascript-jquery-advanced-techniques) | [⎙]() | `Intermediate` |
-| 21 | [Choosing a JavaScript Framework](http://www.pluralsight.com/courses/choosing-javascript-framework) | [⎙]() | `Intermediate` |
-| 22 | [D3.js Data Visualization Fundamentals](http://www.pluralsight.com/courses/d3js-data-visualization-fundamentals) | [⎙]() | `Intermediate` |
-| 23 | [Hardcore Functional Programming in JavaScript](http://www.pluralsight.com/courses/hardcore-functional-programming-javascript) | [⎙]() | `Advanced` |
+| 16 | [Underscore.js Fundamentals](http://www.pluralsight.com/courses/underscore-fundamentals) | [⎙]() | `Intermediate` |
+| 17 | [RequireJS: JavaScript Dependency Injection and Module Loading](http://www.pluralsight.com/courses/requirejs-javascript-dependency-injection) | [⎙]() | `Intermediate` |
+| 18 | [Introduction to JavaScript & jQuery](http://www.pluralsight.com/courses/introduction-javascript-jquery) | [⎙]() | `Intermediate` |
+| 19 | [Advanced Techniques in JavaScript and jQuery](http://www.pluralsight.com/courses/javascript-jquery-advanced-techniques) | [⎙]() | `Intermediate` |
+| 20 | [Choosing a JavaScript Framework](http://www.pluralsight.com/courses/choosing-javascript-framework) | [⎙]() | `Intermediate` |
+| 21 | [D3.js Data Visualization Fundamentals](http://www.pluralsight.com/courses/d3js-data-visualization-fundamentals) | [⎙]() | `Intermediate` |
+| 22 | [Hardcore Functional Programming in JavaScript](http://www.pluralsight.com/courses/hardcore-functional-programming-javascript) | [⎙]() | `Advanced` |
 
 ### AngularJS
 
