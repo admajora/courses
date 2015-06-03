@@ -133,6 +133,24 @@ const PI = 3.14159;
 })();
 ```
 
+```js
+(function() {
+  
+  'use strict';
+
+  let doWork = function( url, { data = 'Eric Douglas', cache = true }) {
+    return {
+      data  : data,
+      cache : true
+    };
+  };
+
+  let result = doWork( "api/v1/authors" );
+  console.log( result ); // 
+
+})();
+```
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
