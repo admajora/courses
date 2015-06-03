@@ -151,6 +151,32 @@ const PI = 3.14159;
 })();
 ```
 
+### 2.6 Rest Parameters
+
+```js
+(function() {
+  
+  let doWork = function( name, ...numbers ) {
+    
+    let result = 0;
+
+    numbers
+      .forEach( function( n ) {
+
+        result += n;
+
+      });
+
+      return result;
+
+  };
+
+  let result = doWork( 'Eric', 2, 5, 6 );
+  console.log( result );
+
+})();
+```
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
