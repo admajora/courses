@@ -24,7 +24,7 @@ for ( let i = 1; i <= 6; i += 1 ) {
 const PI = 3.14159;
 ```
 
-### 2.4 `Destructuring`
+### 2.4 Destructuring
 
 ```js
 (function() {
@@ -96,6 +96,40 @@ const PI = 3.14159;
 
   console.log( result ); //  Object { data="JavaScript Books",  cache=true}
   
+})();
+```
+
+### 2.5 Default Parameters
+
+```js
+(function() {
+  
+  'use strict';
+
+  var doWork = function( name = "Eric" ) {
+    return name;
+  };
+
+  var result = doWork();
+  console.log( result ); // "Eric"
+
+})();
+```
+
+```js
+(function() {
+  
+  'use strict';
+
+  var doWork = function( a = 1, b = 2, c = 3 ) {
+    return [ a, b, c ];
+  };
+
+  let [ a, b, c ] = doWork( 5, undefined );
+  console.log( a ); // 5
+  console.log( b ); // 2
+  console.log( c ); // 3
+
 })();
 ```
 
