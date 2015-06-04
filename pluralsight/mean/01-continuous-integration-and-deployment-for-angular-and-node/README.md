@@ -2,7 +2,7 @@
 
 ## 1. Getting Started
 
-### 1.1 Introduction
+### Introduction
 
 **Test First Popularity**
 
@@ -37,10 +37,4 @@
 - c9.io
 - display job list
 
-### 2.2 npm install
-
-### 2.3 Bower
-
-### 2.4 Node startup
-
-### 2.5 Frontend Setup
+## Deployment Intro

@@ -1,4 +1,5 @@
-var express = require( 'express' );
+var express  = require( 'express' );
+var mongoose = require( 'mongoose' );
 
 var app = express();
 
@@ -11,6 +12,16 @@ app.get( '*', function( req, res ) {
     
     res.render( 'index' );
     
+});
+
+mongoose.connect( 'mongodb://localhost/jobfinder' );
+
+var con = mongoose.connection;
+
+con.once( 'open', function() {
+
+  console.log( 'connected to mongodb successfully' );
+
 });
 
 app.listen( process.env.PORT || 3000 );
