@@ -8,7 +8,7 @@ html
       h1 Find a job today!
       div(ng-controller="jobController as vm")
         .list-group
-          a.list-group-item(href="#")(ng-repeat="job in vm.jobs")
+          a.list-group-item(href="#" ng-repeat="job in vm.jobs")
             h4.list-group-item-heading(ng-bind="job.title")
             p.list-group-item-text(ng-bind="job.description")
 
