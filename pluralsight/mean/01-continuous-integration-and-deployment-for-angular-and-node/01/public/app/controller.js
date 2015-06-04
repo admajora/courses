@@ -14,6 +14,16 @@
 
     ///////////// Properties
     vm.title = 'JobFinder';
+    vm.jobs  = [
+      {
+        title : 'Sales Person',
+        description : 'you will fight dragons'
+      },
+      {
+        title : 'Accoutant',
+        description : 'you will use the keyboard'
+      }
+    ];
 
     ///////////// Public Methods
 
