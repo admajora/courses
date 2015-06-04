@@ -1,6 +1,8 @@
 var express  = require( 'express' );
 var mongoose = require( 'mongoose' );
+
 var jobModel = require( './models/Job' );
+var config   = require( './config.json' );
 
 var app = express();
 
@@ -24,11 +26,11 @@ app.get( '/api/jobs', function( req, res ) {
 
 app.get( '*', function( req, res ) {
     
-  res.send( 'test' );
+  res.render( 'index' );
     
 });
 
-mongoose.connect( 'mongodb://localhost/jobfinder' );
+mongoose.connect( config.mongolab );
 
 var con = mongoose.connection;
 

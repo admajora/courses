@@ -3,6 +3,6 @@
   'use strict';
 
   angular
-    .module( 'jobApp', []);
+    .module( 'jobApp', [ 'ngResource' ]);
 
 }());
