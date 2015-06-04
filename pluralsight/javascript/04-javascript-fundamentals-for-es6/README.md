@@ -177,6 +177,36 @@ const PI = 3.14159;
 })();
 ```
 
+### 2.7 Spread
+
+```js
+(function() {
+
+  'use strict';
+
+  let doWork = function( x, y, z ) {
+  
+    return x + y + z;
+
+  };
+
+  var result = doWork( ...[ 1, 2, 3 ]);
+  console.log( result ); // 6
+
+})();
+```
+
+(function() {
+
+  'use strict';
+
+  var a = [ 4, 5, 6 ];
+  var b = [ 1, 2, 3, ...a, 7, 8 ];
+
+  console.log( b ); // [1,2,3,4,5,6,7,8]
+
+})();
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
