@@ -196,6 +196,7 @@ const PI = 3.14159;
 })();
 ```
 
+```js
 (function() {
 
   'use strict';
@@ -206,6 +207,78 @@ const PI = 3.14159;
   console.log( b ); // [1,2,3,4,5,6,7,8]
 
 })();
+```js
+
+### 2.8 Template Literals
+
+```js
+(function() {
+  
+  'use strict';
+
+  let doWord = function( name ) {
+
+    return `Hello, ${ name }`;
+
+  };
+
+  let result = doWork( 'Eric' );
+  console.log( result ); // "Hello, Eric"
+
+}());
+```
+
+```js
+(function() {
+  
+  'use strict';
+
+  let category = 'music';
+  let id       = 2112;
+
+  let url = `http://apiserver/${ category }/${ id }`;
+
+  console.log( url ); // "http://apiserver/music/2112"
+
+}());
+```
+
+```js
+(function() {
+  
+  'use strict';
+
+  let upper = function( strings, ...values ) {
+
+    console.log( strings ); // ["", " + ", " is ", ""]
+    console.log( values ); // [1, 3, 4]
+
+    let result = "";
+
+    for ( let i = 0; i < strings.length;  i += 1 ) {
+
+      result += strings[ i ];
+
+      if ( i < values.length ) {
+
+        result += values[ i ];
+
+      }
+
+    }
+
+    return result.toUpperCase();
+
+  };
+
+  var x = 1;
+  var y = 3;
+  var result = upper `${ x } + ${ y } is ${ x + y }`;
+
+  console.log( result ); 
+
+}());
+```
 
 ## 9. Using ES6 Today
 
