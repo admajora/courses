@@ -309,6 +309,8 @@ var e = new Employee();
 console.log( e.doWork()); // "complete!"
 ```
 
+Class:
+
 ```js
 (function() {
   
@@ -326,6 +328,40 @@ console.log( e.doWork()); // "complete!"
 
   var e = new Employee();
   console.log( e.doWork()); // "complete!"
+
+}());
+```
+
+### 3.3 Defining a class
+
+```js
+(function() {
+  
+  'use strict';
+
+  class Employee {
+
+    doWork() {
+
+      return "complete!";
+
+    };
+
+    getName() {
+
+      return "Eric";
+
+    };
+
+  }
+
+  let e = new Employee();
+
+  console.log( e.doWork()); // "complete!"
+  console.log( e.getName()); // "Eric"
+
+  // class is a syntax sugar for prototype
+  console.log( Employee.prototype.doWork.call( e )); // "complete!"
 
 }());
 ```
