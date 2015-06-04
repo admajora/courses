@@ -11,13 +11,20 @@ app.use( express.static( __dirname + '/public' ));
 
 app.get( '/api/jobs', function( req, res ) {
 
-  res.send( 'test' );
+  mongoose
+    .model( 'Job' )
+    .find( {} )
+    .exec( function( err, results ) {
+
+      res.send( results );
+
+    });
 
 });
 
 app.get( '*', function( req, res ) {
     
-    res.render( 'index' );
+  res.send( 'test' );
     
 });
 
