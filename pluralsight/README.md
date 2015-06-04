@@ -92,15 +92,16 @@
 | 03 | [Testing AngularJS From Scratch](http://www.pluralsight.com/courses/testing-angularjs-from-scratch) | [⎙]() | `Beginner` |
 | 04 | [Introduction to Protractor](http://www.pluralsight.com/courses/protractor-introduction) | [⎙]() | `Beginner` |
 | 05 | [AngularUI Fundamentals](http://www.pluralsight.com/courses/angularui-fundamentals) | [⎙]() | `Beginner` |
-| 06 | [Creating Apps With Angular, Node, and Token Authentication](http://www.pluralsight.com/courses/creating-apps-angular-node-token-authentication) | [⎙]() | `Intermediate` |
-| 07 | [AngularJS Directives Fundamentals](http://www.pluralsight.com/courses/angularjs-directive-fundamentals) | [⎙]() | `Intermediate` |
-| 08 | [AngularJS Services In-depth](http://www.pluralsight.com/courses/angularjs-services-in-depth) | [⎙]() | `Intermediate` |
-| 09 | [Animating AngularJS Applications](http://www.pluralsight.com/courses/angular-animating-apps) | [⎙]() | `Intermediate` |
-| 10 | [AngularJS Security Fundamentals](http://www.pluralsight.com/courses/angularjs-security-fundamentals) | [⎙]() | `Intermediate` |
-| 11 | [AngularJS Line of Business Applications](http://www.pluralsight.com/courses/angularjs-line-of-business-applications) | [⎙]() | `Intermediate` |
-| 12 | [An AngularJS Playbook](http://www.pluralsight.com/courses/angularjs-playbook) | [⎙]() | `Intermediate` |
-| 13 | [Building Mobile Apps With the Ionic Framework and AngularJS](http://www.pluralsight.com/courses/building-mobile-apps-ionic-framework-angularjs) | [⎙]() | `Intermediate` |
-| 14 | [Building a SPA Framework Using AngularJS](http://www.pluralsight.com/courses/building-spa-framework-angularjs) | [⎙]() | `Advanced` |
+| 06 | [Play by Play: Angular Testing with John Papa and Ward Bell](http://www.pluralsight.com/courses/play-by-play-angular-testing-papa-bell) | [⎙]() | `Beginner` |
+| 07 | [Creating Apps With Angular, Node, and Token Authentication](http://www.pluralsight.com/courses/creating-apps-angular-node-token-authentication) | [⎙]() | `Intermediate` |
+| 08 | [AngularJS Directives Fundamentals](http://www.pluralsight.com/courses/angularjs-directive-fundamentals) | [⎙]() | `Intermediate` |
+| 09 | [AngularJS Services In-depth](http://www.pluralsight.com/courses/angularjs-services-in-depth) | [⎙]() | `Intermediate` |
+| 10 | [Animating AngularJS Applications](http://www.pluralsight.com/courses/angular-animating-apps) | [⎙]() | `Intermediate` |
+| 11 | [AngularJS Security Fundamentals](http://www.pluralsight.com/courses/angularjs-security-fundamentals) | [⎙]() | `Intermediate` |
+| 12 | [AngularJS Line of Business Applications](http://www.pluralsight.com/courses/angularjs-line-of-business-applications) | [⎙]() | `Intermediate` |
+| 13 | [An AngularJS Playbook](http://www.pluralsight.com/courses/angularjs-playbook) | [⎙]() | `Intermediate` |
+| 14 | [Building Mobile Apps With the Ionic Framework and AngularJS](http://www.pluralsight.com/courses/building-mobile-apps-ionic-framework-angularjs) | [⎙]() | `Intermediate` |
+| 15 | [Building a SPA Framework Using AngularJS](http://www.pluralsight.com/courses/building-spa-framework-angularjs) | [⎙]() | `Advanced` |
 
 ### React
 
@@ -220,4 +221,5 @@
 | 15 | [Haskell Fundamentals Part 1](http://www.pluralsight.com/courses/haskell-fundamentals-part1) | [⎙]() | `Intermediate` |
 | 16 | [Haskell Fundamentals Part 2](http://www.pluralsight.com/courses/haskell-fundamentals-part2) | [⎙]() | `Intermediate` |
 | 17 | [Preparing For a Job Interview](http://www.pluralsight.com/courses/developer-job-interviews) | [⎙]() | `Beginner` |
-| 17 | [Developer to Architect](http://www.pluralsight.com/courses/developer-to-architect) | [⎙]() | `Intermediate` |
+| 18 | [Developer to Architect](http://www.pluralsight.com/courses/developer-to-architect) | [⎙]() | `Intermediate` |
+| 19 | [Smash into Vim](http://www.pluralsight.com/courses/smash-into-vim) | [⎙]() | `Beginner` |

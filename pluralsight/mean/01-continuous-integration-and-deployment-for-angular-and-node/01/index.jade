@@ -1,6 +1,11 @@
 html
   head
     link(rel="stylesheet", href="/bower_components/bootstrap/dist/css/bootstrap.min.css")
+    script(src="/bower_components/angular/angular.min.js")
 
-  body
-    h1 JobFinder
+  body(ng-app="jobApp")
+    div(ng-controller="jobController as vm")
+      h1(ng-bind="vm.title")
+
+    script(src="/app/app.js")
+    script(src="/app/controller.js")
