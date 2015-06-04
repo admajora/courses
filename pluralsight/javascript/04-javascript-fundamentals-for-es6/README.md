@@ -280,6 +280,56 @@ const PI = 3.14159;
 }());
 ```
 
+## 3. Classes
+
+### 3.1 Introdcution
+
+### 3.2 Why Classes?
+
+**Class vs Prototype**
+
+Prototype:
+
+```js
+var Employee = function() {
+
+};
+
+Employee.prototype = {
+  
+  doWork : function() {
+
+    return "complete!";
+  
+  };
+
+};
+
+var e = new Employee();
+console.log( e.doWork()); // "complete!"
+```
+
+```js
+(function() {
+  
+  'use strict';
+
+  class Employee {
+
+    doWork() {
+
+      return "complete!";
+
+    }
+
+  }
+
+  var e = new Employee();
+  console.log( e.doWork()); // "complete!"
+
+}());
+```
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
