@@ -158,6 +158,8 @@
 | 11 | [MySQL Backup and Recovery Fundamentals](http://www.pluralsight.com/courses/mysql-backup-recovery-fundamentals) | [⎙]() | `Intermediate` |
 | 12 | [MySQL Indexing for Performance](http://www.pluralsight.com/courses/mysql-indexing-performance) | [⎙]() | `Intermediate` |
 | 13 | [MySQL Workbench Guided Tour](http://www.pluralsight.com/courses/mysql-workbench-guided-tour) | [⎙]() | `Intermediate` |
+| 14 | [Introduction to Graph Databases and Neo4j](http://www.pluralsight.com/courses/graph-databases-neo4j-introduction) | [⎙]() | `Beginner` |
+| 15 | [RethinkDB Fundamentals](http://www.pluralsight.com/courses/rethinkdb-fundamentals) | [⎙]() | `Beginner` |
 
 ## DevOps
 
@@ -218,3 +220,4 @@
 | 15 | [Haskell Fundamentals Part 1](http://www.pluralsight.com/courses/haskell-fundamentals-part1) | [⎙]() | `Intermediate` |
 | 16 | [Haskell Fundamentals Part 2](http://www.pluralsight.com/courses/haskell-fundamentals-part2) | [⎙]() | `Intermediate` |
 | 17 | [Preparing For a Job Interview](http://www.pluralsight.com/courses/developer-job-interviews) | [⎙]() | `Beginner` |
+| 17 | [Developer to Architect](http://www.pluralsight.com/courses/developer-to-architect) | [⎙]() | `Intermediate` |
