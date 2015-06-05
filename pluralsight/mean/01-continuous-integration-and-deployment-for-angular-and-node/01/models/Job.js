@@ -7,7 +7,7 @@ var jobSchema = mongoose.Schema({
 
 var Job = mongoose.model( 'Job', jobSchema );
 
-exports.seedJobs = function() {
+exports.seedJobs = function( callback ) {
 
   Job
     .find( {} )
@@ -33,7 +33,7 @@ exports.seedJobs = function() {
         Job.create({
           title : 'Axe Maker',
           description : 'We need many axes made... so many...'
-        });
+        }, callback );
 
       }
 
