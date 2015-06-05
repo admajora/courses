@@ -1,4 +1,5 @@
 var mongoose = require( 'mongoose' );
+var Promise  = require( 'bluebird' );
 
 var jobSchema = mongoose.Schema({
   title       : { type : String },
@@ -7,9 +8,11 @@ var jobSchema = mongoose.Schema({
 
 var Job = mongoose.model( 'Job', jobSchema );
 
-exports.seedJobs = function( callback ) {
+exports.seedJobs = function() {
 
-  Job
+  return new Promise( function( resolve, reject ) {
+
+    Job
     .find( {} )
     .exec( function( error, collection ) {
 
@@ -33,10 +36,12 @@ exports.seedJobs = function( callback ) {
         Job.create({
           title : 'Axe Maker',
           description : 'We need many axes made... so many...'
-        }, callback );
+        }, resolve );
 
       }
 
     });
+
+  });
 
 };
