@@ -6,42 +6,50 @@ var jobSchema = mongoose.Schema({
   description : { type : String }
 });
 
+var jobs = [
+  {
+    title : 'Sales Person',
+    description : 'you will fight dragons'
+  },
+  {
+    title : 'Accoutant',
+    description : 'you will use the keyboard'
+  },
+  {
+    title : 'Programmer',
+    description : 'you will be mindlessly typing for...'
+  },
+  {
+    title : 'Axe Maker',
+    description : 'We need many axes made... so many...'
+  }
+];
+
 var Job = mongoose.model( 'Job', jobSchema );
+
+function findJobs( query ) {
+
+  return Promise.cast( mongoose.model( 'Job' ).find( query ).exec());
+
+}
+
+var createJob = Promise.promisify( Job.create, Job );
 
 exports.seedJobs = function() {
 
-  return new Promise( function( resolve, reject ) {
-
-    Job
-    .find( {} )
-    .exec( function( error, collection ) {
+  return findJobs( {} )
+    .then( function( collection ) {
 
       if ( collection.length === 0 ) {
 
-        Job.create({
-          title : 'Sales Person',
-          description : 'you will fight dragons'
-        });
+        return Promise.map( jobs, function( job ){
 
-        Job.create({
-          title : 'Accoutant',
-          description : 'you will use the keyboard'
-        });
+          return createJob( job );
 
-        Job.create({
-          title : 'Programmer',
-          description : 'you will be mindlessly typing for...'
         });
-
-        Job.create({
-          title : 'Axe Maker',
-          description : 'We need many axes made... so many...'
-        }, resolve );
 
       }
 
     });
-
-  });
 
 };
