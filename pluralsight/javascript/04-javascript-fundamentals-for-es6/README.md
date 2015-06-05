@@ -345,13 +345,13 @@ Class:
 
       return "complete!";
 
-    };
+    }
 
     getName() {
 
       return "Eric";
 
-    };
+    }
 
   }
 
@@ -362,6 +362,44 @@ Class:
 
   // class is a syntax sugar for prototype
   console.log( Employee.prototype.doWork.call( e )); // "complete!"
+
+}());
+```
+
+### 3.4 constructor
+
+```js
+(function() {
+  
+  'use strict';
+
+  class Employee {
+
+    constructor( name ) {
+
+      this._name = name;
+
+    }
+
+    doWork() {
+
+      return "complete!";
+
+    }
+
+    getName() {
+
+      return this._name;
+
+    }
+
+  }
+
+  let e1 = new Employee( "Eric" );
+  let e2 = new Employee( "Douglas" );
+
+  console.log( e1.getName()); // "Eric"
+  console.log( e2.getName()); // "Douglas"
 
 }());
 ```
