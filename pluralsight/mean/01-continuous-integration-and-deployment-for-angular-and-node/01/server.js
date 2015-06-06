@@ -1,8 +1,7 @@
 var express  = require( 'express' );
-var mongoose = require( 'mongoose' );
-
 var jobModel = require( './models/Job' );
 var config   = require( './config.json' );
+var jobsData = require( './jobs-data' );
 
 var app = express();
 
@@ -13,12 +12,11 @@ app.use( express.static( __dirname + '/public' ));
 
 app.get( '/api/jobs', function( req, res ) {
 
-  mongoose
-    .model( 'Job' )
-    .find( {} )
-    .exec( function( err, results ) {
+  jobsData
+    .findJobs()
+    .then( function( collection ) {
 
-      res.send( results );
+      res.send( collection );
 
     });
 
@@ -30,15 +28,11 @@ app.get( '*', function( req, res ) {
     
 });
 
-mongoose.connect( config.mongolab );
+jobsData.connectDB( config.mongolab )
+  .then( function() {
 
-var con = mongoose.connection;
+    console.log( 'connected to mongodb successfully' );
 
-con.once( 'open', function() {
-
-  console.log( 'connected to mongodb successfully' );
-  jobModel.seedJobs();
-
-});
+  });
 
 app.listen( process.env.PORT || 3000 );

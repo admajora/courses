@@ -1,8 +1,8 @@
 var expect   = require( 'chai' ).expect;
 var mongoose = require( 'mongoose' );
-var Promise  = require( 'bluebird' );
-
 var jobModel = require( '../models/Job' );
+var Promise  = require( 'bluebird' );
+var jobsData = require( '../jobs-data' );
 
 function resetJobs() {
 
@@ -14,24 +14,16 @@ function resetJobs() {
 
 }
 
-var connectDB = Promise.promisify( mongoose.connect, mongoose );
-
-function findJobs( query ) {
-
-  return Promise.cast( mongoose.model( 'Job' ).find( query ).exec());
-
-}
-
 describe( 'get jobs', function() {
 
-  var job;
+  var jobs;
 
   before( function( done ) {
 
-    connectDB( 'mongodb://localhost/jobfinder' )
+    jobsData.connectDB( 'mongodb://localhost/jobfinder' )
       .then( resetJobs )
-      .then( jobModel.seedJobs )
-      .then( findJobs )
+      .then( jobsData.seedJobs )
+      .then( jobsData.findJobs )
       .then( function( collection ) {
 
         jobs = collection;
