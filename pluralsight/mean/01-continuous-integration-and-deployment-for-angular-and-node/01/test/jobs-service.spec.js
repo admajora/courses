@@ -3,6 +3,18 @@ var app     = express();
 var expect  = require( 'chai' ).expect;
 var request = require( 'supertest' );
 
+
+var dataSavedJob;
+
+var db = {
+
+  saveJob: function( job ) {
+    dataSavedJob = job;
+  }
+
+};
+var jobService = require( '../jobs-service' )( db, app );
+
 describe( 'save jobs', function() {
 
   it( "should validate that title is greater than 4 characters" );
@@ -10,7 +22,6 @@ describe( 'save jobs', function() {
   it( "should validate that description is greater than 4 characters" );
   it( "should validate that description is less than 250 characters" );
 
-  var dataSavedJob;
   var newJob = {
     title : 'Programmer',
     description : 'you will be mindlessly typing for...'
@@ -23,7 +34,8 @@ describe( 'save jobs', function() {
       .send( newJob )
       .end( function( err, res ) {
 
-        expect( dataSaved ).to.deep.equal( new Job );
+        expect( dataSavedJob ).to.deep.equal( newJob );
+        done();
 
       });
 
