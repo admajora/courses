@@ -9,4 +9,22 @@ module.exports = function( db, app ) {
     res.end();
   });
 
+  app.get( '/api/jobs', function( req, res ) {
+
+    jobsData
+      .findJobs()
+      .then( function( collection ) {
+
+        res.send( collection );
+
+      });
+
+  });
+
+  app.get( '*', function( req, res ) {
+      
+    res.render( 'index' );
+      
+  });
+
 };
