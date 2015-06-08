@@ -9,7 +9,8 @@
   "author": "Eric Douglas <eric.douglas.mail@gmail.com> (https://github.com/ericdouglas)",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.12.4"
+    "express": "^4.12.4",
+    "mongoose": "^4.0.5"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
