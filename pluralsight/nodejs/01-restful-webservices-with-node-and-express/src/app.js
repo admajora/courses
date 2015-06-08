@@ -20,7 +20,8 @@ bookRouter.route( '/books' )
     var book = new Book( req.body );
 
     // console.log( book );
-    res.send( book );
+    book.save();
+    res.status( 201 ).send( book );
   
   })
   .get( function( req, res ) {
