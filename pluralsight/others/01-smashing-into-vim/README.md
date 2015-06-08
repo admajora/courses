@@ -45,4 +45,18 @@
 
 - `yy`: yank (copy) a line
 - `p`: paste text below
+- `P`: paste text above
 - `cw` change (one) word. switches to insert mode
+- `3cw`: change 3 words
+- `6l`: six timed rightward
+- `fN`: move forward to the next occurrence of 'N'
+- `FN`: move backward to the next occurrence of 'N'
+- `wi`: move to the next word and switch to insert mode
+- `:w`: save the file
+- `:w !sudo tee %` = `:w !sudo tee example.conf` = `cat example.conf | sudo tee example.conf`
+- `i`: insert text before cursor
+- `a`: insert text after cursor 
+- `u`: undo 
+- `Ctrl-R`: Redo
+- `:q`: quit
+- `:wq!`: write & quit 
