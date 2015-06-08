@@ -12,9 +12,9 @@ var port = process.env.PORT || 3000;
 app.use( bodyParser.urlencoded({ extended : true }));
 app.use( bodyParser.json());
 
-bookRouter = require( './Routes/bookRoutes' )();
+bookRouter = require( './Routes/bookRoutes' )( Book );
 
-app.use( '/api', bookRouter );
+app.use( '/api/books', bookRouter );
 
 app.get( '/', function( req, res ) {
 
