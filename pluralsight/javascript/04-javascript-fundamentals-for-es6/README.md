@@ -655,6 +655,26 @@ Inheritance
 }());
 ```
 
+### 4.3 Arrows and Asynch
+
+```js
+// lexically binds to 'this'
+(function() {
+  
+  'use strict';
+
+  this.name = "Eric";
+
+  setTimeout( () => {
+
+    console.log( this.name );
+    // "Eric"
+
+  });
+
+}());
+```
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
