@@ -10,10 +10,19 @@
     
     var directive = {
       templateUrl : "userInfoCard.html",
-      restrict : "E"
+      restrict : "E",
+      controller : ExampleController
     };
 
     return directive;
 
+  }
+
+  function ExampleController( $scope ) {
+  
+    $scope.knightMe = function( user ) {
+      user.rank = 'knight';
+    }
+  
   }
 }());

@@ -6,9 +6,11 @@
     .module( 'app' )
     .controller( 'UserInfoController', UserInfoController );
 
-  UserInfoController.$inject = [];
+  UserInfoController.$inject = [
+    '$scope'
+  ];
 
-  function UserInfoController() {
+  function UserInfoController( $scope ) {
     
     var vm = this;
 
@@ -26,8 +28,14 @@
         'Chewbacca'
       ]
     };
+    $scope.user = {};
 
     ///////////// Methods
+    vm.knightMe = function( user ) {
+    
+      user.rank = "knight";
+    
+    };
 
     /////////////
   }
