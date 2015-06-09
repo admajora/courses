@@ -532,6 +532,10 @@ Class:
 }());
 ```
 
+Inheritance
+
+> Person > Employee (is a person) > Manager (is an employee) > Executive (is a manager)
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
