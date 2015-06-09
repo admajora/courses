@@ -9,7 +9,7 @@
   function userInfoCard() {
     
     var directive = {
-      template : "Name {{ vm.user.name }}",
+      templateUrl : "userInfoCard.html",
       restrict : "E"
     };
 

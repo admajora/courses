@@ -1,0 +1,18 @@
+Name: {{ vm.user.name }}
+<br>
+<br>
+<div ng-show="!!vm.user.address">
+  Address: <br>
+  <ul>
+    <li ng-bind="vm.user.address.street"></li>
+    <li ng-bind="vm.user.address.city"></li>
+    <li ng-bind="vm.user.address.planet"></li>
+  </ul>
+</div>
+
+<div>
+  Friends:
+
+  <div ng-repeat="friend in vm.user.friends" ng-bind="friend">
+  </div>
+</div>
