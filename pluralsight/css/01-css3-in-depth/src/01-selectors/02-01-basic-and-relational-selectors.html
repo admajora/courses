@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>02. Selectors</title>
+  <style>
+    ol li {
+      text-decoration: underline;
+    }
+
+    ol > li {
+      text-decoration: overline;
+    }
+
+    li.myclass {
+      color: red;
+    }
+
+    li.myclass ~ li {
+      color: blue;
+    }
+
+    li.myclass + li {
+      color: orange;
+    }
+  </style>
+</head>
+<body>
+
+  <ol>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>
+      item 3
+      <ul>
+        <li>item a</li>
+        <li>item b </li>
+        <li>item c</li>
+      </ul>
+    </li>
+    <li class="myclass">item 4</li>
+    <li>item 5</li>
+    <li>item 6</li>
+    <li>item 7</li>
+  </ol>  
+
+  <ul>
+    <li>ul item 1</li>
+    <li>ul item 2</li>
+    <li>ul item 3</li>
+  </ul>
+
+</body>
+</html>
