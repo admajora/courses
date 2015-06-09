@@ -37,9 +37,12 @@ const PI = 3.14159;
 
   let [ , x, y, z ] = doWork();
   
-  console.log( x ); // 3
-  console.log( y ); // 2
-  console.log( z ); // undefined
+  console.log( x ); 
+  // 3
+  console.log( y ); 
+  // 2
+  console.log( z ); 
+  // undefined
   
 })();
 ```
@@ -66,8 +69,10 @@ const PI = 3.14159;
     handles : { twitter }
   } = doWork();
   
-  console.log( firstName ); // "Eric"
-  console.log( twitter ); // "@ericdouglas_"
+  console.log( firstName ); 
+  // "Eric"
+  console.log( twitter ); 
+  // "@ericdouglas_"
   
 })();
 ```
@@ -94,7 +99,8 @@ const PI = 3.14159;
     }
   );
 
-  console.log( result ); //  Object { data="JavaScript Books",  cache=true}
+  console.log( result ); 
+  //  Object { data="JavaScript Books",  cache=true}
   
 })();
 ```
@@ -111,7 +117,8 @@ const PI = 3.14159;
   };
 
   var result = doWork();
-  console.log( result ); // "Eric"
+  console.log( result ); 
+  // "Eric"
 
 })();
 ```
@@ -126,9 +133,12 @@ const PI = 3.14159;
   };
 
   let [ a, b, c ] = doWork( 5, undefined );
-  console.log( a ); // 5
-  console.log( b ); // 2
-  console.log( c ); // 3
+  console.log( a ); 
+  // 5
+  console.log( b ); 
+  // 2
+  console.log( c ); 
+  // 3
 
 })();
 ```
@@ -146,7 +156,8 @@ const PI = 3.14159;
   };
 
   let result = doWork( "api/v1/authors" );
-  console.log( result ); // 
+  console.log( result ); 
+  // 
 
 })();
 ```
@@ -191,7 +202,8 @@ const PI = 3.14159;
   };
 
   var result = doWork( ...[ 1, 2, 3 ]);
-  console.log( result ); // 6
+  console.log( result ); 
+  // 6
 
 })();
 ```
@@ -204,7 +216,8 @@ const PI = 3.14159;
   var a = [ 4, 5, 6 ];
   var b = [ 1, 2, 3, ...a, 7, 8 ];
 
-  console.log( b ); // [1,2,3,4,5,6,7,8]
+  console.log( b ); 
+  // [1,2,3,4,5,6,7,8]
 
 })();
 ```js
@@ -223,7 +236,8 @@ const PI = 3.14159;
   };
 
   let result = doWork( 'Eric' );
-  console.log( result ); // "Hello, Eric"
+  console.log( result ); 
+  // "Hello, Eric"
 
 }());
 ```
@@ -238,7 +252,8 @@ const PI = 3.14159;
 
   let url = `http://apiserver/${ category }/${ id }`;
 
-  console.log( url ); // "http://apiserver/music/2112"
+  console.log( url ); 
+  // "http://apiserver/music/2112"
 
 }());
 ```
@@ -250,8 +265,10 @@ const PI = 3.14159;
 
   let upper = function( strings, ...values ) {
 
-    console.log( strings ); // ["", " + ", " is ", ""]
-    console.log( values ); // [1, 3, 4]
+    console.log( strings ); 
+    // ["", " + ", " is ", ""]
+    console.log( values ); 
+    // [1, 3, 4]
 
     let result = "";
 
@@ -306,7 +323,8 @@ Employee.prototype = {
 };
 
 var e = new Employee();
-console.log( e.doWork()); // "complete!"
+console.log( e.doWork()); 
+// "complete!"
 ```
 
 Class:
@@ -327,7 +345,8 @@ Class:
   }
 
   var e = new Employee();
-  console.log( e.doWork()); // "complete!"
+  console.log( e.doWork()); 
+  // "complete!"
 
 }());
 ```
@@ -357,11 +376,14 @@ Class:
 
   let e = new Employee();
 
-  console.log( e.doWork()); // "complete!"
-  console.log( e.getName()); // "Eric"
+  console.log( e.doWork()); 
+  // "complete!"
+  console.log( e.getName()); 
+  // "Eric"
 
   // class is a syntax sugar for prototype
-  console.log( Employee.prototype.doWork.call( e )); // "complete!"
+  console.log( Employee.prototype.doWork.call( e )); 
+  // "complete!"
 
 }());
 ```
@@ -398,8 +420,60 @@ Class:
   let e1 = new Employee( "Eric" );
   let e2 = new Employee( "Douglas" );
 
-  console.log( e1.getName()); // "Eric"
-  console.log( e2.getName()); // "Douglas"
+  console.log( e1.getName()); 
+  // "Eric"
+  console.log( e2.getName()); 
+  // "Douglas"
+
+}());
+```
+
+### 3.5 get and set
+
+```js
+(function() {
+
+  'use strict';
+
+  class Employee {
+
+    constructor( name ) {
+
+      this._name = name;
+
+    }
+
+    doWork() {
+
+      return 'complete!';
+
+    }
+
+    get name() {
+
+      return this._name.toUpperCase();
+
+    }
+
+    set name( newValue ) {
+
+      this._name = newValue;
+
+    }
+
+  }
+
+  let e1 = new Employee( 'Eric' );
+  let e2 = new Employee( 'Douglas' );
+
+  console.log( e1.name ); 
+  // ERIC
+  console.log( e2.name ); 
+  // DOUGLAS
+
+  e1.name = "Eric Douglas";
+  console.log( e1.name );
+  // "ERIC DOUGLAS"
 
 }());
 ```
