@@ -536,6 +536,71 @@ Inheritance
 
 > Person > Employee (is a person) > Manager (is an employee) > Executive (is a manager)
 
+### 3.7 super
+
+```js
+(function() {
+  
+  'use strict';
+
+  class Person {
+
+    constructor( name ) {
+
+      this._name = name;
+
+    }
+
+    get name() {
+
+      return this._name;
+
+    }
+
+    set name( newValue ) {
+
+      if ( newValue ) {
+        this._name = newValue;
+      }
+
+    }
+
+  }
+
+  class Employee extends Person {
+
+    constructor( title, name ) {
+
+      super( name );
+      this._title = title;
+
+    }
+
+    get title() {
+
+      return this._title;
+
+    }
+
+    doWork() {
+
+      // super();
+      return `${ this._name } is working`;
+
+    }
+
+  }
+
+  let e1 = new Employee( "Software Engineer", "Eric Douglas" );
+
+  console.log( e1.name );
+  // "Eric Douglas"
+  console.log( e1.title);
+  // "Software Engineer"
+
+}());
+```
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
