@@ -478,6 +478,60 @@ Class:
 }());
 ```
 
+### 3.6 Inheritance
+
+```js
+(function() {
+  
+  'use strict';
+
+  class Person {
+
+    constructor( name ) {
+
+      this._name = name;
+
+    }
+
+    get name() {
+
+      return this._name;
+
+    }
+
+    set name( newValue ) {
+
+      if ( newValue ) {
+        this._name = newValue;
+      }
+
+    }
+
+  }
+
+  class Employee extends Person {
+
+    doWork() {
+
+      return `${ this._name } is working`;
+
+    }
+
+  }
+
+  let p1 = new Person( "Eric" );
+  let e1 = new Employee( "Eric Douglas" );
+
+  console.log( p1.name );
+  // "Eric"
+  console.log( e1.name );
+  // "Eric Douglas"
+  console.log( e1.doWork());
+  // "Eric Douglas is working"
+
+}());
+```
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
