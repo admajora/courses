@@ -601,6 +601,60 @@ Inheritance
 }());
 ```
 
+### 3.8 Overrides
+
+## 4. Functional JavaScript
+
+### 4.1 Introduction
+
+### 4.2 Arrows
+
+```js
+(function() {
+  
+  'use strict';
+
+  let add    = ( x, y ) => x + y;
+  let square = x => x * x;
+  let three  = () => 3;
+
+  console.log( square( add( 2, three())));
+  // 25
+
+}());
+```
+
+```js
+(function() {
+  
+  'use strict';
+
+  var numbers = [ 1, 2, 3, 4 ];
+  var sum = 0;
+
+  numbers
+    .forEach( n => sum += n );
+
+  console.log( sum );
+  // 10
+
+}());
+```
+
+```js
+(function() {
+  
+  'use strict';
+
+  var numbers = [ 1, 2, 3, 4 ];
+  
+  var doubled = numbers.map( n => n * 2 );
+  console.log( doubled );
+  // [ 2, 4, 6, 8 ]
+
+}());
+```
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
