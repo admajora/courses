@@ -675,6 +675,45 @@ Inheritance
 }());
 ```
 
+### 4.4 Iterators
+
+```js
+(function() {
+  
+  'use strict';
+
+  var sum     = 0;
+  var numbers = [ 1, 2, 3, 4 ];
+
+  // iterator
+  let iterator = numbers.values();
+  console.log( 'it', iterator );
+  // it {}
+  
+  let next = iterator.next();
+  console.log( 'n1', next );
+  // n1 {"value":1,"done":false}
+
+  while ( !next.done ) {
+
+    sum += next.value;
+    next = iterator.next();
+    
+    console.log( 'nn', next );
+    // n1 {"value":1,"done":false}
+    // nn {"value":2,"done":false}
+    // nn {"value":3,"done":false}
+    // nn {"value":4,"done":false}
+    // nn {"done":true}
+
+  }
+
+  console.log( sum );
+  // 10
+
+}());
+```
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
