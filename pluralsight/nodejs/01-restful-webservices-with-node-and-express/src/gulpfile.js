@@ -1,6 +1,8 @@
 var gulp      = require( 'gulp' );
 var nodemon   = require( 'gulp-nodemon' );
 var gulpMocha = require( 'gulp-mocha' );
+var env       = require( 'gulp-env' );
+var supertest = require( 'supertest' );
 
 gulp.task( 'default', function() {
 
@@ -19,6 +21,8 @@ gulp.task( 'default', function() {
 });
 
 gulp.task( 'test', function() {
+
+  env({ vars : { ENV : 'Test' }});
 
   gulp.src( 'Tests/*.js', { read : false })
     .pipe( gulpMocha({ reporter : 'nyan' }));
