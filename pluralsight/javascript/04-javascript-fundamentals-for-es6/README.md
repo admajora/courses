@@ -714,6 +714,28 @@ Inheritance
 }());
 ```
 
+### 4.5 for of
+
+```js
+(function() {
+  
+  'use strict';
+
+  let sum = 0;
+  let numbers = [ 1, 2, 3, 4 ];
+
+  for ( let n of numbers ) {
+
+    sum += n;
+
+  }
+
+  console.log( sum );
+  // 10
+
+}());
+```
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
