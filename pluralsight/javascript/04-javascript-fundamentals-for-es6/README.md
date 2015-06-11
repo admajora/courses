@@ -736,6 +736,26 @@ Inheritance
 }());
 ```
 
+### 4.6 Build your own iterable
+
+```js
+(function() {
+  
+  'use strict';
+
+  class Company {
+
+    constructor() {
+
+      this.employees = [];
+
+    }
+
+  }
+
+}());
+```
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
@@ -766,3 +786,4 @@ Inheritance
 - Command line
 - Third party tool
 - Webstorm
+
