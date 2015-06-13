@@ -118,7 +118,7 @@
 | 01 | [Real-Time Web with Node.js](http://www.pluralsight.com/courses/real-time-web-nodejs) ✍ | [⎙]()https://github.com/ericdouglas/courses/tree/master/pluralsight/nodejs/02-real-time-web-with-nodejs | `Intermediate` |
 | 02 | [Node Application Patterns](http://www.pluralsight.com/courses/node-application-patterns) | [⎙]() | `Intermediate` |
 | 03 | [Node.js Testing Strategies](http://www.pluralsight.com/courses/nodejs-testing-strategies) | [⎙]() | `Intermediate` |
-| 04 | [RESTful Web Services with Node.js and Express](http://www.pluralsight.com/courses/node-js-express-rest-web-services) ✔ | [⎙]()https://github.com/ericdouglas/courses/tree/master/pluralsight/nodejs/01-restful-webservices-with-node-and-express | `Intermediate` |
+| 04 | [RESTful Web Services with Node.js and Express](http://www.pluralsight.com/courses/node-js-express-rest-web-services) ✔ | [⎙](https://github.com/ericdouglas/courses/tree/master/pluralsight/nodejs/01-restful-webservices-with-node-and-express) | `Intermediate` |
 | 05 | [Building Web Apps With Node.js](http://www.pluralsight.com/courses/building-web-apps-nodejs) | [⎙]() | `Intermediate` |
 | 06 | [Two Tier Enterprise App and API Development with Angular & Sails](http://www.pluralsight.com/courses/two-tier-enterprise-app-api-development-angular-sails) | [⎙]() | `Intermediate` |
 
