@@ -60,3 +60,22 @@
 - `Ctrl-R`: Redo
 - `:q`: quit
 - `:wq!`: write & quit 
+
+### 1.5 Editing Files
+
+- `/word`: find *word* in the file
+- `r3`: replace the character by 3
+- `n`: go to the next match
+- `N` : go to the backwards match
+- `set hlsearch`: highlight the search results
+- `set incsearch`: highlight search when typing
+- `:%s/search/replace/gc`: search for all occurrences and ask for confirmation on each match
+- `set number`: navigate by number
+- `gg`: go to the top of line
+- `G`: go to the end of file
+- `13g`: go to line 13
+- `:b name`: switch to buffer
+- `c`: delete text and go to the insert mode
+- `p`: paste after cursor
+- `P`: paste before cursor
+- `.`: repeat the last command
