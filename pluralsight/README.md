@@ -108,6 +108,7 @@
 | Number | Course | Annotations | Difficulty |
 | :---: | :--- | :---: | :---: |
 | 01 | [React Fundamentals](http://www.pluralsight.com/courses/react-fundamentals) | [⎙]() | `Intermediate` |
+| 02 | [React.js: Getting Started](http://www.pluralsight.com/courses/react-js-getting-started) | [⎙]() | `Beginner` |
 
 ## BackEnd Development
 
@@ -120,7 +121,9 @@
 | 03 | [Node.js Testing Strategies](http://www.pluralsight.com/courses/nodejs-testing-strategies) | [⎙]() | `Intermediate` |
 | 04 | [RESTful Web Services with Node.js and Express](http://www.pluralsight.com/courses/node-js-express-rest-web-services) ✔ | [⎙](https://github.com/ericdouglas/courses/tree/master/pluralsight/nodejs/01-restful-webservices-with-node-and-express) | `Intermediate` |
 | 05 | [Building Web Apps With Node.js](http://www.pluralsight.com/courses/building-web-apps-nodejs) | [⎙]() | `Intermediate` |
-| 06 | [Two Tier Enterprise App and API Development with Angular & Sails](http://www.pluralsight.com/courses/two-tier-enterprise-app-api-development-angular-sails) | [⎙]() | `Intermediate` |
+| 06 | [Building Web Applications with hapi](http://www.pluralsight.com/courses/hapi-building-web-applications) | [⎙]() | `Intermediate` |
+| 07 | [Unit Testing with Node.js](http://www.pluralsight.com/courses/unit-testing-nodejs) | [⎙]() | `Intermediate` |
+| 08 | [Two Tier Enterprise App and API Development with Angular & Sails](http://www.pluralsight.com/courses/two-tier-enterprise-app-api-development-angular-sails) | [⎙]() | `Intermediate` |
 
 ## Software Engineering
 
@@ -192,6 +195,7 @@
 | 15 | [Linux Kernel and System Startup (LPIC-2)](http://www.pluralsight.com/courses/linux-kernel-system-startup) | [⎙]() | `Intermediate` |
 | 16 | [Linux Administration with sed and awk](http://www.pluralsight.com/courses/linux-administration-sed-awk) | [⎙]() | `Intermediate` |
 | 17 | [Mastering Your Own Domain](http://www.pluralsight.com/courses/master-domain) | [⎙]() | `Intermediate` |
+| 18 | [Linux Systems Programming](http://www.pluralsight.com/courses/linux-systems-programming) | [⎙]() | `Intermediate` |
 
 ## Security
 
