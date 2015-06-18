@@ -109,6 +109,7 @@
 | :---: | :--- | :---: | :---: |
 | 01 | [React Fundamentals](http://www.pluralsight.com/courses/react-fundamentals) | [⎙]() | `Intermediate` |
 | 02 | [React.js: Getting Started](http://www.pluralsight.com/courses/react-js-getting-started) | [⎙]() | `Beginner` |
+| 03 | [Build iOS Apps with React Native](http://www.pluralsight.com/courses/build-ios-apps-react-native) | [⎙]() | `Intermediate` |
 
 ## BackEnd Development
 
@@ -134,6 +135,13 @@
 | 03 | [Software Engineering Essentials](http://www.pluralsight.com/courses/software-engineering-essentials) | [⎙]() | `Intermediate` |
 | 04 | [Software Process Management](http://www.pluralsight.com/courses/software-process-management) | [⎙]() | `Intermediate` |
 | 05 | [Domain-Driven Design Fundamentals](http://www.pluralsight.com/courses/domain-driven-design-fundamentals) | [⎙]() | `Intermediate` |
+| 06 | [Agile Fundamentals](http://www.pluralsight.com/courses/agile-fundamentals) | [⎙]() | `Intermediate` |
+| 07 | [Encapsulation and SOLID](http://www.pluralsight.com/courses/encapsulation-solid) | [⎙]() | `Intermediate` |
+| 08 | [SOLID Principles of Object Oriented Design](http://www.pluralsight.com/courses/principles-oo-design) | [⎙]() | `Intermediate` |
+| 09 | [Coding Dojo: Test Driven Development](http://www.pluralsight.com/courses/the-coding-dojo) | [⎙]() | `Intermediate` |
+| 10 | [Developing Extensible Software](http://www.pluralsight.com/courses/developing-extensible-software) | [⎙]() | `Intermediate` |
+| 11 | [Introduction to UML](http://www.pluralsight.com/courses/uml-introduction) | [⎙]() | `Intermediate` |
+| 12 | [Provable Code](http://www.pluralsight.com/courses/provable-code) | [⎙]() | `Intermediate` |
 
 ## QA
 
@@ -144,6 +152,7 @@
 | 03 | [Automated Web Testing with Selenium](http://www.pluralsight.com/courses/selenium) | [⎙]() | `Intermediate` |
 | 04 | [Automated Testing: End to End](http://www.pluralsight.com/courses/automated-testing-end-to-end) | [⎙]() | `Intermediate` |
 | 05 | [Code Testability](http://www.pluralsight.com/courses/code-testability) | [⎙]() | `Intermediate` |
+| 06 | [Creating an Automated Testing Framework With Selenium](http://www.pluralsight.com/courses/automated-testing-framework-selenium) | [⎙]() | `Intermediate` |
 
 ## DataBase Administration
 
@@ -227,3 +236,5 @@
 | 17 | [Preparing For a Job Interview](http://www.pluralsight.com/courses/developer-job-interviews) | [⎙]() | `Beginner` |
 | 18 | [Developer to Architect](http://www.pluralsight.com/courses/developer-to-architect) | [⎙]() | `Intermediate` |
 | 19 | [Smash into Vim](http://www.pluralsight.com/courses/smash-into-vim) | [⎙]() | `Beginner` |
+| 20 | [Introduction to Presentation Design](http://www.pluralsight.com/courses/presentation-design-introduction) | [⎙]() | `Beginner` |
+| 20 | []() | [⎙]() | `Intermediate` |
