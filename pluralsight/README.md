@@ -125,6 +125,7 @@
 | 06 | [Building Web Applications with hapi](http://www.pluralsight.com/courses/hapi-building-web-applications) | [⎙]() | `Intermediate` |
 | 07 | [Unit Testing with Node.js](http://www.pluralsight.com/courses/unit-testing-nodejs) | [⎙]() | `Intermediate` |
 | 08 | [Two Tier Enterprise App and API Development with Angular & Sails](http://www.pluralsight.com/courses/two-tier-enterprise-app-api-development-angular-sails) | [⎙]() | `Intermediate` |
+| 09 | [Introduction to Koa Javascript](http://www.pluralsight.com/courses/javascript-koa-introduction) | [⎙]() | `Intermediate` |
 
 ## Software Engineering
 
