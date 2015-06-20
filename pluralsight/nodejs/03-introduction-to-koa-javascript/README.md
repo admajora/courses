@@ -97,3 +97,42 @@ app.use( function *() {
 });
 ```
 
+**Using the next parameter to .use()** - see code example
+
+### 2.3 The request object
+
+**Requesting the request**
+
+```js
+app.use( function *() {
+
+  var r = this.request;
+
+});
+```
+
+**Properties of the request object**
+
+- `request.header`
+- `request.method`
+- `request.ulr`
+- `request.path`
+
+**Functions of the request object**
+
+
+- `this.request.is( 'json' )`
+- `this.request.is( 'html' )`
+
+```js
+switch ( this.request.accepts( 'json', 'html', 'text' )) {
+
+  case 'json' : break;
+  case 'html' : break;
+  case 'text' : break;
+  default : this.throw( 406, 'json, html or text only' );
+
+}
+```
+
+
