@@ -51,3 +51,49 @@
 **E**xpect a
 **L**ittle
 **D**elay here
+
+## 3. Koa Concepts - the Moving Parts
+
+### 3.1. Introduction
+
+- application
+- this = context = request + response
+
+### 3.2 The Application Object
+
+- for testing purposes, always expose the app for other modules
+
+```js
+var koa = require( 'koa' );
+var app = koa(); // application object
+module.exports = koa;
+```
+
+or
+
+```js
+var koa = require( 'koa' );
+var app = module.exports = koa();
+```
+
+or
+
+
+```js
+var app = module.exports = require( 'koa' )();
+```
+
+- the `.listen()` function
+- the `.use()` function
+
+**The use of `.use()`**
+
+```js
+var app = require( 'koa' )();
+app.use( function *() {
+
+  console.dir( this.request );
+
+});
+```
+
