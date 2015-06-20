@@ -810,6 +810,76 @@ Inheritance
 }());
 ```
 
+### 4.7 Generators
+
+```js
+(function() {
+
+  'use strict';
+
+  // can build an iterable
+  let numbers = function *( start, end ) {
+  
+    for ( let i = start; i <= end; i += 1 ) {
+    
+      console.log( i );
+      yield i ;
+    
+    }
+  
+  };
+
+  let sum = 0;
+  let iterator = numbers( 1, 4 );
+  console.log( 'next' );
+  let next = iterator.next();
+
+  while ( !next.done ) {
+  
+    sum += next.value;
+    next = iterator.next();
+  
+  }
+
+  console.log( sum );
+  // 10
+
+}());
+```
+
+```js
+(function() {
+
+  'use strict';
+
+  // can build an iterable
+  let numbers = function *( start, end ) {
+  
+    for ( let i = start; i <= end; i += 1 ) {
+    
+      console.log( i );
+      yield i;
+    
+    }
+  
+  };
+
+  let sum = 0;
+  console.log( 'next' );
+
+  for ( let n of numbers( 1, 5 )) {
+  
+    sum += n;
+    console.log( 'next' );
+  
+  }
+
+  console.log( sum );
+  // 15
+
+}());
+```
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
