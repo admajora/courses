@@ -880,6 +880,97 @@ Inheritance
 }());
 ```
 
+### 2.8 Putting it together
+
+```js
+(function() {
+
+  'use strict';
+
+  class Company {
+
+    constructor() {
+      this.employees = [];
+    }
+
+    addEmployees( ...names ) {
+      this.employees = this.employees.concat( names );
+    }
+
+    *[ Symbol.iterator ]() {
+      for ( let e of this.employees ) {
+        console.log( e );
+        yield e;
+      }
+    }
+  
+  }
+
+  let count = 0;
+  let company = new Company();
+
+  company.addEmployees( 'Eric', 'Douglas', 'John', 'Tobi' );
+
+  for ( let employee of company ) {
+    count += 1;
+  }
+
+  console.log( count );
+  // 4
+
+}());
+```
+
+**Lazy Evaluation**
+
+```js
+(function() {
+
+  'use strict';
+
+  class Company {
+
+    constructor() {
+      this.employees = [];
+    }
+
+    addEmployees( ...names ) {
+      this.employees = this.employees.concat( names );
+    }
+
+    *[ Symbol.iterator ]() {
+      for ( let e of this.employees ) {
+        console.log( e );
+        yield e;
+      }
+    }
+  
+  }
+
+  let filter = function *( items, predicate ) {
+    for ( let item of items ) {
+      console.log( 'filter', item );
+      if ( predicate( item )) {
+        yield item;
+      }
+    }
+  };
+
+  let count = 0;
+  let company = new Company();
+
+  company.addEmployees( 'Eric', 'Douglas', 'John', 'Tobi' );
+
+  for ( let employee of filter( company, e => e[ 0 ] === 'T' )) {
+    count += 1;
+  }
+
+  console.log( count );
+  // 1
+
+}());
+```
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
