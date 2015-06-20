@@ -18,7 +18,19 @@ app
 function *saveUser() {
 
   // parse the user from the sent request
-  var userFromRequest = yield parse( this );
+  try {
+  
+    var userFromRequest = yield parse( this );
+  
+  }
+  catch ( e ) {
+    
+    this.body = 'An error occurred: ' + e;
+    this.status = 401;
+    return;
+
+  }
+  finally {}
 
   // store it in database
   var user = yield users.insert( userFromRequest );
