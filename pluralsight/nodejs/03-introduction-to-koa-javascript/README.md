@@ -165,3 +165,9 @@ this.response.set({
 
 this.response.redirect( 'http://ericdouglas.github.io' );
 ```
+
+### 2.5 The context object
+
+- we can remove the `request` and `response`, and use just `this.{property}` or `this.{method}`
+
+See code example

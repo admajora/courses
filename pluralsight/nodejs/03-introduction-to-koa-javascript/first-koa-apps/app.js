@@ -2,7 +2,7 @@ var koa = require( 'koa' );
 var app = koa();
 
 app
-  .use( function * () {
+  .use( function *() {
     this.body = '<h1>Hello, Koa!</h1>';
   });
 
