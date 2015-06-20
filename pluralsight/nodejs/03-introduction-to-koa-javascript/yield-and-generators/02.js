@@ -14,7 +14,3 @@ console.log( f.next());
 console.log( f.next());
 console.log( f.next());
 console.log( f.next());
-console.log( f.next());
-console.log( f.next());
-console.log( f.next());
-console.log( f.next());

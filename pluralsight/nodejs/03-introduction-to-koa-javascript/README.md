@@ -31,4 +31,6 @@
 
 ### 2.2 What can I use this for?
 
+### 2.3 How Koa Uses Generators
+
 
