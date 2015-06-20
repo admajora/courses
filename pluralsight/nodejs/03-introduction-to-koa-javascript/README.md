@@ -21,3 +21,14 @@
 
 - node --harmony app.js
 
+## 2. Understanding yield and generators
+
+### 2.1 Introduction
+
+- ES6
+- `yield`
+- generators = `function *someFunc() {}`
+
+### 2.2 What can I use this for?
+
+
