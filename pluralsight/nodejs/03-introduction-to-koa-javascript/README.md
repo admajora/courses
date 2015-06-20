@@ -33,3 +33,21 @@
 
 ### 2.3 How Koa Uses Generators
 
+### 2.4 What about errors?
+
+- top level error handling (return 500)
+- use `try {} catch (e) {} finally {}`
+
+### 2.5 Errors you will run into
+
+- forgetting the asterisk
+- forgetting to use yield
+- forgetting --harmony
+
+### 2.6 Wrapping up
+
+**Y**o, Node
+**I**
+**E**xpect a
+**L**ittle
+**D**elay here
