@@ -135,4 +135,33 @@ switch ( this.request.accepts( 'json', 'html', 'text' )) {
 }
 ```
 
+### 2.4 The Response Object
 
+**Requesting the response**
+
+```js
+app.use( function *() {
+
+  var r = this.response;
+
+});
+```
+
+**Properties the response**
+
+- `this.response.body = { name : "Eric" }`
+- `this.response.status = 404`
+- `this.response.type = "application/json"`
+
+**Functions the response**
+
+```js
+this.response.set( 'Location', '/user/123' );
+
+this.response.set({
+  'Etag' : '1234',
+  'Last-Modified' : new Date
+});
+
+this.response.redirect( 'http://ericdouglas.github.io' );
+```
