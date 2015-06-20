@@ -968,6 +968,79 @@ Inheritance
   console.log( count );
   // 1
 
+  // final log
+  // "Tobias"
+  // "filter Tobias"
+  // 1
+
+}());
+```
+
+**take and filter**
+
+```js
+(function() {
+
+  'use strict';
+
+  class Company {
+
+    constructor() {
+      this.employees = [];
+    }
+
+    addEmployees( ...names ) {
+      this.employees = this.employees.concat( names );
+    }
+
+    *[ Symbol.iterator ]() {
+      for ( let e of this.employees ) {
+        console.log( e );
+        yield e;
+      }
+    }
+  
+  }
+
+  let filter = function *( items, predicate ) {
+    for ( let item of items ) {
+      console.log( 'filter', item );
+      if ( predicate( item )) {
+        yield item;
+      }
+    }
+  };
+
+  let take = function *( items, number ) {
+    let count = 0;
+
+    if ( number < 1 ) {
+      return;
+    }
+
+    for ( let item of items ) {
+      console.log( 'take', item );
+      yield item;
+      count += 1;
+
+      if ( count >= number ) {
+        return;
+      }
+    }
+  };
+
+  let count = 0;
+  let company = new Company();
+
+  company.addEmployees( 'Tobias', 'Eric', 'Douglas', 'John', 'Tobi' );
+
+  for ( let employee of take( filter( company, e => e[ 0 ] === 'T' ), 1 )) {
+    count += 1;
+  }
+
+  console.log( count );
+  // 1
+
 }());
 ```
 
