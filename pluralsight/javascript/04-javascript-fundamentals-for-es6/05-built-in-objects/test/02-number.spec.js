@@ -13,4 +13,19 @@ describe( 'Numbers', function() {
     expect( octal ).to.equal( 57 );
   });
 
+  it( 'should support binary literals', function() {
+    var bin = 0b1101;
+    expect( bin ).to.equal( 13 );
+  });
+
+  it.skip( 'should parse octal values with Number function', function() {
+    var octNum = Number( '0o71' );
+    expect( octNum ).to.equal( 57 );
+  });
+
+  it.skip( 'should parse binary values with Number function', function() {
+    var binNum = Number( '0b101' );
+    expect( binNum ).to.equal( 5 );
+  });
+
 });
