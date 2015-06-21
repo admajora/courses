@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node --harmony app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha --harmony-generators -u bdd -R spec"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "koa": "^0.21.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
   }
 }

@@ -7,3 +7,5 @@ app
   .listen( port );
 
 console.log( 'Running at', port );
+
+  module.exports = app;

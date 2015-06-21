@@ -185,3 +185,6 @@ See code example
 - simple server
 - `npm start : node --harmony app.js`
 
+### 4.2 The first method - create new users
+
+
