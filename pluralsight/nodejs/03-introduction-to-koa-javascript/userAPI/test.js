@@ -9,6 +9,6 @@ describe( 'Simple User HTTP CRUD API', function() {
       .post( '/user' )
       .send( a_user )
       .expect( 'location', /^\/user\/[0-9a-fA-F]{24}$/ )
-      .expect( 200, done );
+      .expect( 201, done );
   });
 });
