@@ -191,4 +191,6 @@ See code example
 
 ### 4.4 The Getting of one user
 
+### 4.5 The updating of one user... and deleting
+
 
