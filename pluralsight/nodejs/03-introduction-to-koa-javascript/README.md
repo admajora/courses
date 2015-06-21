@@ -99,7 +99,7 @@ app.use( function *() {
 
 **Using the next parameter to .use()** - see code example
 
-### 2.3 The request object
+### 3.3 The request object
 
 **Requesting the request**
 
@@ -135,7 +135,7 @@ switch ( this.request.accepts( 'json', 'html', 'text' )) {
 }
 ```
 
-### 2.4 The Response Object
+### 3.4 The Response Object
 
 **Requesting the response**
 
@@ -166,8 +166,22 @@ this.response.set({
 this.response.redirect( 'http://ericdouglas.github.io' );
 ```
 
-### 2.5 The context object
+### 3.5 The context object
 
 - we can remove the `request` and `response`, and use just `this.{property}` or `this.{method}`
 
 See code example
+
+## 4. Building an HTTP with Koa
+
+### 4.1 Introduction
+
+**Initial setup**
+
+- create a folder
+- npm init
+- two files: `app.js` and `test.js`
+- install koa --save
+- simple server
+- `npm start : node --harmony app.js`
+
