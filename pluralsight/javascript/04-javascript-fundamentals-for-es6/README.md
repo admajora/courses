@@ -1258,6 +1258,12 @@ Company Refactor...
 })();
 ```
 
+## 5. Built-in objects
+
+### 5.1 Introduction
+
+
+
 ## 9. Using ES6 Today
 
 ### 9.1 Introduction
