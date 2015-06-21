@@ -1,16 +1,13 @@
 var koa    = require( 'koa' );
 var route  = require( 'koa-route' );
-var render = require( './lib/render.js' );
 
 var app  = module.exports = koa();
 var port = process.env.PORT || 3000;
 
+// routes
+var homeRoutes = require( './routes/homeRoutes.js' );
 app
-  .use( route.get( '/', showHome ));
-
-function *showHome( id ) {
-  this.body = yield render( 'home' );
-}
+  .use( route.get( '/', homeRoutes.showHome ));
 
 app
   .listen( port );
