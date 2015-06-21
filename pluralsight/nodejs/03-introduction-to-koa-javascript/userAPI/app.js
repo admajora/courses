@@ -14,6 +14,8 @@ var users = wrap( db.get( 'users' ));
 // routes
 app
   .use( routes.post( '/user', addUser ));
+app
+  .use( routes.get( '/user/:id', getUser ));
 
 app
   .listen( port );
@@ -32,4 +34,11 @@ function *addUser() {
 
   this.set( 'location', '/user/' + insertedUser._id );
   this.status = 201; // CREATED
+}
+
+function *getUser( id ) {
+  var user = yield users.findById( id );
+
+  this.body = user;
+  this.status = 200;
 }
