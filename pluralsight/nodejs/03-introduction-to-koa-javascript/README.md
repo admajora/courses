@@ -187,4 +187,6 @@ See code example
 
 ### 4.2 The first method - create new users
 
+### 4.3 The validation
+
 

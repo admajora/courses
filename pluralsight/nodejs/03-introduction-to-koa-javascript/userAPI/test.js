@@ -11,4 +11,14 @@ describe( 'Simple User HTTP CRUD API', function() {
       .expect( 'location', /^\/user\/[0-9a-fA-F]{24}$/ )
       .expect( 201, done );
   });
+
+  it( 'fails with validation error for users without name', function( done ) {
+    delete a_user.name;
+
+    request
+      .post( '/user' )
+      .send( a_user )
+      .expect( 'name required' )
+      .expect( 400, done );
+  });
 });

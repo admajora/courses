@@ -23,6 +23,11 @@ console.log( 'Running at', port );
 // Functions
 function *addUser() {
   var userFromRequest = yield parse( this );
+
+  if ( !userFromRequest.name ) {
+    this.throw( 400, 'name required' );
+  }
+
   var insertedUser    = yield users.insert( userFromRequest );
 
   this.set( 'location', '/user/' + insertedUser._id );
