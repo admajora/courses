@@ -193,4 +193,41 @@ See code example
 
 ### 4.5 The updating of one user... and deleting
 
+## 5. Building a complete website with Koa
+
+### 5.1 Introduction
+
+**Routes - Questions**
+
+Method | Route | Description
+:--:|:--:|:--:
+GET | / | home
+GET | /question | new question form
+POST | /question | store new question
+GET | /question/:id | display edit form
+POST | /question/:id | update question
+
+**Routes - Votes**
+
+Method | Route | Description
+:--:|:--:|:--:
+GET | /vote?qid=:id | show voting form
+POST | /vote | store new form
+GET | /vote/:id/comment | show add comment
+POST | /vote/:id/comment | add comment
+
+**Routes - Result**
+
+Method | Route | Description
+:--:|:--:|:--:
+GET | /results | show result filter form
+POST | /result | renders report in excel
+
+**Initial setup**
+
+- mkdir koaVote
+- npm init
+
+### 5.2 Show Home Page
+
 
