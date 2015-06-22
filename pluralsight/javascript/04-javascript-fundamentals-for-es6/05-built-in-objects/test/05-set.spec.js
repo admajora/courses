@@ -33,4 +33,13 @@ describe( 'Sets', function() {
     expect( set.size ).to.equal( 1 );
   });
 
+  it( 'should have no items after clear is called', function() {
+    var set = new Set();
+    set.add( 1 );
+    set.add( 2 );
+    set.add( 3 );
+    set.clear();
+    expect( set.size ).to.equal( 0 );
+  });
+
 });
