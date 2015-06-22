@@ -20,4 +20,9 @@ describe( 'Sets', function() {
     expect( set.has( key )).to.be.true;
   });
 
+  it( 'should contain items when given an array in the constructor', function() {
+    var set = new Set([ 1, 2, 3 ]);
+    expect( set.has( 1 )).to.be.true;
+  });
+
 });
