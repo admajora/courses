@@ -27,7 +27,7 @@ describe( 'Arrays', function() {
     expect( a[ 3 ]).to.equal( 4 ); 
   });
   
-  it( 'should copy elements with copyWithin', function() {
+  it.skip( 'should copy elements with copyWithin', function() {
     var a = [ 1, 2, 3, 4 ];
     a.copyWithin( 0, -2 ); // [3,4,3,4]
 
