@@ -42,4 +42,12 @@ describe( 'Sets', function() {
     expect( set.size ).to.equal( 0 );
   });
 
+  it( 'should remove an item when delete is called', function() {
+    var set = new Set();
+    set.add( 1 );
+    set.add( 2 );
+    set.delete( 1 );
+    expect( set.size ).to.equal( 1 );
+  });
+
 });
