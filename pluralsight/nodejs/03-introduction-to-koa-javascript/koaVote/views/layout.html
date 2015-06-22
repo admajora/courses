@@ -1,8 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>{% block title %}Title not set{% endblock %}</title>
+    <title>{% block title %}Koa vote{% endblock %}</title>
+    <link rel="stylesheet" href="/bootstrap.min.css">
   </head>
   <body>
-    {% block content %}Content not set{% endblock %}
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted">
+          Koa vote - a simple voting site
+        </h3>
+        <div class="jumbotron">
+          {% block content %}Content not set{% endblock %}
+        </div>
+      </div>
+    </div>
   </body>
 </html>
