@@ -70,4 +70,14 @@ describe( 'Sets', function() {
     expect( firstEntry[ 1 ]).to.equal( '1' );
   });
 
+  it( 'should return an iterator of values when values is called', function() {
+    var set = new Set();
+    set.add( '1' );
+
+    var values = set.values();
+    var firstValue = values.next().value;
+
+    expect( firstValue ).to.equal( '1' );
+  });
+
 });
