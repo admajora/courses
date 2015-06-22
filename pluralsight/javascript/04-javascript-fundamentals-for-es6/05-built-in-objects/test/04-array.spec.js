@@ -51,4 +51,13 @@ describe( 'Arrays', function() {
     expect( fromArray.forEach ).to.be.ok;
   });
 
+  it( 'should return entries from the entries function', function() {
+    var a = [ 'Joe', 'Jim', 'John' ];
+    var entries = a.entries();
+    var firstEntry = entries.next().value;
+    
+    expect( firstEntry[ 0 ]).to.equal( 0 );
+    expect( firstEntry[ 1 ]).to.equal( 'Joe' );
+  });
+
 });
