@@ -68,24 +68,24 @@ describe( 'Arrays', function() {
     expect( firstKey ).to.equal( 0 );
   });
 
-  describe( 'Array Comprehensions', function() {
-  
-    it( 'should create arrays easily, easier than .map()', function() {
-      var a = [ for ( i of [ 1, 2, 3 ]) i ]; // [1,2,3]
-      expect( a[ 2 ]).to.equal( 3 );
-
-      var a2 = [ for ( i of [ 1, 2, 3 ]) i * i ]; // [1,4,9]
-      expect( a2[ 2 ]).to.equal( 9 );
-
-      var a3 = [ for ( i of [ 1, 2, 3 ]) if ( i < 3 ) i ]; // [1,2]
-      expect( a3.length ).to.equal( 2 );
-
-      var a4 = [ for ( first of [ 'William', 'John', 'Blake' ])
-        for ( middle of [ 'Robert', 'Andrew', 'John' ])
-        if ( first !== middle ) ( first + ' ' + middle + ' Smith' )]
-      expect( a4[ 0 ]).to.equal( 'William Robert Smith' );
-    });
-  
-  });
+  //describe( 'Array Comprehensions', function() {
+  //
+  //  it.skip( 'should create arrays easily, easier than .map()', function() {
+  //    var a = [ for ( i of [ 1, 2, 3 ]) i ]; // [1,2,3]
+  //    expect( a[ 2 ]).to.equal( 3 );
+  //
+  //    var a2 = [ for ( i of [ 1, 2, 3 ]) i * i ]; // [1,4,9]
+  //   expect( a2[ 2 ]).to.equal( 9 );
+  //
+  //    var a3 = [ for ( i of [ 1, 2, 3 ]) if ( i < 3 ) i ]; // [1,2]
+  //    expect( a3.length ).to.equal( 2 );
+  //
+  //    var a4 = [ for ( first of [ 'William', 'John', 'Blake' ])
+  //      for ( middle of [ 'Robert', 'Andrew', 'John' ])
+  //      if ( first !== middle ) ( first + ' ' + middle + ' Smith' )]
+  //    expect( a4[ 0 ]).to.equal( 'William Robert Smith' );
+  //  });
+  //
+  //});
 
 });
