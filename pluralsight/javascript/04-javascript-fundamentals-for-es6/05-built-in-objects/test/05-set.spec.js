@@ -25,4 +25,12 @@ describe( 'Sets', function() {
     expect( set.has( 1 )).to.be.true;
   });
 
+  it( 'should not allow duplicate values', function() {
+    var set = new Set();
+    var key = {};
+    set.add( key );
+    set.add( key );
+    expect( set.size ).to.equal( 1 );
+  });
+
 });
