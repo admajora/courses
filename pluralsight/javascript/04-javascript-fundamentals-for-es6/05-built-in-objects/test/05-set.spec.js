@@ -50,4 +50,13 @@ describe( 'Sets', function() {
     expect( set.size ).to.equal( 1 );
   });
 
+  it( 'should support for of iteration', function() {
+    var set = new Set([ 1, 2, 3 ]);
+    var iterationCount = 0;
+    for ( var item of set ) {
+      iterationCount += 1;
+    }
+    expect( iterationCount ).to.equal( 3 );
+  });
+
 });
