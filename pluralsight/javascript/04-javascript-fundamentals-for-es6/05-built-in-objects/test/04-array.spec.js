@@ -43,4 +43,12 @@ describe( 'Arrays', function() {
     expect( ofA.length ).to.equal( 1 );
   });
 
+  it( 'should create a new array from an array-like object when from is called', function() {
+    var arrayLike = arguments;
+    expect( arrayLike.forEach ).to.equal( undefined );
+
+    var fromArray = Array.from( arrayLike );
+    expect( fromArray.forEach ).to.be.ok;
+  });
+
 });
