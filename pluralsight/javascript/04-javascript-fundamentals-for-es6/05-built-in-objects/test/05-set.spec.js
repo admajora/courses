@@ -80,4 +80,15 @@ describe( 'Sets', function() {
     expect( firstValue ).to.equal( '1' );
   });
 
+  it( 'should be able to be constructed with an iterator', function() {
+    var set = new Set();
+    set.add( '1' );
+    set.add( '2' );
+    set.add( '3' );
+
+    var set2 = new Set( set.values());
+
+    expect( set2.size ).to.equal( 3 );
+  });
+
 });
