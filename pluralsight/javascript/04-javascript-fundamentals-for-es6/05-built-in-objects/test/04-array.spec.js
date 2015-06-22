@@ -60,4 +60,12 @@ describe( 'Arrays', function() {
     expect( firstEntry[ 1 ]).to.equal( 'Joe' );
   });
 
+  it( 'should enumerate keys with the keys function', function() {
+    var a = [ 'Joe', 'Jim', 'John' ];
+    var keys = a.keys();
+    var firstKey = keys.next().value;
+
+    expect( firstKey ).to.equal( 0 );
+  });
+
 });
