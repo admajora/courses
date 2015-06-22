@@ -35,4 +35,12 @@ describe( 'Arrays', function() {
     expect( a[ 1 ]).to.equal( 4 );
   });
 
+  it( 'should create a new array with 1 arg when given 1 arg when of is called', function() {
+    var a   = new Array( 3 );
+    var ofA = Array.of( 3 );
+
+    expect( a.length ).to.equal( 3 );
+    expect( ofA.length ).to.equal( 1 );
+  });
+
 });
