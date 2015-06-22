@@ -59,4 +59,15 @@ describe( 'Sets', function() {
     expect( iterationCount ).to.equal( 3 );
   });
 
+  it( 'should return an iterator of arrays when entries is called', function() {
+    var set = new Set();
+    set.add( '1' );
+
+    var entries = set.entries();
+    var firstEntry = entries.next().value;
+
+    expect( firstEntry[ 0 ]).to.equal( '1' );
+    expect( firstEntry[ 1 ]).to.equal( '1' );
+  });
+
 });
