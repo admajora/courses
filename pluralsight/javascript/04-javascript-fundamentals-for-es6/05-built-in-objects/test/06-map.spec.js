@@ -117,4 +117,14 @@ describe( 'Maps', function() {
     expect( firstKey ).to.equal( 1 );
   });
 
+  it( 'should be able to be constructed with an iterator', function() {
+    var map = new Map();
+    map.set( '1' );
+    map.set( '2' );
+    map.set( '3' );
+    var map2 = new Map( map.entries());
+
+    expect( map2.size ).to.equal( 3 );
+  });
+
 });
