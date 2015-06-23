@@ -11,5 +11,14 @@ describe( 'WeakSets', function() {
     expect( set.forEach ).to.be.undefined;
 
   });
+
+  it( 'should be able to find items with has', function() {
+    var set = new WeakSet();
+    var item = { name : 'Joe' };
+
+    set.add( item );
+
+    expect( set.has( item )).to.equal( true );
+  });
   
 });
