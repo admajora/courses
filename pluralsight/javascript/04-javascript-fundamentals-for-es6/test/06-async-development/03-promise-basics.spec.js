@@ -25,4 +25,18 @@ describe( 'Promises', function() {
       });
   });
 
+  it( 'should fail when rejected', function() {
+    var promise = new Promise( function( resolve, rejected ) {
+      reject( Error( 'oh noes!' ));
+    });
+
+    promise
+      .then( function() {
+        // success
+      }, function( error ) {
+        expect( error.message ).to.equal( 'oh noes!' );
+        done();
+      });
+  });
+
 });
