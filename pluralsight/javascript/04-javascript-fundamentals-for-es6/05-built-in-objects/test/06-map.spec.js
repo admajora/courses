@@ -26,4 +26,9 @@ describe( 'Maps', function() {
     expect( map.size ).to.equal( 3 );
   });
 
+  it( 'should find the correct item when has is called', function(){
+    var map = new Map([[ 'name', 'John'], [ 'age', '15' ], [ 'weight', '155' ]]);
+    expect( map.has( 'age' )).to.be.true;
+  });
+
 });
