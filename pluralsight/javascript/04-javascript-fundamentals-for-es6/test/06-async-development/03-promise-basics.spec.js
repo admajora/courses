@@ -67,4 +67,16 @@ describe( 'Promises', function() {
       });
   });
 
+  it( 'should have a static resolve', function( done ) {
+    var previousPromise = Promise.resolve( 3 );
+
+    var promise = Promise.resolve( previousPromise );
+
+    promise
+      .then( function( data ) {
+        expect( data ).to.equal( 3 );
+        done();
+      });
+  });
+
 });
