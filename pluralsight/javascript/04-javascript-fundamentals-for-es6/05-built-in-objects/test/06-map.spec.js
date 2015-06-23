@@ -67,7 +67,7 @@ describe( 'Maps', function() {
   });
 
   it( 'should call the callback function for each item when forEach is called', function() {
-    var map = new Map([ 'name', 'John' ], [ 'age', 15 ], [ 'weight', '155' ]);
+    var map = new Map([[ 'name', 'John' ], [ 'age', 15 ], [ 'weight', '155' ]]);
     var iterationCount = 0;
 
     map.forEach( function( value, key ) {
