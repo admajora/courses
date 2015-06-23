@@ -89,4 +89,14 @@ describe( 'Maps', function() {
     expect( iterationCount ).to.equal( 3 );
   });
 
+  it( 'should return an iterator of arrays of key value pairs when entries is called', function(){
+    var map = new Map();
+    map.set( 'name', 'Joe' );
+    var items = map.entries();
+    var first = items.next().value;
+
+    expect( first[ 0 ]).to.equal( 'name' );
+    expect( first[ 1 ]).to.equal( 'Joe' );
+  });
+
 });
