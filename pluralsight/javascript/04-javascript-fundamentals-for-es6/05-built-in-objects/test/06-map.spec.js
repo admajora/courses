@@ -40,4 +40,16 @@ describe( 'Maps', function() {
     expect( map.get( key )).to.equal( 'second' );
   });
 
+  it( 'should have no items after clear is called', function() {
+
+    var map = new Map();
+    map.set( 1, 'a' );
+    map.set( 2, 'b' );
+    map.set( 3, 'c' );
+
+    map.clear();
+
+    expect( map.size ).to.equal( 0 );
+  });
+
 });
