@@ -1,7 +1,8 @@
 module.exports = {
   getOrder   : getOrder,
   getUser    : getUser,
-  getCompany : getCompany
+  getCompany : getCompany,
+  getCourse  : getCourse
 };
 
 ///////////// Function Declaration
@@ -15,4 +16,14 @@ function getUser( userId ) {
 
 function getCompany( companyId ) {
   return Promise.resolve({ name : 'Pluralsight' });
+}
+
+function getCourse( courseId ) {
+  var courses = {
+    1 : { name : 'Introduction to Cobol' },
+    2 : { name : 'Yet another C# Course' },
+    3 : { name : "How to make billions by blogging" }
+  };
+
+  return Promise.resolve( courses[ courseId ]);
 }

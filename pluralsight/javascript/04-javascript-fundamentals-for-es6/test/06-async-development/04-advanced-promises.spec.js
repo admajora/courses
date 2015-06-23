@@ -20,4 +20,20 @@ describe( 'Advanced Promises', function() {
       });
   });
 
+  it( 'should execute after all promises with all', function( done ) {
+    var courseIds = [ 1, 2, 3 ];
+    var promises  = [];
+
+    for ( let i = 0; i < courseIds.length; i+= 1 ) {
+      promises.push( api.getCourse( courseIds[ i ]));
+    }
+
+    Promise
+      .all( promises )
+      .then( function( values ) {
+        expect( values.length ).to.equal( 3 );
+        done();
+      });
+  });
+
 });
