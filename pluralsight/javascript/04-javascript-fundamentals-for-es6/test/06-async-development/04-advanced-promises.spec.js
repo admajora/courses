@@ -36,4 +36,21 @@ describe( 'Advanced Promises', function() {
       });
   });
 
+  it( 'should resolve after the first promise', function( done ) {
+    var courseIds = [ 1, 2, 3 ];
+    var promises  = [];
+
+    for ( let i = 0; i < courseIds.length; i+= 1 ) {
+      promises.push( api.getCourse( courseIds[ i ]));
+    }
+
+    Promise
+      .race( promises )
+      .then( function( firstValue ) {
+        expect( firstValue.name ).to.be.ok;
+        done();
+      });
+  });
+
+
 });
