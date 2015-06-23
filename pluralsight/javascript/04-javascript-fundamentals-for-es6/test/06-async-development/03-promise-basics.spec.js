@@ -51,4 +51,20 @@ describe( 'Promises', function() {
       });
   });
 
+  it( 'should compose when resolved with a promise', function( done ) {
+    var previousPromise = new Promise( function( resolve, rejected ) {
+      resolve( 3 );
+    });
+
+    var promise = new Promise( function( resolve, rejected ) {
+      resolve( previousPromise );
+    });
+
+    promise
+      .then( function( data ) {
+        expect( data ).to.equal( 3 );
+        done();
+      });
+  });
+
 });
