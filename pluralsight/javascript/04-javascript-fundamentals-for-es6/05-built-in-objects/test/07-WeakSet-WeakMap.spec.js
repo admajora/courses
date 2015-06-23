@@ -20,5 +20,15 @@ describe( 'WeakSets', function() {
 
     expect( set.has( item )).to.equal( true );
   });
+
+  it( 'should be able to remove items with delete', function() {
+    var set = new WeakSet();
+    var item = { name : 'Joe' };
+
+    set.add( item );
+    set.delete( item );
+
+    expect( set.has( item )).to.be.false;
+  });
   
 });
