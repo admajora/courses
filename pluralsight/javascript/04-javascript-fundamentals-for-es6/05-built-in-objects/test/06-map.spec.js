@@ -108,4 +108,13 @@ describe( 'Maps', function() {
     expect( first ).to.equal( 'a' );
   });
 
+  it( 'should return an iterator of keys when keys is called', function() {
+    var map = new Map();
+    map.set( 1, 'a' );
+    var keys = map.keys();
+    var firstKey = keys.next().value;
+
+    expect( firstKey ).to.equal( 1 );
+  });
+
 });
