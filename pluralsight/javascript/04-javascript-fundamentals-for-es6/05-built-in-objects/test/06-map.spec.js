@@ -99,4 +99,13 @@ describe( 'Maps', function() {
     expect( first[ 1 ]).to.equal( 'Joe' );
   });
 
+  it( 'should return an iterator of values when values is called', function() {
+    var map = new Map();
+    map.set( 1, 'a' );
+    var values = map.values();
+    var first = values.next().value;
+    
+    expect( first ).to.equal( 'a' );
+  });
+
 });
