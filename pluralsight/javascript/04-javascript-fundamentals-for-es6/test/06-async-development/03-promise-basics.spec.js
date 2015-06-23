@@ -89,4 +89,20 @@ describe( 'Promises', function() {
       });
   });
 
+  it( 'should be asynchronous', function( done ) {
+    var async = false;
+
+    var promise = new Promise( function( resolve, rejected ) {
+      resolve();
+    });
+
+    promise
+      .then( function() {
+        expect( async ).to.be.true;
+        done();
+      });
+
+    async = true;
+  });
+
 });
