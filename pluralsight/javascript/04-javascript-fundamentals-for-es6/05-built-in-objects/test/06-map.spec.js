@@ -43,6 +43,7 @@ describe( 'Maps', function() {
   it( 'should have no items after clear is called', function() {
 
     var map = new Map();
+    
     map.set( 1, 'a' );
     map.set( 2, 'b' );
     map.set( 3, 'c' );
@@ -50,6 +51,19 @@ describe( 'Maps', function() {
     map.clear();
 
     expect( map.size ).to.equal( 0 );
+  });
+
+  it( 'should remove an item when delete is called', function() {
+    var map = new Map();
+    var key1 = {};
+    var key2 = {};
+
+    map.set( key1, 100 );
+    map.set( key2, 200 );
+
+    map.delete( key2 );
+
+    expect( map.has( key2 )).to.be.false;
   });
 
 });
