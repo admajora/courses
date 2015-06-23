@@ -79,4 +79,14 @@ describe( 'Promises', function() {
       });
   });
 
+  it( 'should have a static reject', function( done ) {
+    var promise = Promise.reject( Error( 'oh noes!' ));
+
+    promise
+      .catch( function( error ) {
+        expect( error.message ).to.equal( 'oh noes!' );
+        done();
+      });
+  });
+
 });
