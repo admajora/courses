@@ -30,5 +30,15 @@ describe( 'WeakSets', function() {
 
     expect( set.has( item )).to.be.false;
   });
+
+  it( 'should remove all items when clear is called', function() {
+    var set = new WeakSet();
+    var item = { name : 'Joe' };
+
+    set.add( item );
+    set.clear();
+
+    expect( set.has( item )).to.be.false;
+  });
   
 });
