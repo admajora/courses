@@ -21,4 +21,9 @@ describe( 'Maps', function() {
     expect( ageMap.get( ralph )).to.equal( 29 );
   });
 
+  it( 'should contain items when given an array in the constructor', function(){
+    var map = new Map([[ 'name', 'John' ], [ 'age', 15 ], [ 'weight', '155' ]]);
+    expect( map.size ).to.equal( 3 );
+  });
+
 });
