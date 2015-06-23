@@ -13,4 +13,12 @@ describe( 'Maps', function() {
     expect( map.size ).to.equal( 1 );
   });
 
+  it( 'should allow an object to be the key', function() {
+    var ageMap = new Map();
+    var ralph = { 'name' : 'Ralph' };
+    ageMap.set( ralph, 29 );
+
+    expect( ageMap.get( ralph )).to.equal( 29 );
+  });
+
 });
