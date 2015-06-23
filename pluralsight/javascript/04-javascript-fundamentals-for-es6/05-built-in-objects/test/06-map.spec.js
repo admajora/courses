@@ -31,4 +31,13 @@ describe( 'Maps', function() {
     expect( map.has( 'age' )).to.be.true;
   });
 
+  it( 'should not allow duplicate keys', function() {
+    var map = new Map();
+    var key = {};
+    map.set( key, 'first' );
+    map.set( key, 'second' );
+
+    expect( map.get( key )).to.equal( 'second' );
+  });
+
 });
