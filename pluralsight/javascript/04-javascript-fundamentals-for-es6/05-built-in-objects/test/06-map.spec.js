@@ -66,4 +66,15 @@ describe( 'Maps', function() {
     expect( map.has( key2 )).to.be.false;
   });
 
+  it( 'should call the callback function for each item when forEach is called', function() {
+    var map = new Map([ 'name', 'John' ], [ 'age', 15 ], [ 'weight', '155' ]);
+    var iterationCount = 0;
+
+    map.forEach( function( value, key ) {
+      iterationCount++;
+    });
+
+    expect( iterationCount ).to.equal( 3 );
+  });
+
 });
