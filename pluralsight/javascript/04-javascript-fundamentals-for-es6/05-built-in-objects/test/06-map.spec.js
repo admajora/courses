@@ -77,4 +77,16 @@ describe( 'Maps', function() {
     expect( iterationCount ).to.equal( 3 );
   });
 
+  it( 'should support "for of" iteration', function() {
+    var map = new Map([[ 'name', 'John' ], [ 'age', 15 ], [ 'weight', '155' ]]);
+    var iterationCount = 0;
+
+    for ( var [ key, value ] of map ) {
+      // item is an array like [ 'name', John' ]
+      iterationCount++;
+    }
+
+    expect( iterationCount ).to.equal( 3 );
+  });
+
 });
