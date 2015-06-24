@@ -2,7 +2,8 @@ module.exports = {
   getOrder   : getOrder,
   getUser    : getUser,
   getCompany : getCompany,
-  getCourse  : getCourse
+  getCourse  : getCourse,
+  oldPause   : oldPause
 };
 
 ///////////// Function Declaration
@@ -26,4 +27,11 @@ function getCourse( courseId ) {
   };
 
   return Promise.resolve( courses[ courseId ]);
+}
+
+function oldPause( delay, cb ) {
+  setTimeout( function() {
+    console.log( 'paused for ' + delay + 'ms' );
+    cb();
+  }, delay );
 }
