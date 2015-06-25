@@ -64,7 +64,7 @@
 | 02 | [JavaScript From Scratch](http://www.pluralsight.com/courses/javascript-from-scratch) | [⎙]() | `Beginner` |
 | 03 | [Structuring JavaScript Code](http://www.pluralsight.com/courses/structuring-javascript) | [⎙](/javascript/02-structuring-javascript-code) | `Intermediate` |
 | 04 | [JavaScript Design Patterns](http://www.pluralsight.com/courses/javascript-design-patterns) | [⎙]() | `Intermediate` |
-| 05 | [JavaScript Fundamentals for ES6](http://www.pluralsight.com/courses/javascript-fundamentals-es6) ✍ | [⎙]() | `Intermediate` |
+| 05 | [JavaScript Fundamentals for ES6](http://www.pluralsight.com/courses/javascript-fundamentals-es6) | [⎙]() | `Intermediate` |
 | 09 | [JS.Next: ES6](http://www.pluralsight.com/courses/js-next-es6) | [⎙]() | `Intermediate` |
 | 06 | [Testing Clientside JavaScript](http://www.pluralsight.com/courses/testing-javascript) | [⎙]() | `Intermediate` |
 | 07 | [Creating JavaScript Modules with Browserify](http://www.pluralsight.com/courses/creating-javascript-modules-browserify) | [⎙]() | `Intermediate` |
@@ -123,7 +123,7 @@
 | 04 | [RESTful Web Services with Node.js and Express](http://www.pluralsight.com/courses/node-js-express-rest-web-services) | [⎙](https://github.com/ericdouglas/courses/tree/master/pluralsight/nodejs/01-restful-webservices-with-node-and-express) | `Intermediate` |
 | 05 | <strike>[Building Web Apps With Node.js](http://www.pluralsight.com/courses/building-web-apps-nodejs)</strike> | [⎙]() | `Intermediate` |
 | 06 | [Building Web Applications with hapi](http://www.pluralsight.com/courses/hapi-building-web-applications) | [⎙]() | `Intermediate` |
-| 07 | [Unit Testing with Node.js](http://www.pluralsight.com/courses/unit-testing-nodejs) ✍ | [⎙]() | `Intermediate` |
+| 07 | [Unit Testing with Node.js](http://www.pluralsight.com/courses/unit-testing-nodejs) | [⎙]() | `Intermediate` |
 | 08 | [Two Tier Enterprise App and API Development with Angular & Sails](http://www.pluralsight.com/courses/two-tier-enterprise-app-api-development-angular-sails) | [⎙]() | `Intermediate` |
 | 09 | [Introduction to Koa Javascript](http://www.pluralsight.com/courses/javascript-koa-introduction) | [⎙]() | `Intermediate` |
 
