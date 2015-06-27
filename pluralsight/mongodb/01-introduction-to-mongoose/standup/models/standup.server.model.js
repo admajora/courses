@@ -7,7 +7,7 @@ var standupSchema = new Schema({
   workYesterday : String,
   workToday : String,
   impediment : String,
-  createdOn : { type : Data, default : Date.now }
+  createdOn : { type : Date, default : Date.now }
 });
 
 // Export model

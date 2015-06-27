@@ -11,11 +11,11 @@ router.get('/', function(req, res, next) {
 /* GET New Note page */
 router.get( '/newnote', function( req, res ) {
   return standupCtrl.getNote( req, res );
-}
+});
 
 /* POST New Note page */
-router.post( 'newnote', function( req, res ) {
+router.post( '/newnote', function( req, res ) {
   return standupCtrl.create( req, res );
-}
+});
 
 module.exports = router;
