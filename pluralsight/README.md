@@ -238,4 +238,4 @@
 | 18 | [Developer to Architect](http://www.pluralsight.com/courses/developer-to-architect) | [⎙]() | `Intermediate` |
 | 19 | [Smash into Vim](http://www.pluralsight.com/courses/smash-into-vim) | [⎙]() | `Beginner` |
 | 20 | [Introduction to Presentation Design](http://www.pluralsight.com/courses/presentation-design-introduction) | [⎙]() | `Beginner` |
-| 20 | []() | [⎙]() | `Intermediate` |
+| 21 | [Node.js and the Internet of Things Using Intel Edison](http://www.pluralsight.com/courses/discussion/nodejs-internet-of-things-intel-edison) | [⎙]() | `Intermediate` |
