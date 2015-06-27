@@ -14,7 +14,26 @@ var standupSchema = new Schema({
 var noIdSchema = new Schema({ name : String } , { _id : false });
 
 // Example of using Schema.add
+var includeMiddleName = true;
+
 var exampleSchema = new Schema;
+
+if ( includeMiddleName ) {
+  exampleSchema.add({
+    memberName : {
+      first : String,
+      middle : String,
+      last : String
+    }
+  });
+} else {
+  exampleSchema.add({
+    memberName : {
+      first : String,
+      last : String
+    }
+  });
+}
 
 exampleSchema.add({
   project : String,
