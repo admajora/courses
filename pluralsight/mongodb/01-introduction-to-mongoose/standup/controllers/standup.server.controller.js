@@ -35,12 +35,21 @@ exports.create = function( req, res ) {
     impediment : req.body.impediment
   });
 
-  entry.save();
+  entry.save( function( err) {
+    if ( err ) {
+      var errMsg = 'Sorry, there was an error saving the stand-up meeting note. ' + err;
+      // res.render( 'newNote', { title : 'Standup - New Note (error)', message : errMsg });
+      res.status( 500 );
+      res.send( errMsg );
+    } else {
+      console.log( 'Stand-up meeting note was saved!' );
+      // Redirect to the home page to display list of notes...
+      res.redirect( 301, '/' );
+    }
+  });
 
-  // redirect to home page
-  res.redirect( 301, '/' );
 };
 
 exports.getNote = function( req, res ) {
   res.render( 'newnote', { title : 'Standup - New Note' });
-}
+};
