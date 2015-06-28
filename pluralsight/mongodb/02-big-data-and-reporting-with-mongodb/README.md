@@ -196,6 +196,7 @@ Data structure:
 > var s1 = { $group : { _id : "all", states : { $push : "$state" }}}
 > db.zips.aggregate(s1)
 # Will push every item in the array repeatedly
+```
 
 
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
