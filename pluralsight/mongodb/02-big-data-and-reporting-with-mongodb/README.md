@@ -168,5 +168,11 @@ Data structure:
 { "_id" : "NY", "sum" : 1595, "avg" : 11279.248902821317, "min" : 0, "max" : 111396 }
 ```
 
+### Value-of-field
+
+```
+> var s2 = { $group : { _id : "$sku", min : { $min : "$item.qty" }}}
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
