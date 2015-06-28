@@ -174,5 +174,13 @@ Data structure:
 > var s2 = { $group : { _id : "$sku", min : { $min : "$item.qty" }}}
 ```
 
+### Field name
+
+```
+> var s1 = { $group : { _id : "all", "some field name" : { $sum : 1 }}}
+> db.zips.aggregate(s1)
+{ "_id" : "all", "some field name" : 29353 }
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
