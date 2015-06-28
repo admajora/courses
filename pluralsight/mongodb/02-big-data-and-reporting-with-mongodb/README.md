@@ -190,5 +190,13 @@ Data structure:
 { "_id" : "all", "states" : [ "WA", "HI", "CA", "OR", "NM", "UT", "OK", "LA", "NE", "TX", "MO", "MT", "ND", "AK", "SD", "DC", "MN", "ID", "KY", "WI", "TN", "AZ", "CO", "KS", "MS", "FL", "IA", "NC", "VA", "IN", "ME", "WV", "MD", "GA", "NH", "NV", "DE", "AL", "CT", "SC", "RI", "PA", "VT", "MA", "WY", "MI", "OH", "AR", "IL", "NJ", "NY" ] }
 ```
 
+### $push
+
+```
+> var s1 = { $group : { _id : "all", states : { $push : "$state" }}}
+> db.zips.aggregate(s1)
+# Will push every item in the array repeatedly
+
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
