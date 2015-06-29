@@ -698,5 +698,28 @@ Sample collection:
 { "book" : "Book 15" }
 ```
 
+### Field Renaming
+
+```
+> var s3 = { $project : { _id : 0, "Book title" : "$book", "Written by" : "$author" }}
+> db.books.aggregate(s3)
+{ "Book title" : "Book 0", "Written by" : "Author 5" }
+{ "Book title" : "Book 1", "Written by" : "Author 1" }
+{ "Book title" : "Book 2", "Written by" : "Author 2" }
+{ "Book title" : "Book 3", "Written by" : "Author 3" }
+{ "Book title" : "Book 4", "Written by" : "Author 4" }
+{ "Book title" : "Book 5", "Written by" : "Author 5" }
+{ "Book title" : "Book 6", "Written by" : "Author 3" }
+{ "Book title" : "Book 7", "Written by" : "Author 7" }
+{ "Book title" : "Book 8", "Written by" : "Author 8" }
+{ "Book title" : "Book 9", "Written by" : "Author 3" }
+{ "Book title" : "Book 10", "Written by" : "Author 5" }
+{ "Book title" : "Book 11", "Written by" : "Author 11" }
+{ "Book title" : "Book 12", "Written by" : "Author 3" }
+{ "Book title" : "Book 13", "Written by" : "Author 13" }
+{ "Book title" : "Book 14", "Written by" : "Author 14" }
+{ "Book title" : "Book 15", "Written by" : "Author 5" }
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
