@@ -623,7 +623,35 @@ Sample collection:
 ]
 ```
 
-### 
+### $unwind
+
+```
+> var s3 = { $unwind : "$category" }
+> db.books.aggregate(s3)
+{ "_id" : ObjectId("559151b563ca0a83487c31c8"), "book" : "Book 0", "author" : "Author 5", "category" : "tag5" }
+{ "_id" : ObjectId("559151b563ca0a83487c31c8"), "book" : "Book 0", "author" : "Author 5", "category" : "tag6" }
+{ "_id" : ObjectId("559151b563ca0a83487c31c8"), "book" : "Book 0", "author" : "Author 5", "category" : "tag7" }
+{ "_id" : ObjectId("559151b563ca0a83487c31c9"), "book" : "Book 1", "author" : "Author 1", "category" : "tag1" }
+{ "_id" : ObjectId("559151b563ca0a83487c31ca"), "book" : "Book 2", "author" : "Author 2", "category" : "tag2" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cb"), "book" : "Book 3", "author" : "Author 3", "category" : "tag1" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cb"), "book" : "Book 3", "author" : "Author 3", "category" : "tag2" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cb"), "book" : "Book 3", "author" : "Author 3", "category" : "tag3" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cc"), "book" : "Book 4", "author" : "Author 4", "category" : "tag4" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cd"), "book" : "Book 5", "author" : "Author 5", "category" : "tag5" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cd"), "book" : "Book 5", "author" : "Author 5", "category" : "tag6" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cd"), "book" : "Book 5", "author" : "Author 5", "category" : "tag7" }
+{ "_id" : ObjectId("559151b563ca0a83487c31ce"), "book" : "Book 6", "author" : "Author 3", "category" : "tag1" }
+{ "_id" : ObjectId("559151b563ca0a83487c31ce"), "book" : "Book 6", "author" : "Author 3", "category" : "tag2" }
+{ "_id" : ObjectId("559151b563ca0a83487c31ce"), "book" : "Book 6", "author" : "Author 3", "category" : "tag3" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cf"), "book" : "Book 7", "author" : "Author 7", "category" : "tag7" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d0"), "book" : "Book 8", "author" : "Author 8", "category" : "tag8" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d1"), "book" : "Book 9", "author" : "Author 3", "category" : "tag1" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d1"), "book" : "Book 9", "author" : "Author 3", "category" : "tag2" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d1"), "book" : "Book 9", "author" : "Author 3", "category" : "tag3" }
+.
+.
+.
+```
 
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
