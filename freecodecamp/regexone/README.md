@@ -1,4 +1,4 @@
- # [RegexOne][0]
+# [RegexOne][0]
 
 ## Interactive Tutorial
 
