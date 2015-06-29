@@ -653,5 +653,28 @@ Sample collection:
 .
 ```
 
+### $project - field selection
+
+```
+> var s3 = { $project : { book : 1 }}
+> db.books.aggregate(s3)
+{ "_id" : ObjectId("559151b563ca0a83487c31c8"), "book" : "Book 0" }
+{ "_id" : ObjectId("559151b563ca0a83487c31c9"), "book" : "Book 1" }
+{ "_id" : ObjectId("559151b563ca0a83487c31ca"), "book" : "Book 2" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cb"), "book" : "Book 3" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cc"), "book" : "Book 4" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cd"), "book" : "Book 5" }
+{ "_id" : ObjectId("559151b563ca0a83487c31ce"), "book" : "Book 6" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cf"), "book" : "Book 7" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d0"), "book" : "Book 8" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d1"), "book" : "Book 9" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d2"), "book" : "Book 10" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d3"), "book" : "Book 11" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d4"), "book" : "Book 12" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d5"), "book" : "Book 13" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d6"), "book" : "Book 14" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d7"), "book" : "Book 15" }
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
