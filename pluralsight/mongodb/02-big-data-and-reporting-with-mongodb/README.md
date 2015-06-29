@@ -228,5 +228,35 @@ Data structure:
 .
 ```
 
+### $last
+
+```
+> var s1 = { $group : { _id : "$state", city : { $last : "$city" }}}
+> db.zips.aggregate(s1)
+{ "_id" : "WA", "city" : "DAYTON" }
+{ "_id" : "HI", "city" : "HONOLULU" }
+{ "_id" : "CA", "city" : "CARNELIAN BAY" }
+{ "_id" : "OR", "city" : "PRAIRIE CITY" }
+{ "_id" : "NM", "city" : "BELL RANCH" }
+{ "_id" : "UT", "city" : "PAROWAN" }
+{ "_id" : "OK", "city" : "OCTAVIA" }
+{ "_id" : "LA", "city" : "WINNFIELD" }
+{ "_id" : "NE", "city" : "LAKESIDE" }
+{ "_id" : "TX", "city" : "EL PASO" }
+{ "_id" : "MO", "city" : "SPRINGFIELD" }
+{ "_id" : "MT", "city" : "WHITEFISH" }
+{ "_id" : "ND", "city" : "SURREY" }
+{ "_id" : "AK", "city" : "ANGOON" }
+{ "_id" : "SD", "city" : "ZEONA" }
+{ "_id" : "DC", "city" : "WASHINGTON" }
+{ "_id" : "MN", "city" : "SAINT VINCENT" }
+{ "_id" : "ID", "city" : "WORLEY" }
+{ "_id" : "KY", "city" : "MILLTOWN" }
+{ "_id" : "WI", "city" : "WINNECONNE" }
+.
+.
+.
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
