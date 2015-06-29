@@ -493,72 +493,137 @@ Sample collection:
 ```
 [
   {
-    "book": "Book 1",
+    "book": "Book 0",
     "author": "Author 5",
-    "category": "Category 1"
+    "category": [
+      "tag5",
+      "tag6",
+      "tag7"
+    ]
+  },
+  {
+    "book": "Book 1",
+    "author": "Author 1",
+    "category": [
+      "tag1"
+    ]
   },
   {
     "book": "Book 2",
-    "author": "Author 5",
-    "category": "Category 1"
+    "author": "Author 2",
+    "category": [
+      "tag2"
+    ]
   },
   {
     "book": "Book 3",
-    "author": "Author 4",
-    "category": "Category 1"
+    "author": "Author 3",
+    "category": [
+      "tag1",
+      "tag2",
+      "tag3"
+    ]
   },
   {
     "book": "Book 4",
     "author": "Author 4",
-    "category": "Category 1"
+    "category": [
+      "tag4"
+    ]
   },
   {
     "book": "Book 5",
-    "author": "Author 4",
-    "category": "Category 2"
+    "author": "Author 5",
+    "category": [
+      "tag5",
+      "tag6",
+      "tag7"
+    ]
   },
   {
     "book": "Book 6",
-    "author": "Author 4",
-    "category": "Category 2"
+    "author": "Author 3",
+    "category": [
+      "tag1",
+      "tag2",
+      "tag3"
+    ]
   },
   {
     "book": "Book 7",
-    "author": "Author 4",
-    "category": "Category 2"
+    "author": "Author 7",
+    "category": [
+      "tag7"
+    ]
   },
   {
     "book": "Book 8",
-    "author": "Author 3",
-    "category": "Category 3"
+    "author": "Author 8",
+    "category": [
+      "tag8"
+    ]
   },
   {
     "book": "Book 9",
-    "author": "Author 2",
-    "category": "Category 3"
+    "author": "Author 3",
+    "category": [
+      "tag1",
+      "tag2",
+      "tag3"
+    ]
   },
   {
     "book": "Book 10",
-    "author": "Author 2",
-    "category": "Category 3"
+    "author": "Author 5",
+    "category": [
+      "tag5",
+      "tag6",
+      "tag7"
+    ]
   },
   {
     "book": "Book 11",
-    "author": "Author 1",
-    "category": "Category 3"
+    "author": "Author 11",
+    "category": [
+      "tag11"
+    ]
   },
   {
     "book": "Book 12",
-    "author": "Author 1",
-    "category": "Category 4"
+    "author": "Author 3",
+    "category": [
+      "tag1",
+      "tag2",
+      "tag3"
+    ]
   },
   {
     "book": "Book 13",
-    "author": "Author 1",
-    "category": "Category 5"
+    "author": "Author 13",
+    "category": [
+      "tag13"
+    ]
+  },
+  {
+    "book": "Book 14",
+    "author": "Author 14",
+    "category": [
+      "tag14"
+    ]
+  },
+  {
+    "book": "Book 15",
+    "author": "Author 5",
+    "category": [
+      "tag5",
+      "tag6",
+      "tag7"
+    ]
   }
 ]
 ```
+
+### 
 
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
