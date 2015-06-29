@@ -21,13 +21,13 @@
   - Ex: `ab?c`  will match either the strings "abc" or "ac" because the b is considered optional
   - Ex2: `\w files? found\?`  match "1 file found?", "2 files found?", and "x files found?"
 - `\w`  alphanumeric meta-character
-- ``  
-- ``  
-- ``  
-- ``  
-- ``  
-- ``  
-- ``  
+- ` ` (space)  
+- `_` underscore  
+- `\t` tab  
+- `\n` new line  
+- `\r` carriage return (useful in windows environment)  
+- `\s` will match any of the specific whitespaces above and is extremely useful when dealing with imperfect input text  
+  - Ex: `\d\.\s+abc` will match: "1.  abc", "2.    abc" and "3.                   abc"  
 - ``  
 
  [0]: http://regexone.com/
