@@ -422,5 +422,19 @@ Data structure:
 .
 ```
 
+### $sort and Indexes
+
+- Use $match before $sort to save memory
+
+### $limit
+
+```
+> var s3 = { $limit : 3 }
+> db.zips.aggregate(s3)
+{ "_id" : "01007", "city" : "BELCHERTOWN", "loc" : [ -72.410953, 42.275103 ], "pop" : 10579, "state" : "MA" }
+{ "_id" : "01008", "city" : "BLANDFORD", "loc" : [ -72.936114, 42.182949 ], "pop" : 1240, "state" : "MA" }
+{ "_id" : "01010", "city" : "BRIMFIELD", "loc" : [ -72.188455, 42.116543 ], "pop" : 3706, "state" : "MA" }
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
