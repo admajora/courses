@@ -308,5 +308,119 @@ Data structure:
 { "_id" : "60623", "city" : "CHICAGO", "loc" : [ -87.7157, 41.849015 ], "pop" : 112047, "state" : "IL" }
 ```
 
+### $sort
+
+```
+> var s3 = { $sort : { pop : 1 }}
+> db.zips.aggregate(s3)
+{ "_id" : "02163", "city" : "CAMBRIDGE", "loc" : [ -71.141879, 42.364005 ], "pop" : 0, "state" : "MA" }
+{ "_id" : "04013", "city" : "BUSTINS ISLAND", "loc" : [ -70.042247, 43.79602 ], "pop" : 0, "state" : "ME" }
+{ "_id" : "05405", "city" : "UNIV OF VERMONT", "loc" : [ -73.2002, 44.477733 ], "pop" : 0, "state" : "VT" }
+{ "_id" : "12922", "city" : "CHILDWOLD", "loc" : [ -74.675878, 44.286715 ], "pop" : 0, "state" : "NY" }
+{ "_id" : "13333", "city" : "EAST SPRINGFIELD", "loc" : [ -74.759741, 42.832947 ], "pop" : 0, "state" : "NY" }
+{ "_id" : "13436", "city" : "RAQUETTE LAKE", "loc" : [ -74.537959, 43.866224 ], "pop" : 0, "state" : "NY" }
+{ "_id" : "15744", "city" : "HAMILTON", "loc" : [ -79.093987, 40.921432 ], "pop" : 0, "state" : "PA" }
+{ "_id" : "19113", "city" : "PHILADELPHIA", "loc" : [ -75.275196, 39.864998 ], "pop" : 0, "state" : "PA" }
+{ "_id" : "23337", "city" : "WALLOPS ISLAND", "loc" : [ -75.506503, 37.827338 ], "pop" : 0, "state" : "VA" }
+{ "_id" : "25139", "city" : "MOUNT CARBON", "loc" : [ -81.333373, 38.160097 ], "pop" : 0, "state" : "WV" }
+{ "_id" : "28528", "city" : "GLOUCESTER", "loc" : [ -76.527627, 34.685645 ], "pop" : 0, "state" : "NC" }
+{ "_id" : "29506", "city" : "QUINBY", "loc" : [ -79.794547, 34.245178 ], "pop" : 0, "state" : "SC" }
+{ "_id" : "30334", "city" : "ATLANTA", "loc" : [ -84.388188, 33.74715 ], "pop" : 0, "state" : "GA" }
+{ "_id" : "31314", "city" : "FORT STEWART", "loc" : [ -81.440489, 31.979085 ], "pop" : 0, "state" : "GA" }
+{ "_id" : "32215", "city" : "CECIL FIELD NAS", "loc" : [ -81.663142, 30.23295 ], "pop" : 0, "state" : "FL" }
+{ "_id" : "36419", "city" : "ALLEN", "loc" : [ -87.66746, 31.624266 ], "pop" : 0, "state" : "AL" }
+{ "_id" : "39269", "city" : "JACKSON", "loc" : [ -90.188503, 32.30085 ], "pop" : 0, "state" : "MS" }
+{ "_id" : "40808", "city" : "BIG LAUREL", "loc" : [ -83.156468, 37.002795 ], "pop" : 0, "state" : "KY" }
+{ "_id" : "42326", "city" : "BROWDER", "loc" : [ -86.978197, 37.259333 ], "pop" : 0, "state" : "KY" }
+{ "_id" : "42555", "city" : "SLOANS VALLEY", "loc" : [ -84.376201, 36.968617 ], "pop" : 0, "state" : "KY" }
+.
+.
+.
+```
+
+```
+> var s3 = { $sort : { pop : -1 }}
+> db.zips.aggregate(s3)
+{ "_id" : "60623", "city" : "CHICAGO", "loc" : [ -87.7157, 41.849015 ], "pop" : 112047, "state" : "IL" }
+{ "_id" : "11226", "city" : "BROOKLYN", "loc" : [ -73.956985, 40.646694 ], "pop" : 111396, "state" : "NY" }
+{ "_id" : "10021", "city" : "NEW YORK", "loc" : [ -73.958805, 40.768476 ], "pop" : 106564, "state" : "NY" }
+{ "_id" : "10025", "city" : "NEW YORK", "loc" : [ -73.968312, 40.797466 ], "pop" : 100027, "state" : "NY" }
+{ "_id" : "90201", "city" : "BELL GARDENS", "loc" : [ -118.17205, 33.969177 ], "pop" : 99568, "state" : "CA" }
+{ "_id" : "60617", "city" : "CHICAGO", "loc" : [ -87.556012, 41.725743 ], "pop" : 98612, "state" : "IL" }
+{ "_id" : "90011", "city" : "LOS ANGELES", "loc" : [ -118.258189, 34.007856 ], "pop" : 96074, "state" : "CA" }
+{ "_id" : "60647", "city" : "CHICAGO", "loc" : [ -87.704322, 41.920903 ], "pop" : 95971, "state" : "IL" }
+{ "_id" : "60628", "city" : "CHICAGO", "loc" : [ -87.624277, 41.693443 ], "pop" : 94317, "state" : "IL" }
+{ "_id" : "90650", "city" : "NORWALK", "loc" : [ -118.081767, 33.90564 ], "pop" : 94188, "state" : "CA" }
+{ "_id" : "60620", "city" : "CHICAGO", "loc" : [ -87.654251, 41.741119 ], "pop" : 92005, "state" : "IL" }
+{ "_id" : "60629", "city" : "CHICAGO", "loc" : [ -87.706936, 41.778149 ], "pop" : 91814, "state" : "IL" }
+{ "_id" : "60609", "city" : "CHICAGO", "loc" : [ -87.653279, 41.809721 ], "pop" : 89762, "state" : "IL" }
+{ "_id" : "60618", "city" : "CHICAGO", "loc" : [ -87.704214, 41.946401 ], "pop" : 88377, "state" : "IL" }
+{ "_id" : "11373", "city" : "JACKSON HEIGHTS", "loc" : [ -73.878551, 40.740388 ], "pop" : 88241, "state" : "NY" }
+{ "_id" : "91331", "city" : "ARLETA", "loc" : [ -118.420692, 34.258081 ], "pop" : 88114, "state" : "CA" }
+{ "_id" : "11212", "city" : "BROOKLYN", "loc" : [ -73.914483, 40.662474 ], "pop" : 87079, "state" : "NY" }
+{ "_id" : "90280", "city" : "SOUTH GATE", "loc" : [ -118.201349, 33.94617 ], "pop" : 87026, "state" : "CA" }
+{ "_id" : "11385", "city" : "RIDGEWOOD", "loc" : [ -73.896122, 40.703613 ], "pop" : 85732, "state" : "NY" }
+{ "_id" : "10467", "city" : "BRONX", "loc" : [ -73.871242, 40.873671 ], "pop" : 85710, "state" : "NY" }
+.
+.
+.
+```
+
+```
+> var s3 = { $sort : { state: 1, pop : -1 }}
+> db.zips.aggregate(s3)
+{ "_id" : "99504", "city" : "ANCHORAGE", "loc" : [ -149.74467, 61.203696 ], "pop" : 32383, "state" : "AK" }
+{ "_id" : "99508", "city" : "ANCHORAGE", "loc" : [ -149.810085, 61.205959 ], "pop" : 29857, "state" : "AK" }
+{ "_id" : "99801", "city" : "JUNEAU", "loc" : [ -134.529429, 58.362767 ], "pop" : 24947, "state" : "AK" }
+{ "_id" : "99709", "city" : "FAIRBANKS", "loc" : [ -147.846917, 64.85437 ], "pop" : 23238, "state" : "AK" }
+{ "_id" : "99507", "city" : "ANCHORAGE", "loc" : [ -149.828912, 61.153543 ], "pop" : 20128, "state" : "AK" }
+{ "_id" : "99701", "city" : "COLDFOOT", "loc" : [ -147.710431, 64.840238 ], "pop" : 19316, "state" : "AK" }
+{ "_id" : "99577", "city" : "EAGLE RIVER", "loc" : [ -149.508515, 61.311357 ], "pop" : 18429, "state" : "AK" }
+{ "_id" : "99516", "city" : "ANCHORAGE", "loc" : [ -149.779998, 61.10541 ], "pop" : 18356, "state" : "AK" }
+{ "_id" : "99515", "city" : "ANCHORAGE", "loc" : [ -149.897401, 61.119381 ], "pop" : 17094, "state" : "AK" }
+{ "_id" : "99502", "city" : "ANCHORAGE", "loc" : [ -150.093943, 61.096163 ], "pop" : 15891, "state" : "AK" }
+{ "_id" : "99517", "city" : "ANCHORAGE", "loc" : [ -149.936111, 61.190136 ], "pop" : 15192, "state" : "AK" }
+{ "_id" : "99705", "city" : "NORTH POLE", "loc" : [ -147.369353, 64.78049 ], "pop" : 14672, "state" : "AK" }
+{ "_id" : "99501", "city" : "ANCHORAGE", "loc" : [ -149.876077, 61.211571 ], "pop" : 14436, "state" : "AK" }
+{ "_id" : "99687", "city" : "WASILLA", "loc" : [ -149.533003, 61.578032 ], "pop" : 14215, "state" : "AK" }
+{ "_id" : "99901", "city" : "KETCHIKAN", "loc" : [ -131.683175, 55.372028 ], "pop" : 13886, "state" : "AK" }
+{ "_id" : "99615", "city" : "AKHIOK", "loc" : [ -152.500169, 57.781967 ], "pop" : 13309, "state" : "AK" }
+{ "_id" : "99503", "city" : "ANCHORAGE", "loc" : [ -149.893844, 61.189953 ], "pop" : 12534, "state" : "AK" }
+{ "_id" : "99645", "city" : "BUTTE", "loc" : [ -149.065323, 61.613814 ], "pop" : 12358, "state" : "AK" }
+{ "_id" : "99611", "city" : "KENAI", "loc" : [ -151.254556, 60.614467 ], "pop" : 10508, "state" : "AK" }
+{ "_id" : "99654", "city" : "WASILLA", "loc" : [ -149.395875, 61.592349 ], "pop" : 10404, "state" : "AK" }
+.
+.
+.
+```
+
+```
+> var s3 = { $sort : { pop : -1, state : 1 }}
+> db.zips.aggregate(s3)
+{ "_id" : "60623", "city" : "CHICAGO", "loc" : [ -87.7157, 41.849015 ], "pop" : 112047, "state" : "IL" }
+{ "_id" : "11226", "city" : "BROOKLYN", "loc" : [ -73.956985, 40.646694 ], "pop" : 111396, "state" : "NY" }
+{ "_id" : "10021", "city" : "NEW YORK", "loc" : [ -73.958805, 40.768476 ], "pop" : 106564, "state" : "NY" }
+{ "_id" : "10025", "city" : "NEW YORK", "loc" : [ -73.968312, 40.797466 ], "pop" : 100027, "state" : "NY" }
+{ "_id" : "90201", "city" : "BELL GARDENS", "loc" : [ -118.17205, 33.969177 ], "pop" : 99568, "state" : "CA" }
+{ "_id" : "60617", "city" : "CHICAGO", "loc" : [ -87.556012, 41.725743 ], "pop" : 98612, "state" : "IL" }
+{ "_id" : "90011", "city" : "LOS ANGELES", "loc" : [ -118.258189, 34.007856 ], "pop" : 96074, "state" : "CA" }
+{ "_id" : "60647", "city" : "CHICAGO", "loc" : [ -87.704322, 41.920903 ], "pop" : 95971, "state" : "IL" }
+{ "_id" : "60628", "city" : "CHICAGO", "loc" : [ -87.624277, 41.693443 ], "pop" : 94317, "state" : "IL" }
+{ "_id" : "90650", "city" : "NORWALK", "loc" : [ -118.081767, 33.90564 ], "pop" : 94188, "state" : "CA" }
+{ "_id" : "60620", "city" : "CHICAGO", "loc" : [ -87.654251, 41.741119 ], "pop" : 92005, "state" : "IL" }
+{ "_id" : "60629", "city" : "CHICAGO", "loc" : [ -87.706936, 41.778149 ], "pop" : 91814, "state" : "IL" }
+{ "_id" : "60609", "city" : "CHICAGO", "loc" : [ -87.653279, 41.809721 ], "pop" : 89762, "state" : "IL" }
+{ "_id" : "60618", "city" : "CHICAGO", "loc" : [ -87.704214, 41.946401 ], "pop" : 88377, "state" : "IL" }
+{ "_id" : "11373", "city" : "JACKSON HEIGHTS", "loc" : [ -73.878551, 40.740388 ], "pop" : 88241, "state" : "NY" }
+{ "_id" : "91331", "city" : "ARLETA", "loc" : [ -118.420692, 34.258081 ], "pop" : 88114, "state" : "CA" }
+{ "_id" : "11212", "city" : "BROOKLYN", "loc" : [ -73.914483, 40.662474 ], "pop" : 87079, "state" : "NY" }
+{ "_id" : "90280", "city" : "SOUTH GATE", "loc" : [ -118.201349, 33.94617 ], "pop" : 87026, "state" : "CA" }
+{ "_id" : "11385", "city" : "RIDGEWOOD", "loc" : [ -73.896122, 40.703613 ], "pop" : 85732, "state" : "NY" }
+{ "_id" : "10467", "city" : "BRONX", "loc" : [ -73.871242, 40.873671 ], "pop" : 85710, "state" : "NY" }
+.
+.
+.
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
