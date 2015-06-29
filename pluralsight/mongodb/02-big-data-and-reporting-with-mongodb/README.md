@@ -290,5 +290,13 @@ Data structure:
 .
 ```
 
+### $match and Arrays
+
+```
+> var s3 = { $match : { loc : 42.275103 }}
+> db.zips.aggregate(s3)
+{ "_id" : "01007", "city" : "BELCHERTOWN", "loc" : [ -72.410953, 42.275103 ], "pop" : 10579, "state" : "MA" }
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
