@@ -468,5 +468,23 @@ Data structure:
 .
 ```
 
+### Paging
+
+```
+> var lim = { $limit : 2 }
+> var skip = { $skip : 2 }
+> db.zips.aggregate(lim)
+{ "_id" : "01007", "city" : "BELCHERTOWN", "loc" : [ -72.410953, 42.275103 ], "pop" : 10579, "state" : "MA" }
+{ "_id" : "01008", "city" : "BLANDFORD", "loc" : [ -72.936114, 42.182949 ], "pop" : 1240, "state" : "MA" }
+> db.zips.aggregate(skip, lim)
+{ "_id" : "01010", "city" : "BRIMFIELD", "loc" : [ -72.188455, 42.116543 ], "pop" : 3706, "state" : "MA" }
+{ "_id" : "01011", "city" : "CHESTER", "loc" : [ -72.988761, 42.279421 ], "pop" : 1688, "state" : "MA" }
+```
+
+### Paging Cost
+
+- $sort items
+- Pass to your app more items than showed in app. Ex: Pagination 10 in 10 items - Query on db 100 in 100 items
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
