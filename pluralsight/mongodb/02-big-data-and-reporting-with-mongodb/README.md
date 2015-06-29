@@ -258,5 +258,37 @@ Data structure:
 .
 ```
 
+## 4. Document Selection
+
+### $match
+
+```
+> var s3 = { $match : { state : "CA" }}
+> db.zips.aggregate(s3)
+{ "_id" : "90001", "city" : "LOS ANGELES", "loc" : [ -118.247896, 33.973093 ], "pop" : 51841, "state" : "CA" }
+{ "_id" : "90002", "city" : "LOS ANGELES", "loc" : [ -118.246213, 33.94969 ], "pop" : 40629, "state" : "CA" }
+{ "_id" : "90003", "city" : "LOS ANGELES", "loc" : [ -118.272739, 33.965335 ], "pop" : 53938, "state" : "CA" }
+{ "_id" : "90005", "city" : "LOS ANGELES", "loc" : [ -118.301197, 34.058508 ], "pop" : 35864, "state" : "CA" }
+{ "_id" : "90004", "city" : "LOS ANGELES", "loc" : [ -118.302863, 34.076163 ], "pop" : 64062, "state" : "CA" }
+{ "_id" : "90006", "city" : "LOS ANGELES", "loc" : [ -118.291687, 34.049323 ], "pop" : 63389, "state" : "CA" }
+{ "_id" : "90007", "city" : "LOS ANGELES", "loc" : [ -118.287095, 34.029442 ], "pop" : 46985, "state" : "CA" }
+{ "_id" : "90008", "city" : "LOS ANGELES", "loc" : [ -118.341123, 34.011643 ], "pop" : 33073, "state" : "CA" }
+{ "_id" : "90010", "city" : "LOS ANGELES", "loc" : [ -118.302664, 34.060633 ], "pop" : 5335, "state" : "CA" }
+{ "_id" : "90011", "city" : "LOS ANGELES", "loc" : [ -118.258189, 34.007856 ], "pop" : 96074, "state" : "CA" }
+{ "_id" : "90012", "city" : "LOS ANGELES", "loc" : [ -118.238479, 34.061396 ], "pop" : 28518, "state" : "CA" }
+{ "_id" : "90014", "city" : "LOS ANGELES", "loc" : [ -118.250937, 34.044272 ], "pop" : 2715, "state" : "CA" }
+{ "_id" : "90013", "city" : "LOS ANGELES", "loc" : [ -118.243366, 34.044841 ], "pop" : 5653, "state" : "CA" }
+{ "_id" : "90015", "city" : "LOS ANGELES", "loc" : [ -118.271613, 34.043439 ], "pop" : 18880, "state" : "CA" }
+{ "_id" : "90017", "city" : "LOS ANGELES", "loc" : [ -118.266582, 34.055864 ], "pop" : 21790, "state" : "CA" }
+{ "_id" : "90016", "city" : "LOS ANGELES", "loc" : [ -118.352787, 34.029826 ], "pop" : 43669, "state" : "CA" }
+{ "_id" : "90018", "city" : "LOS ANGELES", "loc" : [ -118.315173, 34.028972 ], "pop" : 48267, "state" : "CA" }
+{ "_id" : "90019", "city" : "LOS ANGELES", "loc" : [ -118.33426, 34.048158 ], "pop" : 64996, "state" : "CA" }
+{ "_id" : "90020", "city" : "LOS ANGELES", "loc" : [ -118.302211, 34.066535 ], "pop" : 34926, "state" : "CA" }
+{ "_id" : "90021", "city" : "LOS ANGELES", "loc" : [ -118.244698, 34.033303 ], "pop" : 2869, "state" : "CA" }
+.
+.
+.
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
