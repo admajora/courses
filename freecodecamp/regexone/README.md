@@ -27,7 +27,18 @@
 - `\n` new line  
 - `\r` carriage return (useful in windows environment)  
 - `\s` will match any of the specific whitespaces above and is extremely useful when dealing with imperfect input text  
-  - Ex: `\d\.\s+abc` will match: "1.  abc", "2.    abc" and "3.                   abc"  
+  - Ex: `\d\.\s+abc` [example][1]
+- `^` start of the line  
+- `$` end of the line
+  - Ex: `^Mission: successful$` will match Mission: successful
+- `()` grouping characters - You can place any pattern inside the parenthesis to **capture** that part of the pattern  
+  - Ex: `^(\w+).pdf$` - match those files, for example: "file_a_record_file.pdf", "file_yesterday.pdf", "file_a_record_file", "file_yesterday" 
+- ``  
+- ``  
+- ``  
+- ``  
+- ``  
 - ``  
 
  [0]: http://regexone.com/
+ [1]: http://regexone.com/lesson/9?
