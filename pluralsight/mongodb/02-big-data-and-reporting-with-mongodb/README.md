@@ -676,5 +676,27 @@ Sample collection:
 { "_id" : ObjectId("559151b563ca0a83487c31d7"), "book" : "Book 15" }
 ```
 
+```
+> s3.$project._id = 0
+0
+> db.books.aggregate(s3)
+{ "book" : "Book 0" }
+{ "book" : "Book 1" }
+{ "book" : "Book 2" }
+{ "book" : "Book 3" }
+{ "book" : "Book 4" }
+{ "book" : "Book 5" }
+{ "book" : "Book 6" }
+{ "book" : "Book 7" }
+{ "book" : "Book 8" }
+{ "book" : "Book 9" }
+{ "book" : "Book 10" }
+{ "book" : "Book 11" }
+{ "book" : "Book 12" }
+{ "book" : "Book 13" }
+{ "book" : "Book 14" }
+{ "book" : "Book 15" }
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
