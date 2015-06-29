@@ -721,5 +721,14 @@ Sample collection:
 { "Book title" : "Book 15", "Written by" : "Author 5" }
 ```
 
+### Computation
+
+**ps:** do not support $_id on 3.0.3 version
+
+```
+> var s3 = { $project : { _id : 1, math : { $multiply : [ 13, 1000 ]}}}
+> db.books.aggregate(s3)
+{ "_id" : ObjectId("559151b563ca0a83487c31c8"), "math" : 13000 }
+```
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
