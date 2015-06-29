@@ -33,12 +33,18 @@
   - Ex: `^Mission: successful$` will match Mission: successful
 - `()` grouping characters - You can place any pattern inside the parenthesis to **capture** that part of the pattern  
   - Ex: `^(\w+).pdf$` - match those files, for example: "file_a_record_file.pdf", "file_yesterday.pdf", "file_a_record_file", "file_yesterday" 
-- ``  
-- ``  
-- ``  
-- ``  
-- ``  
-- ``  
+- `(())` nested groups - used to extract multiple layers of information  
+  - Ex: `^(\w{3} (\d{4}))$` or `(\w+\s+(\d+))` or `(\w+ (\d+))` will match: "Jan 1987", "May 1969, 1969" 
+- `()?`  
+- `|` logical OR
+  - `I love (cats|dogs)` will match "I love cats", "I love dogs"  
+- `[a-zA-Z0-9_]` any letter or digit including the underscore
+- `\D` represents any non-digit character 
+- `\S` any non-whitespace character 
+- `\W` any non-alphanumeric character (such as punctuation for example)
+- `\0 \1 ...` [referencing][2]
+- `` 
 
  [0]: http://regexone.com/
  [1]: http://regexone.com/lesson/9?
+ [2]: http://regexone.com/lesson/15?
