@@ -198,6 +198,35 @@ Data structure:
 # Will push every item in the array repeatedly
 ```
 
+### $first
+
+```
+> var s1 = { $group : { _id : "$state", sample : { $first : "$city" }}}
+> db.zips.aggregate(s1)
+{ "_id" : "WA", "sample" : "ALGONA" }
+{ "_id" : "HI", "sample" : "ELEELE" }
+{ "_id" : "CA", "sample" : "LOS ANGELES" }
+{ "_id" : "OR", "sample" : "AURORA" }
+{ "_id" : "NM", "sample" : "ALGODONES" }
+{ "_id" : "UT", "sample" : "ALTAMONT" }
+{ "_id" : "OK", "sample" : "ALEX" }
+{ "_id" : "LA", "sample" : "METAIRIE" }
+{ "_id" : "NE", "sample" : "ABIE" }
+{ "_id" : "TX", "sample" : "ALLEN" }
+{ "_id" : "MO", "sample" : "MANCHESTER" }
+{ "_id" : "MT", "sample" : "ACTON" }
+{ "_id" : "ND", "sample" : "ALICE" }
+{ "_id" : "AK", "sample" : "ANCHORAGE" }
+{ "_id" : "SD", "sample" : "AURORA" }
+{ "_id" : "DC", "sample" : "WASHINGTON" }
+{ "_id" : "MN", "sample" : "EAST BETHEL" }
+{ "_id" : "ID", "sample" : "FORT HALL" }
+{ "_id" : "KY", "sample" : "BARDSTOWN" }
+{ "_id" : "WI", "sample" : "ADELL" }
+.
+.
+.
+```
 
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
