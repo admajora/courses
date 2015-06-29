@@ -486,5 +486,79 @@ Data structure:
 - $sort items
 - Pass to your app more items than showed in app. Ex: Pagination 10 in 10 items - Query on db 100 in 100 items
 
+## 5. Shaping Documents
+
+Sample collection:
+
+```
+[
+  {
+    "book": "Book 1",
+    "author": "Author 5",
+    "category": "Category 1"
+  },
+  {
+    "book": "Book 2",
+    "author": "Author 5",
+    "category": "Category 1"
+  },
+  {
+    "book": "Book 3",
+    "author": "Author 4",
+    "category": "Category 1"
+  },
+  {
+    "book": "Book 4",
+    "author": "Author 4",
+    "category": "Category 1"
+  },
+  {
+    "book": "Book 5",
+    "author": "Author 4",
+    "category": "Category 2"
+  },
+  {
+    "book": "Book 6",
+    "author": "Author 4",
+    "category": "Category 2"
+  },
+  {
+    "book": "Book 7",
+    "author": "Author 4",
+    "category": "Category 2"
+  },
+  {
+    "book": "Book 8",
+    "author": "Author 3",
+    "category": "Category 3"
+  },
+  {
+    "book": "Book 9",
+    "author": "Author 2",
+    "category": "Category 3"
+  },
+  {
+    "book": "Book 10",
+    "author": "Author 2",
+    "category": "Category 3"
+  },
+  {
+    "book": "Book 11",
+    "author": "Author 1",
+    "category": "Category 3"
+  },
+  {
+    "book": "Book 12",
+    "author": "Author 1",
+    "category": "Category 4"
+  },
+  {
+    "book": "Book 13",
+    "author": "Author 1",
+    "category": "Category 5"
+  }
+]
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
