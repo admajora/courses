@@ -494,6 +494,7 @@ Sample collection:
 [
   {
     "book": "Book 0",
+    "createdOn": "2015-01-13T02:00:00.000Z",
     "author": "Author 5",
     "category": [
       "tag5",
@@ -503,6 +504,7 @@ Sample collection:
   },
   {
     "book": "Book 1",
+    "createdOn": "2015-02-13T02:00:00.000Z",
     "author": "Author 1",
     "category": [
       "tag1"
@@ -510,6 +512,7 @@ Sample collection:
   },
   {
     "book": "Book 2",
+    "createdOn": "2015-03-13T03:00:00.000Z",
     "author": "Author 2",
     "category": [
       "tag2"
@@ -517,6 +520,7 @@ Sample collection:
   },
   {
     "book": "Book 3",
+    "createdOn": "2015-04-13T03:00:00.000Z",
     "author": "Author 3",
     "category": [
       "tag1",
@@ -526,6 +530,7 @@ Sample collection:
   },
   {
     "book": "Book 4",
+    "createdOn": "2015-05-13T03:00:00.000Z",
     "author": "Author 4",
     "category": [
       "tag4"
@@ -533,6 +538,7 @@ Sample collection:
   },
   {
     "book": "Book 5",
+    "createdOn": "2015-06-13T03:00:00.000Z",
     "author": "Author 5",
     "category": [
       "tag5",
@@ -542,6 +548,7 @@ Sample collection:
   },
   {
     "book": "Book 6",
+    "createdOn": "2015-07-13T03:00:00.000Z",
     "author": "Author 3",
     "category": [
       "tag1",
@@ -551,6 +558,7 @@ Sample collection:
   },
   {
     "book": "Book 7",
+    "createdOn": "2015-08-13T03:00:00.000Z",
     "author": "Author 7",
     "category": [
       "tag7"
@@ -558,6 +566,7 @@ Sample collection:
   },
   {
     "book": "Book 8",
+    "createdOn": "2015-09-13T03:00:00.000Z",
     "author": "Author 8",
     "category": [
       "tag8"
@@ -565,6 +574,7 @@ Sample collection:
   },
   {
     "book": "Book 9",
+    "createdOn": "2015-10-13T03:00:00.000Z",
     "author": "Author 3",
     "category": [
       "tag1",
@@ -574,6 +584,7 @@ Sample collection:
   },
   {
     "book": "Book 10",
+    "createdOn": "2015-11-13T02:00:00.000Z",
     "author": "Author 5",
     "category": [
       "tag5",
@@ -583,6 +594,7 @@ Sample collection:
   },
   {
     "book": "Book 11",
+    "createdOn": "2015-12-13T02:00:00.000Z",
     "author": "Author 11",
     "category": [
       "tag11"
@@ -590,6 +602,7 @@ Sample collection:
   },
   {
     "book": "Book 12",
+    "createdOn": "2016-01-13T02:00:00.000Z",
     "author": "Author 3",
     "category": [
       "tag1",
@@ -599,6 +612,7 @@ Sample collection:
   },
   {
     "book": "Book 13",
+    "createdOn": "2016-02-13T02:00:00.000Z",
     "author": "Author 13",
     "category": [
       "tag13"
@@ -606,6 +620,7 @@ Sample collection:
   },
   {
     "book": "Book 14",
+    "createdOn": "2016-03-13T03:00:00.000Z",
     "author": "Author 14",
     "category": [
       "tag14"
@@ -613,6 +628,7 @@ Sample collection:
   },
   {
     "book": "Book 15",
+    "createdOn": "2016-04-13T03:00:00.000Z",
     "author": "Author 5",
     "category": [
       "tag5",
@@ -730,5 +746,58 @@ Sample collection:
 > db.books.aggregate(s3)
 { "_id" : ObjectId("559151b563ca0a83487c31c8"), "math" : 13000 }
 ```
+
+### String functions
+
+```
+> var s3 = { $project : { cited : { $concat : [ "$book", " - written by ", "$author" ]}}}
+> db.books.aggregate(s3)
+{ "_id" : ObjectId("559151b563ca0a83487c31c8"), "cited" : "Book 0 - written by Author 5" }
+{ "_id" : ObjectId("559151b563ca0a83487c31c9"), "cited" : "Book 1 - written by Author 1" }
+{ "_id" : ObjectId("559151b563ca0a83487c31ca"), "cited" : "Book 2 - written by Author 2" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cb"), "cited" : "Book 3 - written by Author 3" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cc"), "cited" : "Book 4 - written by Author 4" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cd"), "cited" : "Book 5 - written by Author 5" }
+{ "_id" : ObjectId("559151b563ca0a83487c31ce"), "cited" : "Book 6 - written by Author 3" }
+{ "_id" : ObjectId("559151b563ca0a83487c31cf"), "cited" : "Book 7 - written by Author 7" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d0"), "cited" : "Book 8 - written by Author 8" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d1"), "cited" : "Book 9 - written by Author 3" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d2"), "cited" : "Book 10 - written by Author 5" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d3"), "cited" : "Book 11 - written by Author 11" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d4"), "cited" : "Book 12 - written by Author 3" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d5"), "cited" : "Book 13 - written by Author 13" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d6"), "cited" : "Book 14 - written by Author 14" }
+{ "_id" : ObjectId("559151b563ca0a83487c31d7"), "cited" : "Book 15 - written by Author 5" }
+```
+
+```
+> db.books.aggregate(s3)
+{ "_id" : ObjectId("559151b563ca0a83487c31c8"), "author" : "Author 5", "startsWith" : "A" }
+{ "_id" : ObjectId("559151b563ca0a83487c31c9"), "author" : "Author 1", "startsWith" : "A" }
+{ "_id" : ObjectId("559151b563ca0a83487c31ca"), "author" : "Author 2", "startsWith" : "A" }
+.
+.
+.
+```
+
+### Date functions
+
+```
+var s3 = { $project : {
+  dayOfYear : { $dayOfYear : "$createdOn" },
+  dayOfMonth : { $dayOfMonth : "$createdOn" },
+  dayOfWeek : { $dayOfWeek : "$createdOn" },
+  year : { $year : "$createdOn" },
+  month : { $month: "$createdOn" },
+  week : { $week : "$createdOn" },
+  hour : { $hour : "$createdOn" },
+  minute : { $minute: "$createdOn" },
+  second : { $second : "$createdOn" },
+  millisecond : { $millisecond : "$createdOn" },
+  _id : 0,
+  createdOn : 1
+}}
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
