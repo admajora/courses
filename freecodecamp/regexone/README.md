@@ -103,6 +103,14 @@ capture text|favicon.gif|favicon, gif
 skip text|img0912.jpg.tmp
 skip text|access.lock       
 
+### Example 5: Matching specific filenames
+
+`(\w+)\.(jpg|png|gif)
+
+### Example 6: Trimming whitespace from start and end of line
+
+`^\s*([\w\s.]*)\s*$`
+
  [0]: http://regexone.com/
  [1]: http://regexone.com/lesson/9?
  [2]: http://regexone.com/lesson/15?
