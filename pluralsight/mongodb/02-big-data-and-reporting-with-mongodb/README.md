@@ -962,6 +962,37 @@ The "Reduce" in Map/Reduce
 }
 ```
 
+### Outuput options
+
+```
+> var map = function() { emit( this.author , 1 ); }
+> var reduce = function( key, values ) { return Array.sum( values ); }
+> var preview = { out : "booksByAuthor" }
+> db.books.mapReduce( map, reduce, preview )
+{
+  "result" : "booksByAuthor",
+  "timeMillis" : 21,
+  "counts" : {
+    "input" : 16,
+    "emit" : 16,
+    "reduce" : 2,
+    "output" : 10
+  },
+  "ok" : 1
+}
+> db.booksByAuthor.find()
+{ "_id" : "Author 1", "value" : 1 }
+{ "_id" : "Author 11", "value" : 1 }
+{ "_id" : "Author 13", "value" : 1 }
+{ "_id" : "Author 14", "value" : 1 }
+{ "_id" : "Author 2", "value" : 1 }
+{ "_id" : "Author 3", "value" : 4 }
+{ "_id" : "Author 4", "value" : 1 }
+{ "_id" : "Author 5", "value" : 4 }
+{ "_id" : "Author 7", "value" : 1 }
+{ "_id" : "Author 8", "value" : 1 }
+```
+
 
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
