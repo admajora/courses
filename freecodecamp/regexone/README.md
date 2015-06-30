@@ -111,6 +111,11 @@ skip text|access.lock
 
 `^\s*([\w\s.]*)\s*$`
 
+### Example 7: Extracting information from a log file
+
+[result][3]
+
  [0]: http://regexone.com/
  [1]: http://regexone.com/lesson/9?
  [2]: http://regexone.com/lesson/15?
+ [3]: http://stackoverflow.com/questions/14297586/extracting-information-from-a-log-file-using-a-regex
