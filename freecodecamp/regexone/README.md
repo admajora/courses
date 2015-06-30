@@ -57,7 +57,18 @@ match text  1.9e10
 match text  123,340.00
 skip text   720p             
 
+### Example 2: Matching phone numbers
 
+`1?[\s-]?\(?(\d{3})\)?[\s-]?\d{3}[ -]?\d{4}`
+
+your task| text | capture
+:--:|:--:|:--:
+capture text | 415-555-1234 | 415
+capture text | 650-555-2345 | 650
+capture text | (416)555-3456| 416
+capture text | 202 555 456| 202
+capture text | 4035555678 | 403
+capture text | 1 416 555 9292 | 416  
 
  [0]: http://regexone.com/
  [1]: http://regexone.com/lesson/9?
