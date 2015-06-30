@@ -877,6 +877,93 @@ var s3 = { $project : {
 1. **$sort early**
   - Before $group, $project, $unwind
 
+## 8. Map/Reduce
+
+> "Map/Reduce is the way we turn *Big-Data* into *No-Big-Deal*"
+>
+> - Nuri
+
+### Map
+
+The "Map" in Map/Reduce
+
+1. Invoked on one document at a time by Mongo
+1. You emit zero or more output values
+
+### Reduce
+
+The "Reduce" in Map/Reduce
+
+1. Invoked with a key and 1 or more emitted values for that key
+1. You crunch the docs into one result and return it
+
+### Distributed work
+
+- Reduce operations can run in parallel across shards
+
+### Demo
+
+```
+
+1. ****
+n() { emit( this.author , 1 ); }
+> var reduce = function( key, values ) { return Array.sum( values ); }
+> var preview = { out : { inline : 1 }}
+> db.books.mapReduce( map, reduce, preview )
+{
+  "results" : [
+    {
+      "_id" : "Author 1",
+      "value" : 1
+    },
+    {
+      "_id" : "Author 11",
+      "value" : 1
+    },
+    {
+      "_id" : "Author 13",
+      "value" : 1
+    },
+    {
+      "_id" : "Author 14",
+      "value" : 1
+    },
+    {
+      "_id" : "Author 2",
+      "value" : 1
+    },
+    {
+      "_id" : "Author 3",
+      "value" : 4
+    },
+    {
+      "_id" : "Author 4",
+      "value" : 1
+    },
+    {
+      "_id" : "Author 5",
+      "value" : 4
+    },
+    {
+      "_id" : "Author 7",
+      "value" : 1
+    },
+    {
+      "_id" : "Author 8",
+      "value" : 1
+    }
+  ],
+  "timeMillis" : 144,
+  "counts" : {
+    "input" : 16,
+    "emit" : 16,
+    "reduce" : 2,
+    "output" : 10
+  },
+  "ok" : 1
+}
+```
+
 
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
