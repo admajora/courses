@@ -814,6 +814,30 @@ var s3 = { $project : {
 ...
 ```
 
+### Building blocks
+
+```
+> var q1 = { $sort : { author : 1 }}
+> var q2 = { $project : { cited : { $concat : [ "$book", " - written by ", "$author" ]}}}
+> db.books.aggregate(q1, q2)
+{ "_id" : ObjectId("55915ed963ca0a83487c31d9"), "cited" : "Book 1 - written by Author 1" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31e3"), "cited" : "Book 11 - written by Author 11" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31e5"), "cited" : "Book 13 - written by Author 13" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31e6"), "cited" : "Book 14 - written by Author 14" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31da"), "cited" : "Book 2 - written by Author 2" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31db"), "cited" : "Book 3 - written by Author 3" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31de"), "cited" : "Book 6 - written by Author 3" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31e1"), "cited" : "Book 9 - written by Author 3" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31e4"), "cited" : "Book 12 - written by Author 3" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31dc"), "cited" : "Book 4 - written by Author 4" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31d8"), "cited" : "Book 0 - written by Author 5" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31dd"), "cited" : "Book 5 - written by Author 5" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31e2"), "cited" : "Book 10 - written by Author 5" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31e7"), "cited" : "Book 15 - written by Author 5" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31df"), "cited" : "Book 7 - written by Author 7" }
+{ "_id" : ObjectId("55915ed963ca0a83487c31e0"), "cited" : "Book 8 - written by Author 8" }
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
 [2]: http://docs.mongodb.org/manual/reference/operator/aggregation/cond/
