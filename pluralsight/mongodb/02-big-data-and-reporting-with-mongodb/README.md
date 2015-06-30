@@ -855,6 +855,16 @@ var s3 = { $project : {
 .
 ```
 
+## 6. Other Operators
+
+- Boolean operators
+- Comparison operators
+- Arithmetic operators
+- String operators
+- Date operators
+- Conditional operators
+
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
 [2]: http://docs.mongodb.org/manual/reference/operator/aggregation/cond/
