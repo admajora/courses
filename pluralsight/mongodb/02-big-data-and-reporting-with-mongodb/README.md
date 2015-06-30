@@ -838,6 +838,23 @@ var s3 = { $project : {
 { "_id" : ObjectId("55915ed963ca0a83487c31e0"), "cited" : "Book 8 - written by Author 8" }
 ```
 
+### Creating sub-documents
+
+```
+> var q = { $project : { title : "$book", ref : { author : "$author", published : "$createdOn" }}}
+> db.books.aggregate(q)
+{ "_id" : ObjectId("55915ed963ca0a83487c31d8"), "title" : "Book 0", "ref" : { "author" : "Author 5", "published" : "2015-01-13T02:00:00.000Z" } }
+{ "_id" : ObjectId("55915ed963ca0a83487c31d9"), "title" : "Book 1", "ref" : { "author" : "Author 1", "published" : "2015-02-13T02:00:00.000Z" } }
+{ "_id" : ObjectId("55915ed963ca0a83487c31da"), "title" : "Book 2", "ref" : { "author" : "Author 2", "published" : "2015-03-13T03:00:00.000Z" } }
+{ "_id" : ObjectId("55915ed963ca0a83487c31db"), "title" : "Book 3", "ref" : { "author" : "Author 3", "published" : "2015-04-13T03:00:00.000Z" } }
+{ "_id" : ObjectId("55915ed963ca0a83487c31dc"), "title" : "Book 4", "ref" : { "author" : "Author 4", "published" : "2015-05-13T03:00:00.000Z" } }
+{ "_id" : ObjectId("55915ed963ca0a83487c31dd"), "title" : "Book 5", "ref" : { "author" : "Author 5", "published" : "2015-06-13T03:00:00.000Z" } }
+{ "_id" : ObjectId("55915ed963ca0a83487c31de"), "title" : "Book 6", "ref" : { "author" : "Author 3", "published" : "2015-07-13T03:00:00.000Z" } }
+.
+.
+.
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
 [2]: http://docs.mongodb.org/manual/reference/operator/aggregation/cond/
