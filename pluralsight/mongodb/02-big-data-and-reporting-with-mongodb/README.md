@@ -904,9 +904,7 @@ The "Reduce" in Map/Reduce
 ### Demo
 
 ```
-
-1. ****
-n() { emit( this.author , 1 ); }
+> var map = function() { emit( this.author , 1 ); }
 > var reduce = function( key, values ) { return Array.sum( values ); }
 > var preview = { out : { inline : 1 }}
 > db.books.mapReduce( map, reduce, preview )
