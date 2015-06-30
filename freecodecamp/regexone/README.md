@@ -72,6 +72,18 @@ capture text | 202 555 456| 202
 capture text | 4035555678 | 403
 capture text | 1 416 555 9292 | 416  
 
+### Example 3: Matching emails
+
+your tasktext | capture
+:--:|:--:
+capture text|tom@hogwarts.comtom
+capture text|tom.riddle@hogwarts.comtom.riddle
+capture text|tom.riddle+regexone@hogwarts.comtom.riddle
+capture text|tom@hogwarts.eu.comtom
+capture text|potter@hogwarts.compotter
+capture text|harry@hogwarts.comharry
+capture text|hermione+regexone@hogwarts.comhermione  
+
  [0]: http://regexone.com/
  [1]: http://regexone.com/lesson/9?
  [2]: http://regexone.com/lesson/15?
