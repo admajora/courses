@@ -50,12 +50,14 @@
 
 `^-?\d+(,\d+)*(\.\d+(e\d+)?)?$`
 
-match text  3.14529
-match text  -255.34
-match text  128           
-match text  1.9e10
-match text  123,340.00
-skip text   720p             
+Your task | Text
+:--:|:--:
+match text | 3.14529
+match text | -255.34
+match text | 128           
+match text | 1.9e10
+match text | 123,340.00
+skip text  | 720p             
 
 ### Example 2: Matching phone numbers
 
