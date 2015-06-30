@@ -993,7 +993,6 @@ The "Reduce" in Map/Reduce
 { "_id" : "Author 8", "value" : 1 }
 ```
 
-
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
 [2]: http://docs.mongodb.org/manual/reference/operator/aggregation/cond/
