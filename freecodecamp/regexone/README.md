@@ -74,6 +74,8 @@ capture text | 1 416 555 9292 | 416
 
 ### Example 3: Matching emails
 
+`^([\w.]*)`
+
 your tasktext | capture
 :--:|:--:
 capture text|tom@hogwarts.comtom
@@ -83,6 +85,23 @@ capture text|tom@hogwarts.eu.comtom
 capture text|potter@hogwarts.compotter
 capture text|harry@hogwarts.comharry
 capture text|hermione+regexone@hogwarts.comhermione  
+
+### Example 4: Matching HTML
+
+### Example 5: Matching specific filenames
+
+`(\w+)\.(jpg|png|gif)$`
+
+your task|text|capture
+:--:|:--:|:--:
+skip text|.bash_profile
+skip text|workspace.doc
+capture text|img0912.jpg|img0912, jpg
+capture text|updated_img0912.png|updated_img0912, png
+skip text|documentation.html
+capture text|favicon.gif|favicon, gif
+skip text|img0912.jpg.tmp
+skip text|access.lock       
 
  [0]: http://regexone.com/
  [1]: http://regexone.com/lesson/9?
