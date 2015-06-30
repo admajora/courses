@@ -864,6 +864,19 @@ var s3 = { $project : {
 - Date operators
 - Conditional operators
 
+## 7. Perfomance (Aggregate)
+
+### Perfomance Rules of Thumb
+
+1. **$match early**
+  - Limit docs under consideration
+1. **$project necessary fields**
+  - Dump fields not needed - win back memory space
+1. **Index is your friend**
+  - Use it! $match, $sort, $skip, $limt may benefit
+1. **$sort early**
+  - Before $group, $project, $unwind
+
 
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
