@@ -43,7 +43,21 @@
 - `\S` any non-whitespace character 
 - `\W` any non-alphanumeric character (such as punctuation for example)
 - `\0 \1 ...` [referencing][2]
-- `` 
+
+## Practical Examples
+
+### Example 1: Matching a scientific or decimal number
+
+`^-?\d+(,\d+)*(\.\d+(e\d+)?)?$`
+
+match text  3.14529
+match text  -255.34
+match text  128           
+match text  1.9e10
+match text  123,340.00
+skip text   720p             
+
+
 
  [0]: http://regexone.com/
  [1]: http://regexone.com/lesson/9?
