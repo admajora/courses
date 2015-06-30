@@ -799,5 +799,10 @@ var s3 = { $project : {
 }}
 ```
 
+### Compound conditional $cond
+
+[$cond (aggregation)][2]
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
+[2]: http://docs.mongodb.org/manual/reference/operator/aggregation/cond/
