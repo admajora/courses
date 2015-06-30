@@ -803,6 +803,17 @@ var s3 = { $project : {
 
 [$cond (aggregation)][2]
 
+### $ifNull
+
+```
+> var q = { $project : { pages : { $ifNull : [ "$pages", 13 ]}}}
+> db.books.aggregate(q)
+{ "_id" : ObjectId("55915ed963ca0a83487c31d8"), "pages" : 13 }
+{ "_id" : ObjectId("55915ed963ca0a83487c31d9"), "pages" : 13 }
+{ "_id" : ObjectId("55915ed963ca0a83487c31da"), "pages" : 13 }
+...
+```
+
 [0]: http://www.pluralsight.com/courses/mongodb-big-data-reporting
 [1]: http://media.mongodb.org/zips.json
 [2]: http://docs.mongodb.org/manual/reference/operator/aggregation/cond/
