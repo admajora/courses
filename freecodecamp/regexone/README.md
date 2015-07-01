@@ -105,7 +105,7 @@ skip text|access.lock
 
 ### Example 5: Matching specific filenames
 
-`(\w+)\.(jpg|png|gif)
+`(\w+)\.(jpg|png|gif)`
 
 ### Example 6: Trimming whitespace from start and end of line
 
