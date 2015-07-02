@@ -1,4 +1,4 @@
-var expect = require( 'chai' ).expect;
+var expect        = require( 'chai' ).expect;
 var reverseString = require( '../02-reverse-string' );
 
 describe( 'Reverse a String', function() {
