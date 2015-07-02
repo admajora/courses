@@ -4,3 +4,5 @@
 function factorialize( num ) {
 
 }
+
+module.exports = factorialize;
