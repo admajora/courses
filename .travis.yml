@@ -3,6 +3,7 @@ node_js:
   - "0.12"
   - "0.11"
   - "0.10"
-script: "cd freecodecamp/bonfires && npm run-script test-travis"
+before_script: "cd ./freecodecamp/bonfires/"
+script: "npm run-script test-travis"
 # Send coverage data to Coveralls
 after_script: "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
