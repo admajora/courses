@@ -7,4 +7,8 @@ describe( 'Meet Bonfire', function() {
     expect( meetBonfire()).to.be.a( 'boolean' );
   });
 
+  it( 'Should always return true', function() {
+    expect( meetBonfire()).to.be.true;
+  });
+
 });
