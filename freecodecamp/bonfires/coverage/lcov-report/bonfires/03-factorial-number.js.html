@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for bonfires/01-meet-bonfire.js</title>
+    <title>Code coverage report for bonfires/03-factorial-number.js</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../prettify.css">
     <link rel="stylesheet" href="../base.css">
@@ -13,15 +13,15 @@
 </head>
 <body>
 <div class="header high">
-    <h1>Code coverage report for <span class="entity">bonfires/01-meet-bonfire.js</span></h1>
+    <h1>Code coverage report for <span class="entity">bonfires/03-factorial-number.js</span></h1>
     <h2>
-        Statements: <span class="metric">100% <small>(3 / 3)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
-        Branches: <span class="metric">100% <small>(0 / 0)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">100% <small>(6 / 6)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">100% <small>(2 / 2)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         Functions: <span class="metric">100% <small>(1 / 1)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
-        Lines: <span class="metric">100% <small>(3 / 3)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">100% <small>(6 / 6)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../index.html">All files</a> &#187; <a href="index.html">bonfires/</a> &#187; 01-meet-bonfire.js</div>
+    <div class="path"><a href="../index.html">All files</a> &#187; <a href="index.html">bonfires/</a> &#187; 03-factorial-number.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
@@ -34,24 +34,39 @@
 7
 8
 9
-10</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+10
+11
+12
+13
+14
+15</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">48</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48</span>
+<span class="cline-any cline-yes">4</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">44</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// Meet Bonfire - Difficulty: 0/5
-// Make this function return true no matter what.
-// Source: http://www.freecodecamp.com/challenges/bonfire-meet-bonfire
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// Factorialize a number - Difficulty: 1/5
+// Return the factorial of the provided integer.
 &nbsp;
-function meetBonfire() {
-  return true;
+function factorialize( num ) {
+  var value = parseInt( num, 10 );
+&nbsp;
+  if ( value === 1 ) {
+    return 1;
+  }
+&nbsp;
+  return value * factorialize( value - 1 );
 }
 &nbsp;
-module.exports = meetBonfire;
+module.exports = factorialize;
 &nbsp;</pre></td></tr>
 </table></pre>
 

@@ -4,7 +4,11 @@
 function factorialize( num ) {
   var value = parseInt( num, 10 );
 
-  return value;
+  if ( value === 1 ) {
+    return 1;
+  }
+
+  return value * factorialize( value - 1 );
 }
 
 module.exports = factorialize;
