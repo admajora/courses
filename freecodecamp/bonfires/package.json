@@ -1,0 +1,11 @@
+{
+  "name": "bonfires",
+  "version": "1.0.0",
+  "description": "Algorithm scripting from FreeCodeCamp course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Douglas",
+  "license": "MIT"
+}
