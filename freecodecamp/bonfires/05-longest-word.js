@@ -7,7 +7,21 @@
  */
 
 function findLongestWord( str ) {
+  if ( typeof str !== 'string' ) {
+    throw new TypeError( 'The input must be a string' );
+  }
 
+  var words       = str.split( ' ' );
+  var longestWord = 0;
+
+  words
+    .forEach( function( word ) {
+      var length = word.length;
+
+      if ( length > longestWord ) {
+        longestWord = length;
+      }
+    });
 }
 
 module.exports = findLongestWord;

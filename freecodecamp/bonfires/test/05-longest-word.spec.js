@@ -11,6 +11,10 @@ describe( '#findLongestWord()', function() {
     }
   ];
 
+  it( 'Should throw an error if a non-string value is passed', function() {
+    expect( findLongestWord.bind( findLongestWord, 13 )).to.throw( TypeError );
+  });
+
   assumptions
     .forEach( function( assumption ) {
       it( 'Should return the number of characters for the longest word in the string' + assumption.text, function() {
