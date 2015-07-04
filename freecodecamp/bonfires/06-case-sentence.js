@@ -8,7 +8,9 @@
  */
 
 function titleCase( str ) {
-
+  if ( typeof str !== 'string' ) {
+    throw new TypeError( 'You should pass a string' );
+  }
 }
 
 module.exports = titleCase;

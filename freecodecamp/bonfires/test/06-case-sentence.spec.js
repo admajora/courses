@@ -15,4 +15,8 @@ describe( '#titleCase()', function() {
     expect( titleCase( "HERE IS MY HANDLE HERE IS MY SPOUT" )).to.equal( "Here Is My Handle Here Is My Spout" );
   });
 
+  it( 'Should thrown an error if a non string is passed', function() {
+    expect( titleCase.bind( titleCase, 13 )).to.throw( TypeError );
+  });
+
 });
