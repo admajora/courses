@@ -8,8 +8,22 @@
 //
 // Source: http://www.freecodecamp.com/challenges/bonfire-check-for-palindromes
 
-function palindrome() {
+var reverseString = require( './02-reverse-string' );
 
+function palindrome( input ) {
+  if ( typeof input !== 'string' ) {
+    return false;
+  }
+
+  var pattern     = /\W/g;
+  var text        = input.replace( pattern, '' ).toLowerCase();
+  var reverseText = reverseString( input ).replace( pattern, '' ).toLowerCase();
+
+  if ( text === reverseText ) {
+    return true;
+  }
+
+  return false;
 }
 
 module.exports = palindrome;

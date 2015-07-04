@@ -4,7 +4,11 @@
 // Source: http://www.freecodecamp.com/challenges/bonfire-reverse-a-string
 
 function reverseString( input ) {
-  var word = input.toString();
+  if ( typeof input !== 'string' ) {
+    throw new TypeError( 'A string is expected' );
+  }
+
+  var word = input;
 
   word = word
     .split( '' )
