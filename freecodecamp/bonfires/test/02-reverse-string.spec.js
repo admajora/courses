@@ -7,6 +7,10 @@ describe( 'Reverse a String', function() {
     expect( reverseString( 'any input' )).to.be.a( 'string' );
   });
 
+  it( 'Should throw an error when passed a non string value', function() {
+    expect( reverseString.bind( reverseString, {} )).to.throw( 'A string is expected' );
+  });
+
   it( 'Should revert "hello"', function() {
     expect( reverseString( 'hello' )).to.equal( 'olleh' );
   });

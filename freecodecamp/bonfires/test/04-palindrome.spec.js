@@ -7,6 +7,10 @@ describe( 'Check for palindromes', function() {
     expect( palindrome( "freecodecamp" )).to.be.a( 'boolean' );
   });
 
+  it( 'Should return a false when a non string value is passed', function() {
+    expect( palindrome( 13 )).to.be.false;
+  });
+
   it( 'Should return true for "eye"', function() {
     expect( palindrome( "eye" )).to.be.true;
   });
