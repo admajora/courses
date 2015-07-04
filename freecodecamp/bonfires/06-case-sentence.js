@@ -11,6 +11,16 @@ function titleCase( str ) {
   if ( typeof str !== 'string' ) {
     throw new TypeError( 'You should pass a string' );
   }
+
+  var text      = str.toLowerCase();
+  var finalText = text.split( ' ' );
+
+  finalText
+    .forEach( function( word, index, array ) {
+      array[ index ] = word.replace( /^\w{1}/, word.charAt( 0 ).toUpperCase() );
+    });
+
+  return finalText.join( ' ' );
 }
 
 module.exports = titleCase;
