@@ -1,5 +1,5 @@
 var expect = require( 'chai' ).expect;
-var palindrome = require( '../04-palindrome.js' );
+var palindrome = require( '../04-palindromes.js' );
 
 describe( 'Check for palindromes', function() {
 

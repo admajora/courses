@@ -7,3 +7,9 @@
 //   order to check for palindromes.
 //
 // Source: http://www.freecodecamp.com/challenges/bonfire-check-for-palindromes
+
+function palindrome() {
+
+}
+
+module.exports = palindrome;
