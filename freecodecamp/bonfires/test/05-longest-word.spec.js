@@ -8,6 +8,21 @@ describe( '#findLongestWord()', function() {
       text   : ' "The quick brown fox jumped over the lazy dog"',
       arg    : "The quick brown fox jumped over the lazy dog",
       result : 6
+    },
+    {
+      text   : ' "May the force be with you"',
+      arg    : 'May the force be with you',
+      result : 5
+    },
+    {
+      text   : ' "Google do a barrel roll"',
+      arg    : 'Google do a barrel roll',
+      result : 6
+    },
+    {
+      text   : ' "What is the average airspeed velocity of an unladen swallow"',
+      arg    : 'What is the average airspeed velocity of an unladen swallow',
+      result : 8
     }
   ];
 
