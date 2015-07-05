@@ -7,7 +7,18 @@
  */
 
 function end( str, target ) {
+  if ( typeof str !== 'string' || typeof target !== 'string' ) {
+    throw new TypeError( 'All arguments should be a string' );
+  }
 
+  var text = str.split( ' ' );
+  var size = text.length;
+
+  if ( size > 1 ) {
+    return text[ text.length - 1 ] === target;
+  }
+
+  return text[ 0 ].substr( text[ 0 ].length - 1 ) === target;
 }
 
 module.exports = end;

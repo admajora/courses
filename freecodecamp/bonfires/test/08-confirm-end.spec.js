@@ -23,4 +23,8 @@ describe( '#end()', function() {
     expect( end( "If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing", "mountain" )).to.be.false;
   });
 
+  it( 'Should throw an error if one of the arguments are a non string value', function() {
+    expect( end.bind( end, 13, 'some value' )).to.throw( TypeError );
+  });
+
 });
