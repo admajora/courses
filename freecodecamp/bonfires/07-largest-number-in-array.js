@@ -7,7 +7,18 @@
  */
 
 function largestNumber( arr ) {
+  if ( !Array.isArray( arr )) {
+    throw new TypeError( 'You should pass an Array');
+  }
 
+  var maxArray = [];
+
+  arr
+    .forEach( function( item ) {
+      maxArray.push( Math.max.apply( Math, item ));
+    });
+
+  return maxArray;
 }
 
 module.exports = largestNumber;
