@@ -9,7 +9,26 @@
  */
 
 function truncate( str, num ) {
+  if( typeof str !== 'string' ) {
+    throw new TypeError( 'Input should be a string' );
+  }
 
+  if ( num <= 0 ) {
+    return '';
+  } else if ( num <= 3 ) {
+    return str.slice( 0, num );
+  }
+
+  var length = str.length;
+  var text   = '';
+
+  if ( length > num ) {
+    text = str.slice( 0, num - 3 ) + '...';
+  } else {
+    text = str;
+  }
+
+  return text;
 }
 
 module.exports = truncate;
