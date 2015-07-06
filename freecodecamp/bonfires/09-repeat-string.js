@@ -8,7 +8,9 @@
  */
 
 function repeat( str, num ) {
-
+  if ( typeof str !== 'string' ) {
+    throw new TypeError( 'Input should be a string' );
+  }
 }
 
 module.exports = repeat;

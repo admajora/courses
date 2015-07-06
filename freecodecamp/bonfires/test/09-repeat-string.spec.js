@@ -15,4 +15,8 @@ describe( '#repeat()', function() {
     expect( repeat( 'abc', -2 )).to.equal( '' );
   });
 
+  it( 'Should throw an error if a non string is passed', function() {
+    expect( repeat.bind( repeat, 13, 1 )).to.throw( TypeError );
+  });
+
 });
