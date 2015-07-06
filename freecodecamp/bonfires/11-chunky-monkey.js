@@ -9,7 +9,22 @@
  */
 
 function chunk( arr, size ) {
+  if ( !Array.isArray( arr )) {
+    throw new TypeError( 'Should input an array' );
+  }
+  
+  var oldArray = arr;
+  var newArray = [];
+  var length = oldArray.length;
 
+  while ( length > size ) {
+    newArray.push( oldArray.splice( 0, size ));
+    length = oldArray.length;
+  }
+
+  newArray.push( oldArray );
+
+  return newArray;
 }
 
 module.exports = chunk;

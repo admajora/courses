@@ -18,4 +18,8 @@ describe( '#chunky()', function() {
   it( 'Should return an multi-dimensional array', function() {
     expect( chunk( [0, 1, 2, 3, 4, 5], 4 )).to.deep.equal( [[0, 1, 2, 3], [4, 5]] );
   });
+
+  it( 'Should throw an error if a non array is passed', function() {
+    expect( chunk.bind( chunk, 13, 1 )).to.throw( TypeError );
+  });
 });
