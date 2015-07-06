@@ -11,6 +11,14 @@ function repeat( str, num ) {
   if ( typeof str !== 'string' ) {
     throw new TypeError( 'Input should be a string' );
   }
+
+  if ( num <= 0 ) {
+    return '';
+  }
+
+  var text = new Array( num + 1 );
+
+  return text.join( str );
 }
 
 module.exports = repeat;
