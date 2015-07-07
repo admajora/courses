@@ -9,7 +9,21 @@
  */
 
 function where( collection, source ) {
+  var result = [];
+  var key    = Object.keys( source )[ 0 ]; 
 
+  collection
+    .forEach( function( item ) {
+      try {
+        if ( item[ key ] && item[ key ] === source[ key ]) {
+          result.push( item );
+        }
+      } catch( e ) {
+        console.log( e );
+      }
+    });
+
+  return result;
 }
 
 module.exports = where;
