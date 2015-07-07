@@ -7,7 +7,11 @@
  */
 
 function slasher( arr, howMany ) {
+  if ( !Array.isArray( arr )) {
+    throw new TypeError( 'Should pass an array' );
+  }
 
+  return arr.slice( howMany );
 }
 
 module.exports = slasher;
