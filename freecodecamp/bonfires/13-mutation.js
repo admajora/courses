@@ -13,8 +13,29 @@
  * Source: http://www.freecodecamp.com/challenges/bonfire-mutations
  */
 
-function mutation( arr ) {
+var reference = '';
 
+function mutation( arr ) {
+  var first      = arr[ 0 ].toLowerCase();
+  var second     = arr[ 1 ].toLowerCase();
+  var firstSize  = first.length;
+  var secondSize = second.length;
+
+  reference = first;
+
+  var result = second
+    .split( '' )
+    .every( _findLetter );
+
+  return result;
+}
+
+function _findLetter( letter ) {
+  if ( reference.indexOf( letter ) >= 0 ) {
+    return true;
+  }
+
+  return false;
 }
 
 module.exports = mutation;
