@@ -8,7 +8,7 @@
 
 function where( arr, num ) {
   var result;
-  var length = arr.length
+  var length = arr.length;
   var i = 0;
 
   for ( ; i < length; i += 1 ) {
