@@ -1,5 +1,5 @@
 /*
- * Where do I belong - Difficulty: 1/5
+ * Where do I belong - Difficulty: 2/5
  *
  * - Return the lowest index at which a value (second argument) should be inserted into a sorted array (first argument).
  *
