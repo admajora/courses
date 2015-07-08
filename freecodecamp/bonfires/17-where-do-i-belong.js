@@ -7,7 +7,18 @@
  */
 
 function where( arr, num ) {
+  var result;
+  var length = arr.length
+  var i = 0;
 
+  for ( ; i < length; i += 1 ) {
+    if ( arr[ i ] >= num ) {
+      result = i;
+      break;
+    }
+  }
+
+  return result;
 }
 
 module.exports = where;
