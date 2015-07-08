@@ -1,4 +1,4 @@
-var expect = require( 'chai' ).js
+var expect = require( 'chai' ).expect;
 var diff   = require( '../19-diff-arrays' );
 
 describe( '#diff arrays', function() {
@@ -8,7 +8,7 @@ describe( '#diff arrays', function() {
   });
 
   it( 'Should return an array with values founded only in one array', function() {
-    expect( diff(['andesite', 'grass', 'dirt', 'pink wool', 'dead shrub'], ['diorite', 'andesite', 'grass', 'dirt', 'dead shrub'])).to.deep.equal(['diorite', 'pink wool']);
+    expect( diff(['andesite', 'grass', 'dirt', 'pink wool', 'dead shrub'], ['diorite', 'andesite', 'grass', 'dirt', 'dead shrub'])).to.deep.equal(['pink wool', 'diorite']);
   });
 
   it( 'Should return an array with values founded only in one array', function() {
