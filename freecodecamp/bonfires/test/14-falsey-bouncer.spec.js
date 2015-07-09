@@ -1,7 +1,7 @@
-var expect = require( 'chai' );
+var expect = require( 'chai' ).expect;
 var bouncer = require( '../14-falsey-bouncer' );
 
-describe.skip( '#bouncer()', function() {
+describe( '#bouncer()', function() {
 
   it( 'Should remove all falsy values from the array', function() {
     expect( bouncer([ 7, 'ate', '', false, 9 ])).to.deep.equal([ 7, 'ate', 9 ]);
