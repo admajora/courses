@@ -15,15 +15,17 @@ function convert( num ) {
   var actualDividend = 0;
   var timesToRepeatString = 0;
 
-  while ( value ) {
+  while ( value > 0 ) {
     leftover = value % DIVIDEND[ actualDividend ];
     
     if ( leftover >= 0 && leftover !== value ) {
-      timesToRepeatString = Math.floor( leftover );
+      timesToRepeatString = Math.floor( value / DIVIDEND[ actualDividend ]);
       result += LETTERS[ DIVIDEND[ actualDividend ]].repeat( timesToRepeatString );
       value -= timesToRepeatString * DIVIDEND[ actualDividend ];
       actualDividend += 1;
     }
+
+    actualDividend += 1;
   }
 
   return result;
