@@ -10,7 +10,17 @@
  */
 
 function translate( str ) {
+  var result = '';
+  var firstVowelIndex = str.search( /[aeiouAEIOU]/ );
 
+  if ( firstVowelIndex === 0 ) {
+    result = str + 'way';
+  } else {
+    var cluster = str.slice( 0, firstVowelIndex );
+    result = str.slice( firstVowelIndex ) + cluster + 'ay';
+  }
+
+  return result;
 }
 
 module.exports = translate;
