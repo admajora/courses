@@ -23,4 +23,8 @@ describe( '#convert() roman numeral converter', function() {
     expect( convert( 16 )).to.equal( 'XVI' );
   });
 
+  it( 'Should convert decimal number to roman numeral', function() {
+    expect( convert( 490 )).to.equal( 'CDXC' );
+  });
+
 });

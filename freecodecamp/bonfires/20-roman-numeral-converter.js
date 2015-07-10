@@ -23,9 +23,10 @@ function convert( num ) {
       result += LETTERS[ DIVIDEND[ actualDividend ]].repeat( timesToRepeatString );
       value -= timesToRepeatString * DIVIDEND[ actualDividend ];
       actualDividend += 1;
+    } else {
+      actualDividend += 1;
     }
 
-    actualDividend += 1;
   }
 
   return result;
