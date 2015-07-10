@@ -12,7 +12,53 @@
  */
 
 function replace( str, before, after ) {
-  
+  return str.replace( before, _equalCaseString( before, after ));
+}
+
+/*
+ * @desc format second string equal the first one passed
+ * @param {String} stringOne - ex: eRiC
+ * @param {String} stringTwo - ex: Douglas
+ * @return {String} stringTwo properly formated. Ex: dOuGlas
+ */
+function _equalCaseString( stringOne, stringTwo ) {
+  // contain the boolean for each letter from stringOne
+  // saying if it is upperCase or not
+  var isUpperCaseLetter = [];
+  var result            = stringTwo.split( '' );
+
+  /*
+   * UpperCase char code: 
+   *   A = 65
+   *   Z = 90
+   * LowerCase char code:
+   *   a = 97
+   *   z = 122
+   */
+
+  stringOne
+    .split( '' )
+    .forEach( function( letter ) {
+      var charCode = letter.charCodeAt(0);
+      if ( charCode >= 65 && charCode <= 90 ) {
+        isUpperCaseLetter.push( true );
+      } else {
+        isUpperCaseLetter.push( false );
+      }
+    });
+
+  isUpperCaseLetter
+    .forEach( function( letter, index ) {
+      if ( result[ index ]) {
+        if ( letter ) {
+          result[ index ] = result[ index ].toUpperCase();
+        } else {
+          result[ index ] = result[ index ].toLowerCase();
+        }
+      }
+    });
+    
+  return result.join( '' );
 }
 
 module.exports = replace;
