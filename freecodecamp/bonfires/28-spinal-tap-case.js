@@ -8,7 +8,14 @@
  */
 
 function spinalCase( str ) {
+  var result = str
+    .replace( /[ $-/:-?{-~!"^_`\[\]"}]/g, '-' )
+    .replace( /[A-Z]/g, '-$&' )
+    .replace( /--/g, '-' )
+    .replace( /^-/, '' )
+    .toLowerCase();
 
+  return result;
 }
 
 module.exports = spinalCase;
