@@ -10,7 +10,22 @@
  */
 
 function pair( str ) {
+  var result = [];
+  var input  = str.split( '' );
 
+  input
+    .forEach( function( letter ) {
+      result.push([ letter, map[ letter ]]);
+    });
+
+  return result;
 }
+
+var map = {
+  'A' : 'T',
+  'T' : 'A',
+  'C' : 'G',
+  'G' : 'C'
+};
 
 module.exports = pair;
