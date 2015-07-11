@@ -9,7 +9,24 @@
  */
 
 function sumFibs( num ) {
+  var result  = 0;
+  var total   = 0;
+  var current = 0;
+  var next    = 1;
+  var swap;
 
+  while ( total < num ) {
+    total   += current;
+    swap     = current;
+    current  = next;
+    next     = swap + current;
+
+    if ( current % 2 !== 0 ) {
+      result += current;
+    }
+  }
+
+  return result;
 }
 
 module.exports = sumFibs;
