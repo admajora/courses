@@ -9,7 +9,25 @@
  */
 
 function unite( arr1, arr2, arr3 ) {
+  var all = [].slice.call( arguments );
+  var result = [];
 
+  all
+    .forEach( function( arr ) {
+      arr
+        .reduce( _verifyItem, result );
+    });
+
+  return result;
+}
+
+function _verifyItem( previousValue, currentValue, index, array ) {
+  if ( previousValue.indexOf( currentValue ) < 0 ) {
+    previousValue.push( currentValue );
+    return previousValue;
+  } 
+
+  return previousValue;
 }
 
 module.exports = unite;
