@@ -11,7 +11,35 @@
  */
 
 function add() {
+  var args = [].slice.call( arguments );
+  var result;
 
+  var nonNumbers = args.some( function( arg ) {
+    if( typeof arg !== 'number' || arg !== arg || !args.length ) {
+      return true;
+    }
+
+    return false;
+  });
+
+  if ( nonNumbers ) {
+    return undefined;
+  }
+
+  if ( args.length >= 2 ) {
+    result = args[ 0 ] + args[ 1 ];
+  }
+
+  if ( args.length === 1 ) {
+    result = function( value ) {
+      if( typeof value !== 'number' || value !== value ) {
+        return undefined;
+      }
+      return args[ 0 ] + value;
+    };
+  }
+
+  return result;
 }
 
 module.exports = add;
