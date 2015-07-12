@@ -8,7 +8,14 @@
  */
 
 function binaryAgent( str ) {
+  var text = str.split( ' ' );
 
+  text
+    .forEach( function( item, index, array ) {
+      array[ index ] = String.fromCharCode( parseInt( item, 2 ));
+    });
+
+  return text.join( '' );
 }
 
 module.exports = binaryAgent;
