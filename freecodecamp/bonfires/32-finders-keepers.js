@@ -7,7 +7,18 @@
  */
 
 function find( arr, func ) {
+  var result;
 
+  arr
+    .some( function( item, index, array ) {
+      if ( func( item )) {
+        result = array[ index ];
+        return true;
+      }
+      return false;
+    });
+
+  return result;
 }
 
 module.exports = find;
