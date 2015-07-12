@@ -10,7 +10,6 @@
  */
 
 function sumPrimes( num ) {
-  var result     = 0;
   var current    = 2; // first prime number
   var listPrimes = [];
   var primeVerificator;
@@ -32,7 +31,7 @@ function sumPrimes( num ) {
   }
 
   result = listPrimes.reduce( function( previousValue, currentValue ) {
-    return previousValue + currentValue
+    return previousValue + currentValue;
   });
 
   return result;
