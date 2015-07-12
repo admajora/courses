@@ -10,7 +10,32 @@
  */
 
 function sumPrimes( num ) {
+  var result     = 0;
+  var current    = 2; // first prime number
+  var listPrimes = [];
+  var primeVerificator;
+  var isPrime; 
+  var result;
 
+  for ( ; current <= num; current += 1 ) {
+    isPrime = true;
+
+    for ( primeVerificator = 2; primeVerificator <= current; primeVerificator += 1 ) {
+      if ( current % primeVerificator === 0 && current !== primeVerificator ) {
+        isPrime = false;
+      }
+    }
+
+    if ( isPrime === true ) {
+      listPrimes.push( current );
+    }
+  }
+
+  result = listPrimes.reduce( function( previousValue, currentValue ) {
+    return previousValue + currentValue
+  });
+
+  return result;
 }
 
 module.exports = sumPrimes;
