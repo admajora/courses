@@ -7,7 +7,16 @@
  */
 
 function drop( arr, func ) {
+  var result = [];
 
+  arr
+    .forEach( function( item, index, array ) {
+      if ( func( item )) {
+        result.push( array[ index ]);
+      }
+    });
+
+  return result;
 }
 
 module.exports = drop;
