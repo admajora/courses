@@ -8,7 +8,43 @@
  */
 
 function smallestCommons( arr ) {
-  
+  var min = Math.min.apply( null, arr );
+  var max = Math.max.apply( null, arr );
+  var rangeArray = _createRange( min, max );
+  var verifyMultiple = [];
+  var next = true;
+
+  rangeArray.multiple = max;
+
+  while ( next ) {
+    verifyMultiple = rangeArray.map( _isMultiple );
+
+    if ( verifyMultiple.indexOf( false ) >= 0 ) {
+      rangeArray.multiple += min;
+    } else {
+      next = false;
+    }
+  }
+
+  return rangeArray.multiple;
+}
+
+function _isMultiple( currentValue, index, array ) {
+  if ( array.multiple % currentValue === 0 ) {
+    return true;
+  }
+
+  return false;
+}
+
+function _createRange( min, max ) {
+  var arr = [];
+
+  for ( ; min <= max; min += 1 ) {
+    arr.push( min );
+  }
+
+  return arr;
 }
 
 module.exports = smallestCommons;
