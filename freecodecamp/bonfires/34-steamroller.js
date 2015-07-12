@@ -7,7 +7,23 @@
  */
 
 function steamroller( arr ) {
+  var result = arr.reduce( function( a, b ) {
+    return a.concat(b);
+  }, []);
 
+  var hasArray = result.some( function( item ) {
+    if ( Array.isArray( item )) {
+      return true;
+    }
+
+    return false;
+  });
+
+  if ( hasArray ) {
+    return steamroller( result );
+  } else {
+    return result;
+  }
 }
 
 module.exports = steamroller;
