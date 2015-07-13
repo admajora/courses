@@ -1,3 +1,6 @@
+var jsonfile = require( 'jsonfile' );
+var file     = 'data.json';
+
 var Contact = {};
 
 Contact.parseName = function( str ) {
@@ -20,9 +23,11 @@ Contact.createContact = function( str ) {
 };
 
 Contact.loadContacts = function( done ) {
-  var jsonfile = require( 'jsonfile' );
-  var file     = 'data.json';
   jsonfile.readFile( file, done );
+};
+
+Contact.saveContacts = function( contacts, done ) {
+  jsonfile.writeFile( file, contacts, done );
 };
 
 module.exports = Contact;
