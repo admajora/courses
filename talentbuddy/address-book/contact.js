@@ -30,4 +30,13 @@ Contact.saveContacts = function( contacts, done ) {
   jsonfile.writeFile( file, contacts, done );
 };
 
+Contact.saveContact = function( contact, done ) {
+  var that = this;
+  that.loadContacts( function( err, data ) {
+    var contacts = data;
+    contacts.push( contact );
+    that.saveContacts( contacts, done );
+  });
+};
+
 module.exports = Contact;
