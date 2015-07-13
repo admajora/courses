@@ -12,4 +12,11 @@ Contact.parseNumber = function( str ) {
   return number;
 };
 
+Contact.createContact = function( str ) {
+  return {
+    name   : this.parseName( str ),
+    number : this.parseNumber( str )
+  };
+};
+
 module.exports = Contact;
