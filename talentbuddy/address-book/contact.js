@@ -6,4 +6,10 @@ Contact.parseName = function( str ) {
   return name;
 };
 
+Contact.parseNumber = function( str ) {
+  var number = str.split( ',' )[ 1 ].trim();
+  
+  return number;
+};
+
 module.exports = Contact;
