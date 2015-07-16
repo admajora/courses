@@ -1,11 +1,14 @@
 var Contact = require( './contact' );
 var Command = require( './command' );
+var Util    = require( './util' );
 
 var name = Contact.parseName( 'John Smith, 604-123-9090' );
 var number = Contact.parseNumber( 'John Smith, 604-123-9090' );
 var contact = Contact.createContact( 'John Smith, 604-123-9090' );
 var contacts = [{ name: "John Smith", number: "604-123-9090" }];
 var oneContact = { name: "John Smith 2", number: "605-133-3131" };
+var home = Util.getHomeDirectory();
+var path = Util.getDataPath();
 
 /*
 console.log( name );
@@ -34,8 +37,12 @@ console.log( Command.getOperationData() );
 Command.add( function( err ) {
   console.log( 'Contact added!' );
 });
-*/
 
 Command.find( function( err, results ) {
   console.log( 'Find complete!' );
 });
+
+console.log( home );
+*/
+
+console.log( path );

@@ -1,5 +1,7 @@
+var Util = require( './util' );
+
 var jsonfile = require( 'jsonfile' );
-var file     = 'data.json';
+var file     = Util.getDataPath();
 
 var Contact = {};
 

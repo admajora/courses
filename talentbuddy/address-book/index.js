@@ -4,6 +4,8 @@ var arg = Command.getOperation();
 
 if ( Command[ arg ]) {
   Command[ arg ]( handleResult );
+} else {
+  console.log( 'Unknown command!' );
 }
 
 function handleResult( err ) {
