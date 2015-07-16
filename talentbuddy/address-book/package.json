@@ -8,6 +8,9 @@
   },
   "author": "Eric Douglas <eric.douglas.mail@gmail.com> (https://github.com/ericdouglas)",
   "license": "MIT",
+  "bin": {
+    "contacts": "index.js"
+  },
   "dependencies": {
     "jsonfile": "^2.2.1"
   }
