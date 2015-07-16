@@ -16,4 +16,20 @@ Command.add = function( done ) {
   Contact.saveContact( contact, done );
 };
 
+Command.find = function( done ) {
+  var data = Command.getOperationData();
+  var name = Contact.parseName( data );
+  
+  Contact.findContacts( name, function( err, filteredData ) {
+    if ( err ) {
+      return done( err );
+    }
+    filteredData
+      .forEach( function( item ) {
+        console.log( item.name, item.number );
+      });
+    done( err, filteredData );
+  });
+};
+
 module.exports = Command;

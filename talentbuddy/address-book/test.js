@@ -30,8 +30,12 @@ Contact.findContacts( 'John Smith', function( err, data ) {
 
 console.log( Command.getOperation() );
 console.log( Command.getOperationData() );
-*/
 
 Command.add( function( err ) {
-  console.log( 'Contact added!' )
-})
+  console.log( 'Contact added!' );
+});
+*/
+
+Command.find( function( err, results ) {
+  console.log( 'Find complete!' );
+});
