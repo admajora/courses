@@ -33,6 +33,9 @@ Contact.saveContacts = function( contacts, done ) {
 Contact.saveContact = function( contact, done ) {
   var that = this;
   that.loadContacts( function( err, data ) {
+    if ( err ) {
+      console.log( err );
+    }
     var contacts = data;
     contacts.push( contact );
     that.saveContacts( contacts, done );

@@ -23,13 +23,15 @@ Contact.saveContacts( contacts, function( err ) {
 Contact.saveContact( oneContact, function( err ) {
   console.log( 'success' );
 });
-*/
 
-/*
 Contact.findContacts( 'John Smith', function( err, data ) {
   console.log( data );
 });
-*/
 
 console.log( Command.getOperation() );
 console.log( Command.getOperationData() );
+*/
+
+Command.add( function( err ) {
+  console.log( 'Contact added!' )
+})
