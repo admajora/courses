@@ -39,4 +39,21 @@ Contact.saveContact = function( contact, done ) {
   });
 };
 
+Contact.findContacts = function( name, done ) {
+  this.loadContacts( function( err, data ) {
+    if ( err ) {
+      return done( err );
+    }
+    var filteredData =  data.filter( function( item ) {
+      if ( item.name === name ) {
+        return true;
+      }
+
+      return false;
+    });
+
+    return done( null, filteredData );
+  });
+};
+
 module.exports = Contact;
