@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.app {
+  display: -webkit-flex;
+  display: flex;
+}
+
 .screenshot {
   max-width: 460px;
 }
