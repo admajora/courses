@@ -1,3 +1,6 @@
 # courses
 
-- [Web Engineering](/pluralsight)
+- [Pluralsight](./pluralsight)
+- [Free Code Camp](./freecodecamp)
+- [Udacity](./udacity)
+- [TalentBuddy](./talentbuddy)
