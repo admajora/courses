@@ -1,5 +1,5 @@
 var expect = require( 'chai' ).expect;
-var Person = require( '../person' );
+var Person = require( '../38-make-a-person' );
 
 describe( '#Person()', function() {
     

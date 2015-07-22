@@ -9,36 +9,37 @@
  * Source: http://www.freecodecamp.com/challenges/bonfire-make-a-person
  */
 
- function Person( firstAndLast ){
-        
-    var firstName = firstAndLast.split( ' ' )[ 0 ];
-    var lastName  = firstAndLast.split( ' ' )[ 1 ];
-    
-    this.getFirstName = function() {
-      return firstName;
-    };
-    
-    this.getLastName = function() {
-      return lastName;
-    };
-    
-    this.getFullName = function() {
-        return firstName + ' ' + lastName;
-    };
-    
-    this.setFirstName = function( newFirst ) {
-        firstName = newFirst;
-    };
-    
-    this.setLastName = function( newLast ) {
-        lastName = newLast;
-    };
-    
-    this.setFullName = function( fullName ) {
-        var namePart = fullName.split(' ');
-        firstName    = namePart[ 0 ];
-        lastName     = namePart[ 1 ];
-    };
+function Person( firstAndLast ){
+      
+  var namePart = firstAndLast.split( ' ' );    
+  var firstName = namePart[ 0 ];
+  var lastName  = namePart[ namePart.length - 1 ];
+  
+  this.getFirstName = function() {
+    return firstName;
+  };
+  
+  this.getLastName = function() {
+    return lastName;
+  };
+  
+  this.getFullName = function() {
+      return firstName + ' ' + lastName;
+  };
+  
+  this.setFirstName = function( newFirst ) {
+      firstName = newFirst;
+  };
+  
+  this.setLastName = function( newLast ) {
+      lastName = newLast;
+  };
+  
+  this.setFullName = function( fullName ) {
+      var namePart = fullName.split(' ');
+      firstName    = namePart[ 0 ];
+      lastName     = namePart[ namePart.length - 1 ];
+  };
 }
 
-var bob = new Person( 'Bob Ross' );
+module.exports = Person;
